@@ -1,9 +1,8 @@
 # my-bfe-awesome
 前端个人积累
 
-## node
-
-- [node 常量](#node常量)
+- node
+  - [node 常量](#node常量)
 
 
 ## node 相关
