@@ -17,3 +17,7 @@ console.log(__dirname)
 console.log(__filename)
 // /work/coding/githubbuild/my-bfe-awesome/test.js
 ```
+
+- 查看全局对象 再终端输入 node 后 安两次 tab键
+  
+  ![](./img/node/doubletab.jpg)
