@@ -6,6 +6,8 @@
 
 - [电子书](#电子书)
 - [webpack](#webpack)
+- [移动端调试](https://github.com/choukin/my-bfe-awesome/issues/1)
+
 
 ## node 相关
 ### node 常量
