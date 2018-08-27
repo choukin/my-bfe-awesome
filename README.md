@@ -7,6 +7,7 @@
 - [电子书](#电子书)
 - [webpack](#webpack)
 - [移动端调试](https://github.com/choukin/my-bfe-awesome/issues/1)
+- [动画库](#动画库)
 
 
 ## node 相关
@@ -53,3 +54,8 @@ new HtmlWebpackPlugin({
     chunksSortMode: 'dependency' // 按dependency的顺序引入
 }
 ```
+
+
+## 动画库
+
+1. [velocity.js](https://github.com/julianshapiro/velocity) 支持链式调用 
