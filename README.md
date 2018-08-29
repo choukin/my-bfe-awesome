@@ -8,6 +8,8 @@
 - [webpack](#webpack)
 - [移动端调试](https://github.com/choukin/my-bfe-awesome/issues/1)
 - [动画库](#动画库)
+- [突破防盗链机制](https://github.com/jpgerek/referrer-killer)
+   > 很多图片链接设置了防盗链机制，从我的网站请求图片会返回403错误，但直接在浏览器中打开图片的url时却又正常。
 
 
 ## node 相关
