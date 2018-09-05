@@ -29,3 +29,8 @@ checkout -b 本地分支名x origin/远程分支名x
 ```sh
 git fetch origin 远程分支名x:本地分支名x
 ```
+
+三. 操作后提示错误 `fatal: refusing to merge unrelated histories` 在命令后吗添加 `--allow-unrelated-histories`
+```sh
+git pull --allow-unrelated-histories
+```
