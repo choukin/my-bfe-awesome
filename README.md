@@ -69,3 +69,12 @@ new HtmlWebpackPlugin({
 ## 动画库
 
 1. [velocity.js](https://github.com/julianshapiro/velocity) 支持链式调用 
+
+
+## 前端工具
+ - [Valine](https://valine.js.org/) 一款快速、简洁且高效的无后端评论系统。
+ - [基于UI组件的Vue可视化布局工具](https://github.com/jaweii/Vue-Layout)
+  
+## 博客
+- [美团技术团队](https://tech.meituan.com/)  
+- [朱嘉伟](http://buzhundong.com/)
