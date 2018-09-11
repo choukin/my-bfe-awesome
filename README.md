@@ -44,7 +44,7 @@ console.log(__filename)
 - [深入浅出 Webpack ](http://webpack.wuhaolin.cn/)
 - [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
 
-## [webpack]
+## webpack
 - 生成html的插件 https://github.com/ampedandwired/html-webpack-plugin 配置
 ```js
 new HtmlWebpackPlugin({
