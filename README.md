@@ -17,10 +17,10 @@
   - 引导提示框 [vue-introjs](https://www.npmjs.com/package/vue-introjs) 
   - 数字动画跳动 [vue-countup-v2](https://github.com/xlsdg/vue-countup-v2?ref=madewithvuejs.com)  
 
-- [git 使用](../git-use.md)
-- [shell 使用](../shell-use.md)
-- [adb 使用](../adb-use.md)
-- [js片段](../js片段.md)
+- [git 使用](git-use.md)
+- [shell 使用](shell-use.md)
+- [adb 使用](adb-use.md)
+- [js片段](js片段.md)
 
 ## node 相关
 ### node 常量
