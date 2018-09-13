@@ -80,3 +80,10 @@ new HtmlWebpackPlugin({
 ## 博客
 - [美团技术团队](https://tech.meituan.com/)  
 - [朱嘉伟](http://buzhundong.com/)
+
+## 工具
+### 图片相关
+ - [Tinypng 压缩图片](https://tinypng.com/)
+ - [智图 压缩](https://zhitu.isux.us/)
+ - [up up to you 生产举牌小人图片](http://upuptoyou.com/)
+ - [生成文字云图片](https://wordart.com/create)
