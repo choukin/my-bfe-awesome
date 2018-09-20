@@ -95,3 +95,65 @@ new HtmlWebpackPlugin({
  - [智图 压缩](https://zhitu.isux.us/)
  - [up up to you 生产举牌小人图片](http://upuptoyou.com/)
  - [生成文字云图片](https://wordart.com/create)
+
+### pm2
+
+#### 安装
+``` js
+  npm install pm2 -g
+  // 进程间通信模块保证日志正常打印 pm2 安装模块依赖 git
+  pm2 install pm2-intercom 
+```
+
+### 配置文件
+```js
+ // package.json 里 scripts 的配置
+    "pm2": "pm2 start ./config/ecosystem.config.js --env production",
+```
+
+```js
+// config/ecosystem.config.js
+module.exports = {
+  /**
+   * Application configuration section
+   * http://pm2.keymetrics.io/docs/usage/application-declaration/
+   */
+  apps : [
+
+    // First application
+    {
+      name      : '',
+      script    : './bin/www',
+      watch       : true,
+      ignore_watch : [  // 从监控目录中排除
+        "node_modules",
+        "logs",
+        "public",
+        ".idea",
+        ".git"
+      ],
+      watch_options: {
+          followSymlinks: false
+      },
+      error_file : "./logs/pm2/app-err.log",  // 错误日志路径
+      out_file   : "./logs/pm2/app-out.log",  // 普通日志路径
+      instances  : 2,
+      // instance_var: "NODE_APP_INSTANCE",
+      exec_mode  : "cluster",  // 集群模式 负载均衡
+      env: {
+        COMMON_VARIABLE: 'true'
+      },
+      env_production : {
+        NODE_ENV: 'production'
+      },
+      env_dev : {
+        NODE_ENV: 'dev'
+      },
+      env_test : {
+        NODE_ENV: 'test'
+      }
+    }
+  ]
+};
+
+```
