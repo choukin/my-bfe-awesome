@@ -1,6 +1,14 @@
 # my-bfe-awesome
 前端个人积累
 
+## TODO
+ - [ ] 学习sass
+ - [x] 学习TypeScript
+ - [ ] 学习edis
+
+
+
+
 - [node 相关](#node-相关)
   - [node 常量](#node-常量)
 
