@@ -29,6 +29,7 @@
 - [shell 使用](shell-use.md)
 - [adb 使用](adb-use.md)
 - [js片段](js片段.md)
+- [js 复制粘贴](js-native-copy.md)
 
 ## node 相关
 ### node 常量
