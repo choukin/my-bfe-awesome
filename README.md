@@ -158,3 +158,10 @@ module.exports = {
 };
 
 ```
+
+## 字符串模版 [折行转义字符](https://css-tricks.com/snippets/javascript/multiline-string-variables-in-javascript/)
+```js
+var htmlSTring = "<div>\
+  This is a string.\
+</div>";
+```
