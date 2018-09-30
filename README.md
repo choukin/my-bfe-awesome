@@ -4,11 +4,14 @@
 ## TODO
  - [ ] 学习sass
  - [x] 学习TypeScript
- - [ ] 学习edis
+ - [ ] 学习redis
+ - [ ] [Vue源码分析](http://hcysun.me/vue-design/) 
+ - [ ] [Vue技术揭秘](https://ustbhuangyi.github.io/vue-analysis/)
+ - [ ] [CreateJS是基于HTML5开发的一套模块化的库和工具](http://www.createjs.cc/)
 
 
 
-
+## 目录
 - [node 相关](#node-相关)
   - [node 常量](#node-常量)
 
@@ -22,6 +25,8 @@
 
 
 - vue 常用组件
+  - [Vue源码分析](http://hcysun.me/vue-design/) 
+  - [Vue技术揭秘](https://ustbhuangyi.github.io/vue-analysis/)
   - 引导提示框 [vue-introjs](https://www.npmjs.com/package/vue-introjs) 
   - 数字动画跳动 [vue-countup-v2](https://github.com/xlsdg/vue-countup-v2?ref=madewithvuejs.com)  
 
