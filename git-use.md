@@ -34,3 +34,26 @@ git fetch origin 远程分支名x:本地分支名x
 ```sh
 git pull --allow-unrelated-histories
 ```
+
+四. 前端项目开发 git commit 时校验代码
+
+ [yorkie](https://github.com/yyx990803/yorkie) + [lint-staged](https://github.com/okonet/lint-staged)
+1. 安装 `npm install --save-dev lint-staged yorkie`
+2. `package.json` 里添加配置
+```js
+   "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "npm run lint"
+    ],
+    "*.vue": [
+      "npm run lint"
+    ]
+  }
+```
+ 3. 修改项目文件执行 `git add` 然后执行 `git commit` 可以看到会先执行lint 然后提交代码
+
+
+
