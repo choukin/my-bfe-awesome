@@ -8,6 +8,7 @@
  - [ ] [Vue源码分析](http://hcysun.me/vue-design/) 
  - [ ] [Vue技术揭秘](https://ustbhuangyi.github.io/vue-analysis/)
  - [ ] [CreateJS是基于HTML5开发的一套模块化的库和工具](http://www.createjs.cc/)
+ - [ ] [面试经验](https://juejin.im/post/5ba34e54e51d450e5162789b)
 
 
 
@@ -33,8 +34,11 @@
 - [git 使用](git-use.md)
 - [shell 使用](shell-use.md)
 - [adb 使用](adb-use.md)
-- [js片段](js片段.md)
-- [js 复制粘贴](js-native-copy.md)
+
+- JS
+  - [js片段](js/js片段.md)
+  - [js 复制粘贴](js/js-native-copy.md)
+  - [js 任务源](js/js-task-origin.md)
 
 ## node 相关
 ### node 常量
