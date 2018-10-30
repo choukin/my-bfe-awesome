@@ -8,6 +8,11 @@
  - [ ] [Vue源码分析](http://hcysun.me/vue-design/) 
  - [ ] [Vue技术揭秘](https://ustbhuangyi.github.io/vue-analysis/)
  - [ ] [CreateJS是基于HTML5开发的一套模块化的库和工具](http://www.createjs.cc/)
+ - [ ] [vue-test-utils](https://vue-test-utils.vuejs.org/zh/)
+ - [ ]  [Vue 组件的单元测试](https://cn.vuejs.org/v2/cookbook/debugging-in-vscode.html)
+ - [ ]  [Vue SSR 指南](https://ssr.vuejs.org/zh/)
+  - [ ] [Nuxt.js](https://nuxtjs.org/)  
+- [ ] [从vue-cli源码学习如何写模板](https://github.com/dwqs/blog/issues/56)
  - [ ] [面试经验](https://juejin.im/post/5ba34e54e51d450e5162789b)
 
 
@@ -89,6 +94,8 @@ new HtmlWebpackPlugin({
 ## 动画库
 
 1. [velocity.js](https://github.com/julianshapiro/velocity) 支持链式调用 
+2. [gsap](https://github.com/greensock/GreenSock-JS) GSAP是一个JavaScript库，用于创建适用于所有主流浏览器的高性能动画
+3. [tweenjs](http://www.createjs.cc/tweenjs/) TweenJS类库主要用来调整和动画HTML5和Javascript属性，提供了简单并且强大的tweening接口。
 
 
 ## 前端工具
@@ -98,6 +105,8 @@ new HtmlWebpackPlugin({
 ## 博客
 - [美团技术团队](https://tech.meituan.com/)  
 - [朱嘉伟](http://buzhundong.com/)
+- [小火柴的蓝色理想](https://www.xiaohuochai.cc/)
+- [dwqs/blog](https://github.com/dwqs/blog)
 
 ## 工具
 ### 图片相关
