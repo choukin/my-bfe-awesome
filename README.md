@@ -14,6 +14,7 @@
   - [ ] [Nuxt.js](https://nuxtjs.org/)  
 - [ ] [从vue-cli源码学习如何写模板](https://github.com/dwqs/blog/issues/56)
  - [ ] [面试经验](https://juejin.im/post/5ba34e54e51d450e5162789b)
+ - [ ] [JavaScript开发者应懂的33个概念](https://github.com/stephentian/33-js-concepts#1-%E8%B0%83%E7%94%A8%E5%A0%86%E6%A0%88)
 
 
 
