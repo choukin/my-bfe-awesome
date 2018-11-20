@@ -54,6 +54,17 @@ git pull --allow-unrelated-histories
   }
 ```
  3. 修改项目文件执行 `git add` 然后执行 `git commit` 可以看到会先执行lint 然后提交代码
+ 4. 创建 tag  
+   ```sh
+     git tag -a v1.0.0 -m '起步'
+     # 上传 tag
+     git push origin v1.0.0
+   ```
+
+
+
+
+
 
 
 
