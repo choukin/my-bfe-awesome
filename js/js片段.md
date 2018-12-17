@@ -15,3 +15,14 @@ return false;
 }
 } 
 ```
+
+### 旧有浏览器兼容 promises es6-promise
+```js 
+   (function polyfillPromise () {
+      if (!window.Promise) {
+        var scriptEl = document.createElement('script')
+        scriptEl.setAttribute('src', '//static.9f.cn/bfe/tool/9f-src/js/es6-promise/4.2.3/es6-promise.auto.min.js')
+        window.document.head.appendChild(scriptEl)
+      }
+    })()
+```    
