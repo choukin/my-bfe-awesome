@@ -47,6 +47,7 @@
   - [Vue技术揭秘](https://ustbhuangyi.github.io/vue-analysis/)
   - 引导提示框 [vue-introjs](https://www.npmjs.com/package/vue-introjs) 
   - 数字动画跳动 [vue-countup-v2](https://github.com/xlsdg/vue-countup-v2?ref=madewithvuejs.com)  
+  - Vue 的 video.js 播放器组件[vue-video-player](https://npmjs.com/package/vue-video-player)
 
 
 
@@ -103,6 +104,7 @@ new HtmlWebpackPlugin({
 1. [velocity.js](https://github.com/julianshapiro/velocity) 支持链式调用 
 2. [gsap](https://github.com/greensock/GreenSock-JS) GSAP是一个JavaScript库，用于创建适用于所有主流浏览器的高性能动画
 3. [tweenjs](http://www.createjs.cc/tweenjs/) TweenJS类库主要用来调整和动画HTML5和Javascript属性，提供了简单并且强大的tweening接口。
+4. [hilo](http://hiloteam.github.io/) HTML5 互动游戏引擎
 
 
 ## 前端工具
