@@ -5,6 +5,7 @@
  - [ ] 学习sass
  - [x] 学习TypeScript
  - [ ] 学习redis
+- [ ] webpack4.0 + vue
  - [ ] [Vue源码分析](http://hcysun.me/vue-design/) 
  - [ ] [Vue技术揭秘](https://ustbhuangyi.github.io/vue-analysis/)
  - [ ] [CreateJS是基于HTML5开发的一套模块化的库和工具](http://www.createjs.cc/)
