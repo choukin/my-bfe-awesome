@@ -61,6 +61,19 @@ git pull --allow-unrelated-histories
      git push origin v1.0.0
    ```
 
+5. 删除分支
+
+  - 删除本地分支
+   ```sh
+      git branch -d branchName
+   ``` 
+  - 删除远程分支
+   ```sh
+      git push origin  -d branchName
+   ```    
+
+6. -    
+
 
 
 
