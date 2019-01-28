@@ -20,6 +20,7 @@
 
 
 
+
 ## 目录
 - [node 相关](#node-相关)
   - [node 常量](#node-常量)
@@ -112,7 +113,8 @@ new HtmlWebpackPlugin({
  - [Valine](https://valine.js.org/) 一款快速、简洁且高效的无后端评论系统。
  - [基于UI组件的Vue可视化布局工具](https://github.com/jaweii/Vue-Layout)
  - [正则表达式测试网址](https://jex.im/regulex/)
-  
+ - [用户指引库](https://github.com/usablica/intro.js/)
+ - [腾讯蓝鲸](http://o.qcloud.com/static/api/v3/#templates)
 ## 博客
 - [美团技术团队](https://tech.meituan.com/)  
 - [朱嘉伟](http://buzhundong.com/)
