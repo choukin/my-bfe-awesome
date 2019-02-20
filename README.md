@@ -120,6 +120,7 @@ new HtmlWebpackPlugin({
 - [朱嘉伟](http://buzhundong.com/)
 - [小火柴的蓝色理想](https://www.xiaohuochai.cc/)
 - [dwqs/blog](https://github.com/dwqs/blog)
+- [滴滴前端博客](https://github.com/DDFE/DDFE-blog)
 
 ## 工具
 ### 图片相关
@@ -127,6 +128,7 @@ new HtmlWebpackPlugin({
  - [智图 压缩](https://zhitu.isux.us/)
  - [up up to you 生产举牌小人图片](http://upuptoyou.com/)
  - [生成文字云图片](https://wordart.com/create)
+ - [网页编辑图片工具](https://nhnent.github.io/tui.image-editor/latest/)
 
 ### pm2
 
