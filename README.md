@@ -50,6 +50,7 @@
   - 引导提示框 [vue-introjs](https://www.npmjs.com/package/vue-introjs) 
   - 数字动画跳动 [vue-countup-v2](https://github.com/xlsdg/vue-countup-v2?ref=madewithvuejs.com)  
   - Vue 的 video.js 播放器组件[vue-video-player](https://npmjs.com/package/vue-video-player)
+  - [better-scroll] (http://ustbhuangyi.github.io/better-scroll/)
 
 
 
