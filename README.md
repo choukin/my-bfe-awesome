@@ -39,6 +39,7 @@
     - [js片段](js/js片段.md)
     - [js 复制粘贴](js/js-native-copy.md)
     - [js 任务源](js/js-task-origin.md)
+    - [JavaScript 常见设计模式解析](https://juejin.im/post/58f4c702a0bb9f006aa80f25)
 
 - [git 使用](git-use.md)
 - [shell 使用](shell-use.md)
@@ -51,6 +52,9 @@
   - 数字动画跳动 [vue-countup-v2](https://github.com/xlsdg/vue-countup-v2?ref=madewithvuejs.com)  
   - Vue 的 video.js 播放器组件[vue-video-player](https://npmjs.com/package/vue-video-player)
   - [better-scroll] (http://ustbhuangyi.github.io/better-scroll/)
+
+- 工具
+  - [Algolia搜索 站内搜索](http://www.qingpingshan.com/m/view.php?aid=386198)
 
 
 
