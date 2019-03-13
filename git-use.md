@@ -23,6 +23,8 @@ git branch -l
 ```sh
 checkout -b 本地分支名x origin/远程分支名x
 
+git checkout -b dev(本地分支名称) origin/dev(远程分支名称)
+
 ```
 
 二. 在本地新建分支x，但是不会自动切换到该本地分支x，需要手动 checkout 切换分支
