@@ -28,6 +28,7 @@
 - [电子书](#电子书)
 - [webpack](#webpack)
 
+
 - [突破防盗链机制](https://github.com/jpgerek/referrer-killer)
    > 很多图片链接设置了防盗链机制，从我的网站请求图片会返回403错误，但直接在浏览器中打开图片的url时却又正常。
 - [mac 使用](mac/readme.md)   
@@ -111,7 +112,8 @@ new HtmlWebpackPlugin({
 1. [velocity.js](https://github.com/julianshapiro/velocity) 支持链式调用 
 2. [gsap](https://github.com/greensock/GreenSock-JS) GSAP是一个JavaScript库，用于创建适用于所有主流浏览器的高性能动画
 3. [tweenjs](http://www.createjs.cc/tweenjs/) TweenJS类库主要用来调整和动画HTML5和Javascript属性，提供了简单并且强大的tweening接口。
-4. [hilo](http://hiloteam.github.io/) HTML5 互动游戏引擎
+4. [hilo](http://hiloteam.github.io/) 阿里的HTML5 互动游戏引擎
+5. [pixijs](https://www.pixijs.com/) PixiJS 是一个超快的2D渲染引擎。它自动侦测使用 WebGL 或者 Canvas。 
 
 
 ## 前端工具
@@ -120,6 +122,8 @@ new HtmlWebpackPlugin({
  - [正则表达式测试网址](https://jex.im/regulex/)
  - [用户指引库](https://github.com/usablica/intro.js/)
  - [腾讯蓝鲸](http://o.qcloud.com/static/api/v3/#templates)
+
+
 ## 博客
 - [美团技术团队](https://tech.meituan.com/)  
 - [朱嘉伟](http://buzhundong.com/)
@@ -134,6 +138,7 @@ new HtmlWebpackPlugin({
  - [up up to you 生产举牌小人图片](http://upuptoyou.com/)
  - [生成文字云图片](https://wordart.com/create)
  - [网页编辑图片工具](https://nhnent.github.io/tui.image-editor/latest/)
+ - [免费商用的插画](https://illlustrations.co/)
 
 ### pm2
 

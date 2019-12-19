@@ -1,6 +1,7 @@
 ## css 片段
 
 - [有用的css片段](https://www.cnblogs.com/boyuguoblog/p/6233908.html)
+- [30scss](http://caibaojian.com/30-seconds-of-css/)
 ### 1. IOS 滚动条卡顿添加样式
 ```css
 -webkit-overflow-scrolling: touch; //有回弹效果 
