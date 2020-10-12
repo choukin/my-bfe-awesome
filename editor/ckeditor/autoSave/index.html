@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ckeditor编辑器</title>
+    <script src="../js/build/ckeditor.js"></script>
+    <style>
+        #snippet-autosave-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--ck-color-toolbar-background);
+            border: 1px solid var(--ck-color-toolbar-border);
+            padding: 10px;
+            border-radius: var(--ck-border-radius);
+            margin-top: 0em;
+            margin-bottom: 1.5em;
+            border-top: 0;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+    
+        #snippet-autosave-status_spinner{
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+        #snippet-autosave-status_spinner-label {
+            position: relative;
+        }
+    
+        #snippet-autosave-status_spinner-label::after {
+            content: 'Saved!';
+            color: green;
+            display: inline-block;
+            margin-right: var(--ck-spacing-medium);
+        }
+    
+        /* During "Saving" display spinner and change content of label. */
+        #snippet-autosave-status.busy #snippet-autosave-status_spinner-label::after  {
+            content: 'Saving...';
+            color: red;
+        }
+    
+        #snippet-autosave-status.busy #snippet-autosave-status_spinner-loader {
+            display: block;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            border-top: 3px solid hsl(0, 0%, 70%);
+            border-right: 2px solid transparent;
+            animation: autosave-status-spinner 1s linear infinite;
+        }
+    
+        #snippet-autosave-status,
+        #snippet-autosave-server {
+            display: flex;
+            align-items: center;
+        }
+    
+        #snippet-autosave-server_label,
+        #snippet-autosave-status_label {
+            font-weight: bold;
+            margin-right: var(--ck-spacing-medium);
+        }
+    
+        #snippet-autosave + .ck.ck-editor .ck-editor__editable {
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+    
+        #snippet-autosave-lag {
+            padding: 4px;
+        }
+    
+        #snippet-autosave-console {
+            color:wheat;
+            max-height: 300px;
+            overflow: auto;
+            white-space: normal;
+            background: #2b2c26;
+            transition: background-color 500ms;
+        }
+    
+        #snippet-autosave-console.updated {
+            background: green;
+        }
+    
+        @keyframes autosave-status-spinner {
+            to { transform: rotate( 360deg ); }
+        }
+    </style>
+</head>
+<body>
+    <h1>经典编辑器</h1>
+    
+    <!-- <div id="editor">
+        <p>我是内容例子</p>
+    </div> -->
+        <textarea name="content" id="editor" cols="30" rows="10">
+            &lt;p&gt;This is some sample content.&lt;/p&gt;
+        </textarea>
+        <div id="snippet-autosave-header">
+            <div id="snippet-autosave-status" class="">
+                <div id="snippet-autosave-status_label">Status:</div>
+                <div id="snippet-autosave-status_spinner">
+                    <span id="snippet-autosave-status_spinner-label"></span>
+                    <span id="snippet-autosave-status_spinner-loader"></span>
+                </div>
+            </div>
+        
+            <div id="snippet-autosave-server">
+                <div id="snippet-autosave-server_label">HTTP server lag (ms):</div>
+                <input id="snippet-autosave-lag" type="number" value="500" step="100" min="0" max="9000">
+            </div>
+        </div>
+    <p>Server Data</p>
+    <pre>
+        <code id="snippet-autosave-console" class="hljs"></code>
+    </pre>
+    <script>
+        const plugins = ClassicEditor.builtinPlugins.map( plugin => plugin.pluginName );
+        const Http_SERVER_LAG = 500
+        document.querySelector('#snippet-autosave-lag').addEventListener('change',evt=>{
+            Http_SERVER_LAG = evt.value
+        })
+        console.log(plugins);
+        let u = 0
+        const config = {
+            cloudServices: 'http://www.baidu.com',
+            // removePlugins: [ 'Heading', 'Link' ],
+            toolbr:['heading', '|', 'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote',"selectAll","PasteFromOffice" ],
+            heading:{
+                options:[
+                { model: 'paragraph', title: '正文', class: 'ck-heading_paragraph' },
+                { model: 'heading1', view: 'h1', title: '标题 1', class: 'ck-heading_heading1' },
+                { model: 'heading2', view: 'h2', title: '标题 2', class: 'ck-heading_heading2' }
+                ]
+            }
+        }
+        ClassicEditor
+        .create(document.querySelector('#editor'),{
+            // cloudServices: {
+            //     tokenUrl: "https://33333.cke-cs.com/token/dev/ijrDsqFix838Gh3wGO3F77FSW94BwcLXprJ4APSp3XQ26xsUHTi0jcb1hoBt",
+            //     uploadUrl: "https://33333.cke-cs.com/easyimage/upload/"
+            // },
+            autosave:{
+                save(editor) {
+                    console.log('save');
+                    const pendingActions = editor.plugins.get('PendingActions')
+                    console.log(pendingActions.hasAny,'===')
+                    // editor.plugins.get('PendingActions').hasAny = !pendingActions.hasAny
+                    return saveData( editor.getData() );
+                }
+            }
+        })
+        .then(editor=>{
+            
+            const names = Array.from(editor.ui.componentFactory.names())
+            console.log(names);
+            displayStatus(editor)
+        })
+        .catch(error=>{
+            console.error(error)
+        })
+
+        function saveData(data) {
+            return new Promise(resolve=>{
+                setTimeout(() => {
+                    updateServerDataConsole(data)
+                    resolve()
+                }, Http_SERVER_LAG);
+            })
+        }
+        /**
+         * 
+         **/
+        function displayStatus(editor) {
+            const pendingActions = editor.plugins.get('PendingActions')
+            const statusIndicator = document.querySelector('#snippet-autosave-status')
+            console.log(pendingActions.hasAny)
+            pendingActions.on('change:hasAny',(evt,propertyName, newValue)=>{
+                console.log('change:hasAny');
+                if(newValue) {
+                    statusIndicator.classList.add('busy')
+                } else {
+                    statusIndicator.classList.remove('busy')
+                }
+            })
+        }
+
+        let consoleUPdates = 0
+        function updateServerDataConsole(mes) {
+            const console = document.querySelector('#snippet-autosave-console')
+            consoleUPdates++;
+            console.classList.add('updated')
+            console.textContent = mes
+            setTimeout(()=>{
+                if(--consoleUPdates == 0) {
+                    console.classList.remove('updated')
+                }
+            },500)
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ckeditor demo</title>
+    <script src="http://cdn.ckeditor.com/ckeditor5/22.0.0/decoupled-document/ckeditor.js"></script>
+</head>
+<body>
+    <h1>文档编辑器</h1>
+    <div id="toolbar—container"></div>
+    <div id="editor">
+        <p>我是文档编辑器的例子</p>
+    </div>
+    
+    <script>
+        DecoupledEditor
+        .create(document.querySelector('#editor'))
+        .then(editor=>{
+            editor.setData( '<p>Some text.</p>' );
+            const data = editor.getData();
+            console.log(data, 'data');
+            const toolbarContainer = document.querySelector('#toolbar—container')
+            toolbarContainer.appendChild(editor.ui.view.toolbar.element)
+            editor.model.document.on('change:data',()=>{
+                console.log('the data has changed!');
+            })
+            // editor.destroy()
+            // .catch( error => {
+            //     console.log( error );
+            // } );
+        })
+        .catch(e=>{
+            console.error(e);
+        })
+    </script>
+</body>
+</html>

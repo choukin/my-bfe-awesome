@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ckeditor demo</title>
+    <script src="http://cdn.ckeditor.com/ckeditor5/22.0.0/balloon-block/ckeditor.js"></script>
+</head>
+<body>
+    <h1>气球编辑器</h1>
+    <div id="editor">
+        <p>我是气球编辑器的例子</p>
+    
+    </div>
+    <script>
+        const config = {
+	            blockToolbar: [ 'paragraph', 'heading1', 'heading2', 'bulletedList', 'numberedList' ]
+        };
+
+        // BalloonEditor.defaultConfig = config
+        BalloonEditor
+        .create(document.querySelector('#editor'), config)
+        .catch(e=>{
+            console.error(e);
+        })
+    </script>
+</body>
+</html>

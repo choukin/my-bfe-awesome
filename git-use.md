@@ -74,7 +74,17 @@ git pull --allow-unrelated-histories
       git push origin  -d branchName
    ```    
 
-6. -    
+6. 命令git update-index --assume-unchanged，忽略不想提交的文件（忽略跟踪）
+  - 忽略
+  ```sh
+  git update-index --assume-unchanged src/demo.js
+  ```
+  - 取消忽略
+  ```sh
+  git update-index --no-assume-unchanged  src/demo.js
+  ```  
+
+    
 
 
 
