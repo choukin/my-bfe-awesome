@@ -1,6 +1,7 @@
 # npm 包规范
 
 - sinopia 私有 npm 源 服务器
+- [verdaccio npm 私有源服务]https://verdaccio.org/
 
 - npm 规范
 ```shell
