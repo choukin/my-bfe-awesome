@@ -23,7 +23,7 @@
     "@ckeditor/ckeditor5-theme-lark": "^22.0.0",
     "@ckeditor/ckeditor5-ui": "^22.0.0",
     "@ckeditor/ckeditor5-vue": "^1.0.2",
-    "@ckeditor/ckeditor5-widget": "^22.0.0",
+    "@ckeditor/ckeditor5-widget": "^27.0.0",
     "@wwalc/ckeditor5-emoji": "^11.0.2",
     "ckeditor5-emojis": "^1.0.0",
     "core-js": "^3.6.5",
