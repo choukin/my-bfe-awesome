@@ -13,7 +13,7 @@ const config = {
     tempFilePath:(name)=>{
         return `./output/${name}.png`
     },
-    dituiurl:'https://m.duoerpharmacy.com/goods/detail?id=1202&mp='
+    dituiurl:'https://www.baidu.com?id=1202&mp='
 }
 let urls = []
 /**
