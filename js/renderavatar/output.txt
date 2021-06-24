@@ -1,0 +1,12 @@
+[
+	"https://m.duoerpharmacy.com/goods/detail?id=1202&mp=ditui.1",
+	"https://m.duoerpharmacy.com/goods/detail?id=1202&mp=ditui.2",
+	"https://m.duoerpharmacy.com/goods/detail?id=1202&mp=ditui.3",
+	"https://m.duoerpharmacy.com/goods/detail?id=1202&mp=ditui.4",
+	"https://m.duoerpharmacy.com/goods/detail?id=1202&mp=ditui.5",
+	"https://m.duoerpharmacy.com/goods/detail?id=1202&mp=ditui.6",
+	"https://m.duoerpharmacy.com/goods/detail?id=1202&mp=ditui.7",
+	"https://m.duoerpharmacy.com/goods/detail?id=1202&mp=ditui.8",
+	"https://m.duoerpharmacy.com/goods/detail?id=1202&mp=ditui.9",
+	"https://m.duoerpharmacy.com/goods/detail?id=1202&mp=ditui.10"
+]

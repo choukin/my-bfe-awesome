@@ -298,4 +298,16 @@ export function object2Array (obj) {
     }
     return targetArray
 }
+
+/**
+* 返回监听
+*/
+export function onBrowserBack(){
+     // 往浏览器增加浏览器历史记录
+      window.history.pushState(null, null, document.URL);
+      // 监视了浏览器的返回事件不就好啦
+      window.addEventListener('popstate', function(){
+        alert('我是返回监听)
+      },false)
+}
 ```
