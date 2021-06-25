@@ -67,11 +67,11 @@ git pull --allow-unrelated-histories
 
   - 删除本地分支
    ```sh
-      git branch -d branchName
+      git branch -D branchName
    ``` 
   - 删除远程分支
    ```sh
-      git push origin  -d branchName
+      git push origin  -D branchName
    ```    
 
 6. 命令git update-index --assume-unchanged，忽略不想提交的文件（忽略跟踪）
@@ -84,6 +84,25 @@ git pull --allow-unrelated-histories
   git update-index --no-assume-unchanged  src/demo.js
   ```  
 
+7. 取消commit
+
+```sh
+git reset --soft HEAD^
+```
+
+8. 修改已经提交的 commit 信息
+```sh
+## 输入命令进入vim界面
+git commit --amend
+
+# 输入 i 进入编辑模式 修改信息
+
+# 按 ESC 退出编辑模式 
+:wq 保存退出
+
+
+
+```
     
 
 

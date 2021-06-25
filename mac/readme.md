@@ -21,3 +21,8 @@ tree -d 只显示文件夹；
 ```
  tree -L 3 -I "node_modules"
 ```
+
+### 刷新DNS
+```sh
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say DNS cache flushed
+```
