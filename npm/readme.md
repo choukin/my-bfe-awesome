@@ -16,3 +16,8 @@
     └── test.js
 
 ```
+
+## npm 包收集
+
+1、 ·Inquirer.js试图为NodeJs做一个可嵌入式的美观的命令行界面·
+2、
