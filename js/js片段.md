@@ -310,4 +310,35 @@ export function onBrowserBack(){
         alert('我是返回监听)
       },false)
 }
+
+// 环境判断
+if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+    //alert(navigator.userAgent);  
+    window.location.href ="iPhone.html";
+} else if (/(Android)/i.test(navigator.userAgent)) {
+    //alert(navigator.userAgent); 
+    window.location.href ="Android.html";
+} else {
+    window.location.href ="pc.html";
+};
+
+// 当浏览器切换页面或者最小化页面时，网页中如果存在计时器，再次打开可能出现bug,如使用计时器的图片轮播，在网页来回切换的时候图片会乱，解决方法:
+
+//由visibilitychange 判断当前的活动状态，
+
+// 当前页面有没有被隐藏 hidden
+
+  var bowhidden="hidden" in document?"hidden": "webkithidden" in document?"webkithidden": "mozhidden" in document ?"mozhidden": null;
+    var vibchage="visibilitychange" || "webkitvisibilitychange" || "mozvisibilitychange";
+    document.addEventListener(vibchage,function (){
+        /*ie10+  moz  webkit  默认*/
+        if(!document[bowhidden]) /*false*/
+        {
+            console.log("激活");
+        }
+        else{
+            /*true*/
+            console.log("隐藏");
+        }
+    })
 ```
