@@ -104,7 +104,25 @@ git commit --amend
 
 ```
     
+8. 同步远程已经删除的分支
 
+```sh
+# 1.查看本地和远端分支追踪情况
+git remote show origin
+# 2. 同步删除已经不存在的远端分支
+git remote prune origin
+# 3.查看所有分支
+git branch -a
+
+```
+
+9. 提高clone 速度
+```sh
+# clone小的话，用--depth=1只获取最新的commit即可
+git clone github@choukin.com --depth=1
+```
+
+https://cloud.tencent.com/developer/article/1665810
 
 
 
