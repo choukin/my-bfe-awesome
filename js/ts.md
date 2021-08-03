@@ -51,3 +51,19 @@ declare module 'my-lib' {
     // const a = new A()
   }
 ```
+
+## [工具生成 d.ts](https://blog.csdn.net/zdhsoft/article/details/85242631)
+- 为整个包添加声明文件  使用微软的dts-gen
+```sh
+npm install -g dts-gen   // 先全局安装dts-gen
+npm install -g yargs     // 然后在全局安装你需要生产声明文件的库
+dts-gen -m yargs         // 执行命令生成文件
+```
+
+- 为单个文件生产声明文件 使用dtsmake
+
+```js
+npm i dtsmake -g   // 先全局安装dtsmake
+ 
+dtsmake -s ./path/to/sourcefile.js  // 在对应的文件生产文件
+```
