@@ -1,4 +1,12 @@
 ## js 片段
+
+### 特性
+- 结构化
+- 面向对象编程
+- 动态语言
+- 函数式语言
+- 并行语言
+
 - [Javascript 片段, 你可以在30秒或更少的时间里理解](https://github.com/kujian/30-seconds-of-code)
 ### 判断字符串是否是 url
 ```js

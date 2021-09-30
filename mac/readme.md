@@ -26,3 +26,6 @@ tree -d 只显示文件夹；
 ```sh
 sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say DNS cache flushed
 ```
+
+## 切图吸色工具 
+[snipaste](https://www.snipaste.com/)

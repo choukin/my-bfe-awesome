@@ -18,7 +18,7 @@
  - [ ] [JavaScript开发者应懂的33个概念](https://github.com/stephentian/33-js-concepts#1-%E8%B0%83%E7%94%A8%E5%A0%86%E6%A0%88)
  - [ ] [面试问题](https://mp.weixin.qq.com/s/biVa8Wvg82uvTd5C0yerug)
 - [ ] [开源books](https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books-zh.md) 
-
+- [] [react 源码](https://xiaochen1024.com/courseware/60b1b2f6cf10a4003b634718)
 
 
 ## 目录
