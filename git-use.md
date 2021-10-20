@@ -1,5 +1,92 @@
 ## git 常用命令
 
+## 一、创建本地 ssh publickey 配置到远端仓库
+> Host 设置在使用 git@时后面的名字。 例： $ git clone git@other.com:repname/item.git
+> HostName 设置域名地址或ip地址。
+> IdentityFile 输入id_rsa的目录地址。
+> PreferrenAuthentications 配置登录时使用什么仅限。可设为 publickey password publickey keyboard-interactive
+>User 设置用户名。需要与远程的用户名一致
+> 也可以是ip地址。
+1. 生成key
+```sh
+ ssh-keygen -t rsa -C "choukin@dingtalk.com" -f ~/.ssh/git_rsa
+ ```
+2. 需要时使用 手动添加 rea
+```sh 
+ssh-add -K ~/.ssh/github_id_rsa
+```
+3. 在仓库里添加 publickey
+4. 测试是否配置陈工
+```sh
+ssh -T git@github.com
+```
+
+## 二、一台电脑配置多个个远端仓库的ssh
+1、./ssh 文件夹下面创建config文件
+```sh
+# config
+#Host 设置在使用 git@时后面的名字。 例： $ git clone git@other.com:repname/item.git 也可以是ip地址。
+#HostName 设置域名地址或ip地址。
+#IdentityFile 输入id_rsa的目录地址。
+#PreferrenAuthentications 配置登录时使用什么仅限。可设为 publickey password publickey keyboard-interactive
+#User 设置用户名。需要与远程的用户名一致
+
+#
+
+Host github
+    User choukin
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/github_id_rsa
+    ServerAliveInterval 300
+    ServerAliveCountMax 10
+
+Host gitlab.quxian360
+    User choukin
+    HostName gitlab.quxian360.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/quxian_rsa
+    ServerAliveInterval 300
+    ServerAliveCountMax 10
+
+
+Host code.qschou.com
+    User zhaoxin
+    HostName code.qschou.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/id_rsa
+    ServerAliveInterval 300
+    ServerAliveCountMax 10
+
+Host gitlab.molin.work
+    User root
+    HostName gitlab.molin.work
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/reader_rsa
+    ServerAliveInterval 300
+    ServerAliveCountMax 10  
+
+Host gitee.com
+    User dipper
+    HostName gitee.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/gitee_rsa
+    ServerAliveInterval 300
+    ServerAliveCountMax 10  
+```
+
+## 三、初始化本地仓库添加remote远端仓库
+```sh
+git init
+# 查看remote
+git remote -v
+# 添加remote 可以添加多个
+git remote add <name> <url>
+# 删除remote 
+git remote remove <name>
+```
+
+
 ### 查看分支
 - 查看远程分支
 ```js
