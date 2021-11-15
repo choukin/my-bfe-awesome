@@ -152,7 +152,7 @@ git pull --allow-unrelated-histories
 
 5. 删除分支
 
-  - 删除本地分支
+  - 删除本地分
    ```sh
       git branch -D branchName
    ``` 

