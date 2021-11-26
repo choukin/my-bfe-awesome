@@ -29,3 +29,9 @@ sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say DNS cache flu
 
 ## 切图吸色工具 
 [snipaste](https://www.snipaste.com/)
+
+## 一款功能强大的屏幕绘图和屏幕注释软件
+ [vill-q](http://www.pixelegg.me/vill-q)
+
+## [Alfred](https://www.alfredapp.com/)
+> Alfred 是一款屡获殊荣的 macOS 应用程序，它通过热键、关键字、文本扩展等提高您的效率。搜索您的 Mac 和网络，并通过自定义操作来控制您的 Mac，从而提高工作效率。
