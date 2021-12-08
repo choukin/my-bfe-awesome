@@ -16,3 +16,5 @@
 - url: url.
 - hex: 16进制.
 - email: 邮箱地址.
+
+- { type: 'pattern', pattern: /^[1-9]\d*$/, message: '请输入正整数', trigger: 'blur' }
