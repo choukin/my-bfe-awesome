@@ -12,13 +12,14 @@
  - [ ] [vue-test-utils](https://vue-test-utils.vuejs.org/zh/)
  - [ ]  [Vue 组件的单元测试](https://cn.vuejs.org/v2/cookbook/debugging-in-vscode.html)
  - [ ]  [Vue SSR 指南](https://ssr.vuejs.org/zh/)
-  - [ ] [Nuxt.js](https://nuxtjs.org/)  
-- [ ] [从vue-cli源码学习如何写模板](https://github.com/dwqs/blog/issues/56)
+ - [ ] [Nuxt.js](https://nuxtjs.org/)  
+ - [ ] [从vue-cli源码学习如何写模板](https://github.com/dwqs/blog/issues/56)
  - [ ] [面试经验](https://juejin.im/post/5ba34e54e51d450e5162789b)
  - [ ] [JavaScript开发者应懂的33个概念](https://github.com/stephentian/33-js-concepts#1-%E8%B0%83%E7%94%A8%E5%A0%86%E6%A0%88)
  - [ ] [面试问题](https://mp.weixin.qq.com/s/biVa8Wvg82uvTd5C0yerug)
-- [ ] [开源books](https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books-zh.md) 
-- [] [react 源码](https://xiaochen1024.com/courseware/60b1b2f6cf10a4003b634718)
+ - [ ] [开源books](https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books-zh.md) 
+ - [] [react 源码](https://xiaochen1024.com/courseware/60b1b2f6cf10a4003b634718)
+ - [] [ts](http://ts.xcatliu.com/)
 
 
 ## 目录
@@ -56,7 +57,13 @@
 
 - 工具
   - [Algolia搜索 站内搜索](http://www.qingpingshan.com/m/view.php?aid=386198)
+  - [知竹](https://www.yxsss.com/)
 
+- 教程 
+  - [静态网站添加评论的方法](https://darekkay.com/blog/static-site-comments/)
+  - [我的 Linux 开发环境](https://deepu.tech/my-beautiful-linux-development-environment/)
+
+  - [linux开发环境配置](https://deepu.tech/my-beautiful-linux-development-environment/)
 
 
 
@@ -114,6 +121,7 @@ new HtmlWebpackPlugin({
 3. [tweenjs](http://www.createjs.cc/tweenjs/) TweenJS类库主要用来调整和动画HTML5和Javascript属性，提供了简单并且强大的tweening接口。
 4. [hilo](http://hiloteam.github.io/) 阿里的HTML5 互动游戏引擎
 5. [pixijs](https://www.pixijs.com/) PixiJS 是一个超快的2D渲染引擎。它自动侦测使用 WebGL 或者 Canvas。 
+6. [Kaboom.js](https://kaboomjs.com/doc/intro) Kaboom 是一个 JavaScript 库，可帮助您快速有趣地制作游戏.
 
 
 ## 前端工具
