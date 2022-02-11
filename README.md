@@ -20,6 +20,8 @@
  - [ ] [开源books](https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books-zh.md) 
  - [] [react 源码](https://xiaochen1024.com/courseware/60b1b2f6cf10a4003b634718)
  - [] [ts](http://ts.xcatliu.com/)
+ - [] [make games](https://makejsgames.com/#articles)
+ - [] [storybook](https://storybook.js.org/)
 
 
 ## 目录
@@ -120,7 +122,7 @@ new HtmlWebpackPlugin({
 2. [gsap](https://github.com/greensock/GreenSock-JS) GSAP是一个JavaScript库，用于创建适用于所有主流浏览器的高性能动画
 3. [tweenjs](http://www.createjs.cc/tweenjs/) TweenJS类库主要用来调整和动画HTML5和Javascript属性，提供了简单并且强大的tweening接口。
 4. [hilo](http://hiloteam.github.io/) 阿里的HTML5 互动游戏引擎
-5. [pixijs](https://www.pixijs.com/) PixiJS 是一个超快的2D渲染引擎。它自动侦测使用 WebGL 或者 Canvas。 
+5. [pixijs](https://www.pixijs.com/) PixiJS 是一个超快的2D渲染游戏引擎。它自动侦测使用 WebGL 或者 Canvas。 
 6. [Kaboom.js](https://kaboomjs.com/doc/intro) Kaboom 是一个 JavaScript 库，可帮助您快速有趣地制作游戏.
 
 
