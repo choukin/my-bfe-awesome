@@ -27,7 +27,7 @@
 - [] [vue3.0](https://github.com/vue3/vue3-News#%E8%BF%8E%E6%8E%A5Vue3.0%E7%B3%BB%E5%88%97)
 - [] [手写面试](https://github.com/Mayandev/fe-interview-handwrite)
 - [] [BEM 命名法](https://www.bemcss.com/)
-- [Vue3 入门指南，与实战案例](https://vue3.chengpeiquan.com/)
+- [X] [Vue3 入门指南，与实战案例](https://vue3.chengpeiquan.com/)
 ## 目录
 
 - [node 相关](#node-相关)
