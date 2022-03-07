@@ -1,105 +1,46 @@
 export const data = {
   "key": "v-8daa1a0e",
   "path": "/",
-  "title": "收集",
+  "title": "首页",
   "lang": "zh-CN",
   "frontmatter": {
-    "lang": "zh-CN",
-    "title": "收集",
-    "description": "收集好玩的"
+    "home": true,
+    "title": "首页",
+    "actions": [
+      {
+        "text": "开始",
+        "link": "/guide/main.html",
+        "type": "primary"
+      },
+      {
+        "text": "项目简介",
+        "link": "/guide/main.html",
+        "type": "secondary"
+      }
+    ],
+    "features": [
+      {
+        "title": "个人成长",
+        "details": "学习前端知识，记录个人成长."
+      },
+      {
+        "title": "好项目收集",
+        "details": "好记性不如烂笔头."
+      }
+    ],
+    "footer": "MIT Licensed | Copyright © 2022-present 赵鑫"
   },
   "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "TODO",
-      "slug": "todo",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "目录",
-      "slug": "目录",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "node 相关",
-      "slug": "node-相关",
-      "children": [
-        {
-          "level": 3,
-          "title": "node 常量",
-          "slug": "node-常量",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "电子书",
-      "slug": "电子书",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "webpack",
-      "slug": "webpack",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "动画库",
-      "slug": "动画库",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "前端工具",
-      "slug": "前端工具",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "博客",
-      "slug": "博客",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "工具",
-      "slug": "工具",
-      "children": [
-        {
-          "level": 3,
-          "title": "图片相关",
-          "slug": "图片相关",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "pm2",
-          "slug": "pm2",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "配置文件",
-          "slug": "配置文件",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "字符串模版 折行转义字符",
-      "slug": "字符串模版-折行转义字符",
-      "children": []
-    }
-  ],
+  "headers": [],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1646640020000,
+    "contributors": [
+      {
+        "name": "zhaoxin",
+        "email": "zhaoxin01@qingsongchou.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "README.md"
 }

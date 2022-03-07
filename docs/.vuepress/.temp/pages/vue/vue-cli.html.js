@@ -20,8 +20,14 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1646640020000,
+    "contributors": [
+      {
+        "name": "zhaoxin",
+        "email": "zhaoxin01@qingsongchou.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "vue/vue-cli.md"
 }

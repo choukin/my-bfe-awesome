@@ -1,12 +1,26 @@
-## git 常用命令
+# git 常用命令
 
 ## 一、创建本地 ssh publickey 配置到远端仓库
 > Host 设置在使用 git@时后面的名字。 例： $ git clone git@other.com:repname/item.git
+>
 > HostName 设置域名地址或ip地址。
+>
 > IdentityFile 输入id_rsa的目录地址。
+>
 > PreferrenAuthentications 配置登录时使用什么仅限。可设为 publickey password publickey keyboard-interactive
+>
 >User 设置用户名。需要与远程的用户名一致
+>
 > 也可以是ip地址。
+>
+> ssh-keygen -t rsa -C "choukin@dingtalk.com" -f ~/.ssh/quxian_rsa
+>
+> ssh-add -K ~/.ssh/github_id_rsa
+>
+> 在仓库里添加 publickey
+>
+> ssh -T git@github.com
+#
 1. 生成key
 ```sh
  ssh-keygen -t rsa -C "choukin@dingtalk.com" -f ~/.ssh/git_rsa

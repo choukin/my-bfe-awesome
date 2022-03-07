@@ -1,6 +1,6 @@
 export const data = {
-  "key": "v-7449d339",
-  "path": "/mac/",
+  "key": "v-5d5230a8",
+  "path": "/guide/mac/",
   "title": "mac 使用 软件",
   "lang": "zh-CN",
   "frontmatter": {},
@@ -57,16 +57,10 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1646640020000,
-    "contributors": [
-      {
-        "name": "zhaoxin",
-        "email": "zhaoxin01@qingsongchou.com",
-        "commits": 1
-      }
-    ]
+    "updatedTime": null,
+    "contributors": []
   },
-  "filePathRelative": "mac/readme.md"
+  "filePathRelative": "guide/mac/readme.md"
 }
 
 if (import.meta.webpackHot) {

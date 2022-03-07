@@ -1,17 +1,11 @@
 export const data = {
-  "key": "v-08808674",
-  "path": "/git-use.html",
-  "title": "",
+  "key": "v-2192a38e",
+  "path": "/guide/git-use.html",
+  "title": "git 常用命令",
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
   "headers": [
-    {
-      "level": 2,
-      "title": "git 常用命令",
-      "slug": "git-常用命令",
-      "children": []
-    },
     {
       "level": 2,
       "title": "一、创建本地 ssh publickey 配置到远端仓库",
@@ -45,16 +39,10 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1646640020000,
-    "contributors": [
-      {
-        "name": "zhaoxin",
-        "email": "zhaoxin01@qingsongchou.com",
-        "commits": 1
-      }
-    ]
+    "updatedTime": null,
+    "contributors": []
   },
-  "filePathRelative": "git-use.md"
+  "filePathRelative": "guide/git-use.md"
 }
 
 if (import.meta.webpackHot) {
