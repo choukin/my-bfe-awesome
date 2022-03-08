@@ -20,9 +20,11 @@ export default defineUserConfig<DefaultThemeOptions>({
         
                 // sidebar
                 sidebar: sidebar,
+                sidebarDepth:2,
 
                  // page meta
                 editLinkText: '在 GitHub 上编辑此页',
+                editLinks: true,
                 lastUpdatedText: '上次更新',
                 contributorsText: '贡献者',
 
