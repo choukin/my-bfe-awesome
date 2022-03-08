@@ -1,0 +1,7 @@
+import{c as s}from"./app.91923fdf.js";import{_ as a}from"./plugin-vue_export-helper.21dcd24c.js";const e={},n=s(`<h1 id="chrome-headless" tabindex="-1"><a class="header-anchor" href="#chrome-headless" aria-hidden="true">#</a> chrome headless</h1><ol><li>mac \u8BBE\u7F6E \u522B\u540D</li></ol><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">vi</span> ~/.zshrc
+
+<span class="token builtin class-name">alias</span> <span class="token assign-left variable">chrome</span><span class="token operator">=</span><span class="token string">&quot;/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome&quot;</span>
+esc :wq
+<span class="token builtin class-name">source</span> ~/zshrc
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>2.\u622A\u5C4F</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>chrome --headless --disable-gpu --screenshot --window-size<span class="token operator">=</span><span class="token number">1280,1696</span>  https://github.com
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div>`,5);function r(l,c){return n}var p=a(e,[["render",r]]);export{p as default};

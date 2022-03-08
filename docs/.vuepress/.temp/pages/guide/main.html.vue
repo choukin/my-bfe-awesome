@@ -129,7 +129,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ul>
 <li>
 <p>查看全局对象 再终端输入 node 后 安两次 tab 键</p>
-<p><img src="@source/guide/img/node/doubletab.jpg" alt=""></p>
+<p><img src="@source/img/node/doubletab.jpg" alt=""></p>
 </li>
 </ul>
 <h2 id="电子书" tabindex="-1"><a class="header-anchor" href="#电子书" aria-hidden="true">#</a> 电子书</h2>

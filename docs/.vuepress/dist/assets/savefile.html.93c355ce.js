@@ -1,0 +1,1 @@
+const e={key:"v-2a5172b3",path:"/js/savefile.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u4FDD\u5B58\u6587\u4EF6\u6D41",slug:"\u4FDD\u5B58\u6587\u4EF6\u6D41",children:[]}],git:{updatedTime:164664002e4,contributors:[{name:"zhaoxin",email:"zhaoxin01@qingsongchou.com",commits:1}]},filePathRelative:"js/savefile.md"};export{e as data};

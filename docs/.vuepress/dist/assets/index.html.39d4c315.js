@@ -1,0 +1,1 @@
+const e={key:"v-5d50d4e0",path:"/guide/npm/",title:"npm \u5305\u89C4\u8303",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"npm \u5305\u6536\u96C6",slug:"npm-\u5305\u6536\u96C6",children:[]}],git:{updatedTime:1646648167e3,contributors:[{name:"zhaoxin",email:"zhaoxin01@qingsongchou.com",commits:1}]},filePathRelative:"guide/npm/readme.md"};export{e as data};

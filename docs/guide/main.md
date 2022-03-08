@@ -106,7 +106,7 @@ console.log(__filename);
 
 - 查看全局对象 再终端输入 node 后 安两次 tab 键
 
-  ![](./img/node/doubletab.jpg)
+  ![](../img/node/doubletab.jpg)
 
 ## 电子书
 
