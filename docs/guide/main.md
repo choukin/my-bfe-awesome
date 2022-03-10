@@ -80,6 +80,8 @@
   - Vue 的 video.js 播放器组件[vue-video-player](https://npmjs.com/package/vue-video-player)
   - [better-scroll] (http://ustbhuangyi.github.io/better-scroll/)
 
+  - [nuxt modules nuxt模块](https://modules.nuxtjs.org/?version=3.x)
+
 - 工具
 
   - [Algolia 搜索 站内搜索](http://www.qingpingshan.com/m/view.php?aid=386198)

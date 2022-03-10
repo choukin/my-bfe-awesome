@@ -26,7 +26,7 @@ export default defineUserConfig<DefaultThemeOptions>({
                 editLinkText: '在 GitHub 上编辑此页',
                 editLinks: true,
                 lastUpdatedText: '上次更新',
-                contributorsText: '贡献者',
+                // contributorsText: '贡献者',
 
                 // custom containers
                 tip: '提示',
