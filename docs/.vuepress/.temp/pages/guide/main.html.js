@@ -10,7 +10,14 @@ export const data = {
       "level": 2,
       "title": "TODO",
       "slug": "todo",
-      "children": []
+      "children": [
+        {
+          "level": 3,
+          "title": "VUE3",
+          "slug": "vue3",
+          "children": []
+        }
+      ]
     },
     {
       "level": 2,
@@ -94,14 +101,20 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1646648167000,
-    "contributors": [
-      {
-        "name": "zhaoxin",
-        "email": "zhaoxin01@qingsongchou.com",
-        "commits": 1
-      }
-    ]
+    "updatedTime": 1646894788000
   },
   "filePathRelative": "guide/main.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

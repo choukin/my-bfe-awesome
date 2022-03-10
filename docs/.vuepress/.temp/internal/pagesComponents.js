@@ -15,14 +15,16 @@ export const pagesComponents = {
   "v-1f91015b": defineAsyncComponent(() => import(/* webpackChunkName: "v-1f91015b" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/intersting.html.vue")),
   // path: /miniProgram.html
   "v-485c23c5": defineAsyncComponent(() => import(/* webpackChunkName: "v-485c23c5" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/miniProgram.html.vue")),
-  // path: /collect/
-  "v-9e04a384": defineAsyncComponent(() => import(/* webpackChunkName: "v-9e04a384" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/collect/index.html.vue")),
-  // path: /collect/getting-started.html
-  "v-5926181f": defineAsyncComponent(() => import(/* webpackChunkName: "v-5926181f" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/collect/getting-started.html.vue")),
   // path: /guide/git-use.html
   "v-2192a38e": defineAsyncComponent(() => import(/* webpackChunkName: "v-2192a38e" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/guide/git-use.html.vue")),
   // path: /guide/main.html
   "v-d5fa1158": defineAsyncComponent(() => import(/* webpackChunkName: "v-d5fa1158" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/guide/main.html.vue")),
+  // path: /guide/nuxt-readme.html
+  "v-9b03dde6": defineAsyncComponent(() => import(/* webpackChunkName: "v-9b03dde6" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/guide/nuxt-readme.html.vue")),
+  // path: /collect/
+  "v-9e04a384": defineAsyncComponent(() => import(/* webpackChunkName: "v-9e04a384" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/collect/index.html.vue")),
+  // path: /collect/getting-started.html
+  "v-5926181f": defineAsyncComponent(() => import(/* webpackChunkName: "v-5926181f" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/collect/getting-started.html.vue")),
   // path: /hello-vue3/
   "v-987215e4": defineAsyncComponent(() => import(/* webpackChunkName: "v-987215e4" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/hello-vue3/index.html.vue")),
   // path: /js/%08fullscreen.html

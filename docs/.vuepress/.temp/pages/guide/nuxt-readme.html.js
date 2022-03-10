@@ -1,28 +1,22 @@
 export const data = {
-  "key": "v-5bd6f702",
-  "path": "/vue/vue-cli.html",
-  "title": "vue-cli 学习",
+  "key": "v-9b03dde6",
+  "path": "/guide/nuxt-readme.html",
+  "title": "Nuxt",
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
   "headers": [
     {
       "level": 2,
-      "title": "vue cli中用的download-git-repo",
-      "slug": "vue-cli中用的download-git-repo",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "vue router 配置 history 模式",
-      "slug": "vue-router-配置-history-模式",
+      "title": "新建项目",
+      "slug": "新建项目",
       "children": []
     }
   ],
   "git": {
-    "updatedTime": 1646640020000
+    "updatedTime": 1646877060000
   },
-  "filePathRelative": "vue/vue-cli.md"
+  "filePathRelative": "guide/nuxt-readme.md"
 }
 
 if (import.meta.webpackHot) {

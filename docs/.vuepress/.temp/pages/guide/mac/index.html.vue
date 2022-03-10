@@ -1,5 +1,8 @@
 <template><h1 id="mac-使用-软件" tabindex="-1"><a class="header-anchor" href="#mac-使用-软件" aria-hidden="true">#</a> mac 使用 软件</h1>
-<h1 id="使用-homebrew-安装-tree-命令行" tabindex="-1"><a class="header-anchor" href="#使用-homebrew-安装-tree-命令行" aria-hidden="true">#</a> 使用 homebrew 安装 tree 命令行：</h1>
+<ul>
+<li><a href="https://github.com/hzlzh/Best-App" target="_blank" rel="noopener noreferrer">Best APP<ExternalLinkIcon/></a></li>
+</ul>
+<h2 id="使用-homebrew-安装-tree-命令行" tabindex="-1"><a class="header-anchor" href="#使用-homebrew-安装-tree-命令行" aria-hidden="true">#</a> 使用 homebrew 安装 tree 命令行：</h2>
 <h2 id="安装" tabindex="-1"><a class="header-anchor" href="#安装" aria-hidden="true">#</a> 安装</h2>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>$ brew <span class="token function">install</span> tree
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><h2 id="忽略-node-modules-文件夹" tabindex="-1"><a class="header-anchor" href="#忽略-node-modules-文件夹" aria-hidden="true">#</a> 忽略 node_modules 文件夹</h2>
@@ -23,4 +26,12 @@
 <blockquote>
 <p>Alfred 是一款屡获殊荣的 macOS 应用程序，它通过热键、关键字、文本扩展等提高您的效率。搜索您的 Mac 和网络，并通过自定义操作来控制您的 Mac，从而提高工作效率。</p>
 </blockquote>
+<h2 id="常见问题" tabindex="-1"><a class="header-anchor" href="#常见问题" aria-hidden="true">#</a> 常见问题</h2>
+<p>1、 开启允许任何来源安装软件</p>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">sudo</span> spctl --master-disable
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><p>2、 最新版本max 解决软件<code>已损坏无法打开解决办法</code></p>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">sudo</span> xattr -d com.apple.quarantine /Applications/xxxx.app
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><div class="custom-container tip"><p class="custom-container-title">提示</p>
+<p>xxxx.app 换成对应软件的名称</p>
+</div>
 </template>

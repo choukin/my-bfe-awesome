@@ -7,14 +7,20 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1646640020000,
-    "contributors": [
-      {
-        "name": "zhaoxin",
-        "email": "zhaoxin01@qingsongchou.com",
-        "commits": 1
-      }
-    ]
+    "updatedTime": 1646640020000
   },
   "filePathRelative": "collect/getting-started.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

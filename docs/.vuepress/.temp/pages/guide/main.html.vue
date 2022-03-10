@@ -1,9 +1,9 @@
 <template><h1 id="my-bfe-awesome" tabindex="-1"><a class="header-anchor" href="#my-bfe-awesome" aria-hidden="true">#</a> my-bfe-awesome</h1>
 <p>前端个人积累 🎉</p>
-<p>一加一等于 {{1+1}}
+<!-- 一加一等于 {{1+1}}
 <span v-for="i in 3"> span: {{ i }} </span>
-这是默认主题内置的 <code>&lt;Badge /&gt;</code> 组件 <Badge text="演示" /></p>
-<nav class="table-of-contents"><ul><li><RouterLink to="#todo">TODO</RouterLink></li><li><RouterLink to="#目录">目录</RouterLink></li><li><RouterLink to="#node-相关">node 相关</RouterLink><ul><li><RouterLink to="#node-常量">node 常量</RouterLink></li></ul></li><li><RouterLink to="#电子书">电子书</RouterLink></li><li><RouterLink to="#webpack">webpack</RouterLink></li><li><RouterLink to="#动画库">动画库</RouterLink></li><li><RouterLink to="#前端工具">前端工具</RouterLink></li><li><RouterLink to="#博客">博客</RouterLink></li><li><RouterLink to="#工具">工具</RouterLink><ul><li><RouterLink to="#图片相关">图片相关</RouterLink></li><li><RouterLink to="#pm2">pm2</RouterLink></li><li><RouterLink to="#配置文件">配置文件</RouterLink></li></ul></li><li><RouterLink to="#字符串模版-折行转义字符">字符串模版 折行转义字符</RouterLink></li></ul></nav>
+这是默认主题内置的 `<Badge />` 组件 <Badge text="演示" />
+[[toc]] -->
 <h2 id="todo" tabindex="-1"><a class="header-anchor" href="#todo" aria-hidden="true">#</a> TODO</h2>
 <ul>
 <li>[ ] 学习 sass</li>
@@ -33,6 +33,10 @@
 <li>[] <a href="https://hejialianghe.gitee.io/" target="_blank" rel="noopener noreferrer">web 全栈体系博客<ExternalLinkIcon/></a></li>
 <li>[] <a href="https://commonmark.org/help/" target="_blank" rel="noopener noreferrer">Markdown教程<ExternalLinkIcon/></a></li>
 <li>[] <a href="https://github.com/ikatyang/emoji-cheat-sheet" target="_blank" rel="noopener noreferrer">emoji-cheat-sheet<ExternalLinkIcon/></a></li>
+</ul>
+<h3 id="vue3" tabindex="-1"><a class="header-anchor" href="#vue3" aria-hidden="true">#</a> VUE3</h3>
+<ul>
+<li>[] <a href="https://space.bilibili.com/480140591" target="_blank" rel="noopener noreferrer">vue3视频教程<ExternalLinkIcon/></a></li>
 </ul>
 <h2 id="目录" tabindex="-1"><a class="header-anchor" href="#目录" aria-hidden="true">#</a> 目录</h2>
 <ul>
@@ -85,12 +89,27 @@
 <li>
 <p>vue 常用组件</p>
 <ul>
-<li><a href="http://hcysun.me/vue-design/" target="_blank" rel="noopener noreferrer">Vue 源码分析<ExternalLinkIcon/></a></li>
-<li><a href="https://ustbhuangyi.github.io/vue-analysis/" target="_blank" rel="noopener noreferrer">Vue 技术揭秘<ExternalLinkIcon/></a></li>
-<li>引导提示框 <a href="https://www.npmjs.com/package/vue-introjs" target="_blank" rel="noopener noreferrer">vue-introjs<ExternalLinkIcon/></a></li>
-<li>数字动画跳动 <a href="https://github.com/xlsdg/vue-countup-v2?ref=madewithvuejs.com" target="_blank" rel="noopener noreferrer">vue-countup-v2<ExternalLinkIcon/></a></li>
-<li>Vue 的 video.js 播放器组件<a href="https://npmjs.com/package/vue-video-player" target="_blank" rel="noopener noreferrer">vue-video-player<ExternalLinkIcon/></a></li>
-<li>[better-scroll] (http://ustbhuangyi.github.io/better-scroll/)</li>
+<li>
+<p><a href="http://hcysun.me/vue-design/" target="_blank" rel="noopener noreferrer">Vue 源码分析<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p><a href="https://ustbhuangyi.github.io/vue-analysis/" target="_blank" rel="noopener noreferrer">Vue 技术揭秘<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>引导提示框 <a href="https://www.npmjs.com/package/vue-introjs" target="_blank" rel="noopener noreferrer">vue-introjs<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>数字动画跳动 <a href="https://github.com/xlsdg/vue-countup-v2?ref=madewithvuejs.com" target="_blank" rel="noopener noreferrer">vue-countup-v2<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>Vue 的 video.js 播放器组件<a href="https://npmjs.com/package/vue-video-player" target="_blank" rel="noopener noreferrer">vue-video-player<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[better-scroll] (http://ustbhuangyi.github.io/better-scroll/)</p>
+</li>
+<li>
+<p><a href="https://modules.nuxtjs.org/?version=3.x" target="_blank" rel="noopener noreferrer">nuxt modules nuxt模块<ExternalLinkIcon/></a></p>
+</li>
 </ul>
 </li>
 <li>

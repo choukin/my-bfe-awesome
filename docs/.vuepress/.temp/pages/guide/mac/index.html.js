@@ -8,6 +8,12 @@ export const data = {
   "headers": [
     {
       "level": 2,
+      "title": "使用 homebrew 安装 tree 命令行：",
+      "slug": "使用-homebrew-安装-tree-命令行",
+      "children": []
+    },
+    {
+      "level": 2,
       "title": "安装",
       "slug": "安装",
       "children": []
@@ -54,17 +60,29 @@ export const data = {
       "title": "Alfred",
       "slug": "alfred",
       "children": []
+    },
+    {
+      "level": 2,
+      "title": "常见问题",
+      "slug": "常见问题",
+      "children": []
     }
   ],
   "git": {
-    "updatedTime": 1646648167000,
-    "contributors": [
-      {
-        "name": "zhaoxin",
-        "email": "zhaoxin01@qingsongchou.com",
-        "commits": 1
-      }
-    ]
+    "updatedTime": 1646877060000
   },
   "filePathRelative": "guide/mac/readme.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

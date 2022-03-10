@@ -13,14 +13,16 @@ export const pagesData = {
   "v-1f91015b": () => import(/* webpackChunkName: "v-1f91015b" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/intersting.html.js").then(({ data }) => data),
   // path: /miniProgram.html
   "v-485c23c5": () => import(/* webpackChunkName: "v-485c23c5" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/miniProgram.html.js").then(({ data }) => data),
-  // path: /collect/
-  "v-9e04a384": () => import(/* webpackChunkName: "v-9e04a384" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/collect/index.html.js").then(({ data }) => data),
-  // path: /collect/getting-started.html
-  "v-5926181f": () => import(/* webpackChunkName: "v-5926181f" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/collect/getting-started.html.js").then(({ data }) => data),
   // path: /guide/git-use.html
   "v-2192a38e": () => import(/* webpackChunkName: "v-2192a38e" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/guide/git-use.html.js").then(({ data }) => data),
   // path: /guide/main.html
   "v-d5fa1158": () => import(/* webpackChunkName: "v-d5fa1158" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/guide/main.html.js").then(({ data }) => data),
+  // path: /guide/nuxt-readme.html
+  "v-9b03dde6": () => import(/* webpackChunkName: "v-9b03dde6" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/guide/nuxt-readme.html.js").then(({ data }) => data),
+  // path: /collect/
+  "v-9e04a384": () => import(/* webpackChunkName: "v-9e04a384" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/collect/index.html.js").then(({ data }) => data),
+  // path: /collect/getting-started.html
+  "v-5926181f": () => import(/* webpackChunkName: "v-5926181f" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/collect/getting-started.html.js").then(({ data }) => data),
   // path: /hello-vue3/
   "v-987215e4": () => import(/* webpackChunkName: "v-987215e4" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/hello-vue3/index.html.js").then(({ data }) => data),
   // path: /js/%08fullscreen.html

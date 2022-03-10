@@ -12,9 +12,11 @@ export default defineUserConfig<DefaultThemeOptions>({
     theme:"@vuepress/theme-default",
     themeConfig:{
         logo:'https://vuejs.org/images/logo.png',
-        locales: {
-            '/': {
-              selectLanguageName: 'English',
+        repo: "choukin/my-bfe-awesome",
+        docsBranch: "main/docs",
+        // locales: {
+        //     '/': {
+        //       selectLanguageName: 'English',
                 // navbar
                 navbar: navbar,
         
@@ -26,6 +28,7 @@ export default defineUserConfig<DefaultThemeOptions>({
                 editLinkText: '在 GitHub 上编辑此页',
                 editLinks: true,
                 lastUpdatedText: '上次更新',
+                contributors: false,
                 // contributorsText: '贡献者',
 
                 // custom containers
@@ -48,11 +51,11 @@ export default defineUserConfig<DefaultThemeOptions>({
                 toggleSidebar: '切换侧边栏',
         
                 // page meta
-            },
-            '/zh/': {
-              selectLanguageName: '简体中文',
-            },
-          },
+            // },
+            // '/zh/': {
+            //   selectLanguageName: '简体中文',
+            // },
+          // },
     },
     // plugins: [['vuepress-plugin-code-copy', true]]
 })
