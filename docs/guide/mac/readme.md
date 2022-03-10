@@ -1,6 +1,9 @@
 # mac 使用 软件
 
-# 使用 homebrew 安装 tree 命令行：
+
+- [Best APP](https://github.com/hzlzh/Best-App)
+
+## 使用 homebrew 安装 tree 命令行：
 ## 安装
 ```shell
 $ brew install tree
@@ -35,3 +38,18 @@ sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say DNS cache flu
 
 ## [Alfred](https://www.alfredapp.com/)
 > Alfred 是一款屡获殊荣的 macOS 应用程序，它通过热键、关键字、文本扩展等提高您的效率。搜索您的 Mac 和网络，并通过自定义操作来控制您的 Mac，从而提高工作效率。
+
+## 常见问题
+
+1、 开启允许任何来源安装软件
+```sh
+sudo spctl --master-disable
+```
+
+2、 最新版本max 解决软件`已损坏无法打开解决办法`
+```sh
+sudo xattr -d com.apple.quarantine /Applications/xxxx.app
+```
+::: tip
+xxxx.app 换成对应软件的名称
+:::

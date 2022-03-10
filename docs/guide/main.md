@@ -43,6 +43,9 @@
 - [] [Markdown教程](https://commonmark.org/help/)
 - [] [emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
 
+### VUE3 
+- [] [vue3视频教程](https://space.bilibili.com/480140591)
+
 ## 目录
 
 - [node 相关](#node-相关)
