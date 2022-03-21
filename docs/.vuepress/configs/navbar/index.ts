@@ -6,7 +6,7 @@ export const navbar:NavbarConfig = [
     },
     {
         text: '工具',
-        link: '/guide/tool.md'
+        link: '/guide/tools.md'
     },    
     {
        text: '参考',
