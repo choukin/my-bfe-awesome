@@ -8,7 +8,8 @@ export const sidebar:SidebarConfig = {
                 '/guide/main.md',
                 '/guide/mac/readme.md',
                 '/guide/npm/readme.md',
-                '/guide/git-use.md'
+                '/guide/git-use.md',
+                '/vue/elementui'
             ]
         }
     ]

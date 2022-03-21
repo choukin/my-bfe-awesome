@@ -5,6 +5,10 @@ export const navbar:NavbarConfig = [
         link: '/guide/main.md'
     },
     {
+        text: '工具',
+        link: '/guide/tool.md'
+    },    
+    {
        text: '参考',
        children:[
         {
