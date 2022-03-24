@@ -18,6 +18,14 @@ export const navbar:NavbarConfig = [
         {
             text: 'vue',
             link: 'https://v3.cn.vuejs.org/'
+        },
+        {
+            text: 'vue3-news',
+            link: 'https://vue3.github.io/vue3-News/'
+        },
+        {
+            text: '前端(Not just)工程师终究要掌握的知识',
+            link: 'https://kb.zhangzhipeng.net/#/'
         }
        ],
     }
