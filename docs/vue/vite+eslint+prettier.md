@@ -22,9 +22,9 @@
 ## 1. 使用 vite 生成项目
 
 ```bash
-yarn create vite my-vue-app --template vue-ts
+pnpm create vite my-vue-app --template vue-ts
 cd my-vue-app
-yarn
+pnpm install
 ```
 
 ## 2. 安装包
@@ -49,6 +49,29 @@ prettier.config.js
 .gitignore
 
 @[code](./config/.gitignore)
+
+## 4. [vite-plugin-eslint](https://www.npmjs.com/package/vite-plugin-eslint)
+```sh
+pnpx i vite-plugin-eslint -D
+```
+配置`vite.config.ts`
+
+```ts{3,9-12}
+import { defineConfig } from 'vite';
+import vue from '@vitejs/plugin-vue';
+import eslintPlugin from 'vite-plugin-eslint';
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [
+    vue(),
+    eslintPlugin({
+      cache: false, // 取消缓存
+      fix: true, // 自动修复
+    }),
+  ],
+});
+```
 
 
 

@@ -29,10 +29,16 @@ export const data = {
       "title": "3. 配置",
       "slug": "_3-配置",
       "children": []
+    },
+    {
+      "level": 2,
+      "title": "4. vite-plugin-eslint",
+      "slug": "_4-vite-plugin-eslint",
+      "children": []
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1648537056000
   },
   "filePathRelative": "vue/vite+eslint+prettier.md"
 }
