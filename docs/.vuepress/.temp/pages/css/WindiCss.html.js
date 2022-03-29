@@ -1,22 +1,22 @@
 export const data = {
-  "key": "v-485c23c5",
-  "path": "/miniProgram.html",
-  "title": "",
+  "key": "v-1cf90032",
+  "path": "/css/WindiCss.html",
+  "title": "windicss",
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
   "headers": [
     {
       "level": 3,
-      "title": "小程序多端框架",
-      "slug": "小程序多端框架",
+      "title": "可视化解析器",
+      "slug": "可视化解析器",
       "children": []
     }
   ],
   "git": {
     "updatedTime": 1648449088000
   },
-  "filePathRelative": "miniProgram.md"
+  "filePathRelative": "css/WindiCss.md"
 }
 
 if (import.meta.webpackHot) {

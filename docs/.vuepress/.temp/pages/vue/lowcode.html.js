@@ -1,22 +1,15 @@
 export const data = {
-  "key": "v-485c23c5",
-  "path": "/miniProgram.html",
-  "title": "",
+  "key": "v-35ac8d1a",
+  "path": "/vue/lowcode.html",
+  "title": "low code",
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
-  "headers": [
-    {
-      "level": 3,
-      "title": "小程序多端框架",
-      "slug": "小程序多端框架",
-      "children": []
-    }
-  ],
+  "headers": [],
   "git": {
     "updatedTime": 1648449088000
   },
-  "filePathRelative": "miniProgram.md"
+  "filePathRelative": "vue/lowcode.md"
 }
 
 if (import.meta.webpackHot) {

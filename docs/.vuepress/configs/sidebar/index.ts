@@ -9,7 +9,20 @@ export const sidebar:SidebarConfig = {
                 '/guide/mac/readme.md',
                 '/guide/npm/readme.md',
                 '/guide/git-use.md',
-                '/vue/elementui'
+                
+                
+            ]
+        }
+    ],
+    '/vue/':[
+        {
+            text:'vue',
+            children:[
+                '/vue/vue3.md',
+                '/vue/vite+eslint+prettier.md',
+                '/vue/elementui.md',
+                '/vue/lowcode.md',
+                '/vue/differerent.md'
             ]
         }
     ]

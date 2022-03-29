@@ -8,6 +8,14 @@ export const themeData = {
       "link": "/guide/main.md"
     },
     {
+      "text": "VUE",
+      "link": "/vue/vue3.md"
+    },
+    {
+      "text": "工具",
+      "link": "/guide/tools.md"
+    },
+    {
       "text": "参考",
       "children": [
         {
@@ -17,6 +25,14 @@ export const themeData = {
         {
           "text": "vue",
           "link": "https://v3.cn.vuejs.org/"
+        },
+        {
+          "text": "vue3-news",
+          "link": "https://vue3.github.io/vue3-News/"
+        },
+        {
+          "text": "前端(Not just)工程师终究要掌握的知识",
+          "link": "https://kb.zhangzhipeng.net/#/"
         }
       ]
     }
@@ -30,6 +46,18 @@ export const themeData = {
           "/guide/mac/readme.md",
           "/guide/npm/readme.md",
           "/guide/git-use.md"
+        ]
+      }
+    ],
+    "/vue/": [
+      {
+        "text": "vue",
+        "children": [
+          "/vue/vue3.md",
+          "/vue/vite+eslint+prettier.md",
+          "/vue/elementui.md",
+          "/vue/lowcode.md",
+          "/vue/differerent.md"
         ]
       }
     ]

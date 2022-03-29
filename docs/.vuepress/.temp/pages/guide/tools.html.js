@@ -1,22 +1,15 @@
 export const data = {
-  "key": "v-485c23c5",
-  "path": "/miniProgram.html",
-  "title": "",
+  "key": "v-4d1e69ca",
+  "path": "/guide/tools.html",
+  "title": "工具集🔧",
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
-  "headers": [
-    {
-      "level": 3,
-      "title": "小程序多端框架",
-      "slug": "小程序多端框架",
-      "children": []
-    }
-  ],
+  "headers": [],
   "git": {
-    "updatedTime": 1648449088000
+    "updatedTime": 1647843680000
   },
-  "filePathRelative": "miniProgram.md"
+  "filePathRelative": "guide/tools.md"
 }
 
 if (import.meta.webpackHot) {

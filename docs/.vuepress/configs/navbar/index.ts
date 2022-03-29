@@ -5,6 +5,10 @@ export const navbar:NavbarConfig = [
         link: '/guide/main.md'
     },
     {
+        text: 'VUE',
+        link: '/vue/vue3.md'
+    },    
+    {
         text: '工具',
         link: '/guide/tools.md'
     },    
