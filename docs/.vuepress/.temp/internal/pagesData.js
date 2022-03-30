@@ -29,6 +29,8 @@ export const pagesData = {
   "v-4d1e69ca": () => import(/* webpackChunkName: "v-4d1e69ca" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/guide/tools.html.js").then(({ data }) => data),
   // path: /hello-vue3/
   "v-987215e4": () => import(/* webpackChunkName: "v-987215e4" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/hello-vue3/index.html.js").then(({ data }) => data),
+  // path: /vscode/
+  "v-d3edbba8": () => import(/* webpackChunkName: "v-d3edbba8" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/vscode/index.html.js").then(({ data }) => data),
   // path: /js/%08fullscreen.html
   "v-df171ac4": () => import(/* webpackChunkName: "v-df171ac4" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/js/\bfullscreen.html.js").then(({ data }) => data),
   // path: /js/async-validator.html

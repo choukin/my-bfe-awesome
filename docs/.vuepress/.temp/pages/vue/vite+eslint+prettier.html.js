@@ -35,10 +35,28 @@ export const data = {
       "title": "4. vite-plugin-eslint",
       "slug": "_4-vite-plugin-eslint",
       "children": []
+    },
+    {
+      "level": 2,
+      "title": "5. vscode 保存时自动格式化",
+      "slug": "_5-vscode-保存时自动格式化",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "6. stylelint + less",
+      "slug": "_6-stylelint-less",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "7. vscode 常用配置",
+      "slug": "_7-vscode-常用配置",
+      "children": []
     }
   ],
   "git": {
-    "updatedTime": 1648537056000
+    "updatedTime": 1648538588000
   },
   "filePathRelative": "vue/vite+eslint+prettier.md"
 }

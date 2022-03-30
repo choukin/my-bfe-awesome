@@ -7,7 +7,7 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1648449088000
+    "updatedTime": 1648537056000
   },
   "filePathRelative": "vue/lowcode.md"
 }

@@ -16,6 +16,7 @@ const routeItems = [
   ["v-9b03dde6","/guide/nuxt-readme.html",{"title":"Nuxt"},["/guide/nuxt-readme","/guide/nuxt-readme.md"]],
   ["v-4d1e69ca","/guide/tools.html",{"title":"工具集🔧"},["/guide/tools","/guide/tools.md"]],
   ["v-987215e4","/hello-vue3/",{"title":"hello-vue3"},["/hello-vue3/index.html","/hello-vue3/README.md"]],
+  ["v-d3edbba8","/vscode/",{"title":"VSCode 插件"},["/vscode/index.html","/vscode/index.md"]],
   ["v-df171ac4","/js/%08fullscreen.html",{"title":""},["/js/\bfullscreen.html","/js/%08fullscreen","/js/\bfullscreen.md","/js/%08fullscreen.md"]],
   ["v-d80503b6","/js/async-validator.html",{"title":"async-validator"},["/js/async-validator","/js/async-validator.md"]],
   ["v-2199ce72","/js/iphone.html",{"title":""},["/js/iphone","/js/iphone.md"]],

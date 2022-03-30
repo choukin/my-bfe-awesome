@@ -13,11 +13,22 @@
     - prettier
     - eslint    
     - vite-plugin-perttier
-    - eslint-config-prettier
+
+        将 Prettier 的规则设置到 ESLint 的规则中。
+
+    - eslint-config-prettier 
+
+        关闭 ESLint 中与 Prettier 中会发生冲突的规则。
+
     - vite-plugin-eslint
+    - vue-eslint-parser
+    - eslint-plugin-vue
+    - @typescript-eslint/eslint-plugin 
+    - @typescript-eslint/parser 
     - typescript
     - @types/node
     - vue3
+    - eslint-define-config
 
 ## 1. 使用 vite 生成项目
 
@@ -72,6 +83,41 @@ export default defineConfig({
   ],
 });
 ```
+
+## 5. vscode 保存时自动格式化
+.vscode/settings.json
+```json
+"files.autoSave": "afterDelay",
+"editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+},
+```
+
+
+## 6. stylelint + less
+
+样式检查
+
+```sh
+pnpm install less stylelint stylelint-config-html stylelint-config-prettier stylelint-config-standard stylelint-order  postcss postcss-html postcss-less autoprefixer -D
+
+```
+
+postcss.config.js
+
+@[code js](./config/postcss.config.js)
+
+stylelint.config.js
+
+@[code js](./config/stylelint.config.js)
+
+
+## 7. vscode 常用配置
+
+.vscode/settings.json
+
+@[code json](./config//settings.json)
+
 
 
 

@@ -31,6 +31,8 @@ export const pagesComponents = {
   "v-4d1e69ca": defineAsyncComponent(() => import(/* webpackChunkName: "v-4d1e69ca" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/guide/tools.html.vue")),
   // path: /hello-vue3/
   "v-987215e4": defineAsyncComponent(() => import(/* webpackChunkName: "v-987215e4" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/hello-vue3/index.html.vue")),
+  // path: /vscode/
+  "v-d3edbba8": defineAsyncComponent(() => import(/* webpackChunkName: "v-d3edbba8" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/vscode/index.html.vue")),
   // path: /js/%08fullscreen.html
   "v-df171ac4": defineAsyncComponent(() => import(/* webpackChunkName: "v-df171ac4" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/js/\bfullscreen.html.vue")),
   // path: /js/async-validator.html

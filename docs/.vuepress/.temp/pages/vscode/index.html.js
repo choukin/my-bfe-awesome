@@ -1,29 +1,35 @@
 export const data = {
-  "key": "v-6b7082aa",
-  "path": "/vue/elementui.html",
-  "title": "element UI 问题记录",
+  "key": "v-d3edbba8",
+  "path": "/vscode/",
+  "title": "VSCode 插件",
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
   "headers": [
     {
       "level": 2,
-      "title": "问题描述：",
-      "slug": "问题描述",
+      "title": "安装生成器",
+      "slug": "安装生成器",
       "children": [
         {
           "level": 3,
-          "title": "知识点：",
-          "slug": "知识点",
+          "title": "生成模版",
+          "slug": "生成模版",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "项目介绍",
+          "slug": "项目介绍",
           "children": []
         }
       ]
     }
   ],
   "git": {
-    "updatedTime": 1648537056000
+    "updatedTime": null
   },
-  "filePathRelative": "vue/elementui.md"
+  "filePathRelative": "vscode/index.md"
 }
 
 if (import.meta.webpackHot) {
