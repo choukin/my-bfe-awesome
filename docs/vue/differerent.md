@@ -104,6 +104,13 @@ vue3
         { immediate: true }
       );
       
+      // 侦听 props 上的属性变化
+      watch(
+        () => props.name,
+        (name, prevName) => {
+          /* ... */
+        }
+
       // 监听多个ref
       watch([title, num], ([newTitle, newNum], [oldTitle, oldNum]) => {
         /* ... */

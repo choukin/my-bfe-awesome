@@ -18,3 +18,16 @@
 - email: 邮箱地址.
 
 - { type: 'pattern', pattern: /^[1-9]\d*$/, message: '请输入正整数', trigger: 'blur' }
+
+```js
+// 手机号
+export const phonePattern = /1([0-9])\d{9}/;
+// 校验中文 2 到 6位长度
+export const chineseNamePattern = /^[\u4E00-\u9FFF]{2,6}$/;
+// 身份证正则
+export const idCardPattern = /^[1-9]\d{5}[1-9]\d{3}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}([0-9]|X)$/;
+// 手机号脱敏
+export const hiddenMobile = mobile => {
+  if (mobile.length === 11) return mobile.replace(/(\d{3})\d{4}(\d{4})/, '$1****$2');
+};
+```

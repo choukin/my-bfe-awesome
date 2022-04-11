@@ -33,3 +33,13 @@ yo code
 :::tip
  项目的入口文件是 `package.json` `src/extension.js`
 :::
+
+:::tip
+首次调试按 `F5` 会打开一个新的vscode窗口，写的插件会在新窗口里运行， 修改代码后在新窗口 (`Ctrl+R` or `Cmd+R` on Mac) 重新预览效果
+:::
+
+## hello
+
+```json
+
+## package.json
