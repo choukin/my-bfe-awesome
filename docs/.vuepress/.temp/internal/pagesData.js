@@ -29,8 +29,6 @@ export const pagesData = {
   "v-4d1e69ca": () => import(/* webpackChunkName: "v-4d1e69ca" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/guide/tools.html.js").then(({ data }) => data),
   // path: /hello-vue3/
   "v-987215e4": () => import(/* webpackChunkName: "v-987215e4" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/hello-vue3/index.html.js").then(({ data }) => data),
-  // path: /vscode/
-  "v-d3edbba8": () => import(/* webpackChunkName: "v-d3edbba8" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/vscode/index.html.js").then(({ data }) => data),
   // path: /js/%08fullscreen.html
   "v-df171ac4": () => import(/* webpackChunkName: "v-df171ac4" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/js/\bfullscreen.html.js").then(({ data }) => data),
   // path: /js/async-validator.html
@@ -49,6 +47,8 @@ export const pagesData = {
   "v-2a5172b3": () => import(/* webpackChunkName: "v-2a5172b3" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/js/savefile.html.js").then(({ data }) => data),
   // path: /js/ts.html
   "v-62ddaaad": () => import(/* webpackChunkName: "v-62ddaaad" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/js/ts.html.js").then(({ data }) => data),
+  // path: /vscode/
+  "v-d3edbba8": () => import(/* webpackChunkName: "v-d3edbba8" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/vscode/index.html.js").then(({ data }) => data),
   // path: /vue/differerent.html
   "v-94d24d62": () => import(/* webpackChunkName: "v-94d24d62" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/vue/differerent.html.js").then(({ data }) => data),
   // path: /vue/elementui.html
@@ -63,6 +63,8 @@ export const pagesData = {
   "v-6abdbdea": () => import(/* webpackChunkName: "v-6abdbdea" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/vue/vue3.html.js").then(({ data }) => data),
   // path: /webpack/webpack.html
   "v-5c093d67": () => import(/* webpackChunkName: "v-5c093d67" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/webpack/webpack.html.js").then(({ data }) => data),
+  // path: /guide/excel/
+  "v-6a4c4778": () => import(/* webpackChunkName: "v-6a4c4778" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/guide/excel/index.html.js").then(({ data }) => data),
   // path: /guide/mac/
   "v-5d5230a8": () => import(/* webpackChunkName: "v-5d5230a8" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/guide/mac/index.html.js").then(({ data }) => data),
   // path: /guide/npm/

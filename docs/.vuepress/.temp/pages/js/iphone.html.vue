@@ -1,4 +1,5 @@
-<template><h2 id="在网页设计css中-经常用到字体-而字体大小的设置单位-常用的有2种-px、pt。这两个有什么区别呢" tabindex="-1"><a class="header-anchor" href="#在网页设计css中-经常用到字体-而字体大小的设置单位-常用的有2种-px、pt。这两个有什么区别呢" aria-hidden="true">#</a> 在网页设计css中，经常用到字体，而字体大小的设置单位，常用的有2种：px、pt。这两个有什么区别呢？</h2>
+<template><h1 id="尺寸相关" tabindex="-1"><a class="header-anchor" href="#尺寸相关" aria-hidden="true">#</a> 尺寸相关</h1>
+<h2 id="在网页设计css中-经常用到字体-而字体大小的设置单位-常用的有2种-px、pt。这两个有什么区别呢" tabindex="-1"><a class="header-anchor" href="#在网页设计css中-经常用到字体-而字体大小的设置单位-常用的有2种-px、pt。这两个有什么区别呢" aria-hidden="true">#</a> 在网页设计css中，经常用到字体，而字体大小的设置单位，常用的有2种：px、pt。这两个有什么区别呢？</h2>
 <p>先搞清基本概念：</p>
 <ul>
 <li>px就是表示pixel，</li>

@@ -1,22 +1,15 @@
 export const data = {
-  "key": "v-d80503b6",
-  "path": "/js/async-validator.html",
-  "title": "async-validator",
+  "key": "v-6a4c4778",
+  "path": "/guide/excel/",
+  "title": "exlcel 技巧",
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "Type 内置类型",
-      "slug": "type-内置类型",
-      "children": []
-    }
-  ],
+  "headers": [],
   "git": {
-    "updatedTime": 1650535242000
+    "updatedTime": 1649758294000
   },
-  "filePathRelative": "js/async-validator.md"
+  "filePathRelative": "guide/excel/index.md"
 }
 
 if (import.meta.webpackHot) {

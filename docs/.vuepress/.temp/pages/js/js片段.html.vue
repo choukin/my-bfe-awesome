@@ -1,4 +1,4 @@
-<template><h2 id="js-片段" tabindex="-1"><a class="header-anchor" href="#js-片段" aria-hidden="true">#</a> js 片段</h2>
+<template><h1 id="js-片段" tabindex="-1"><a class="header-anchor" href="#js-片段" aria-hidden="true">#</a> js 片段</h1>
 <h3 id="特性" tabindex="-1"><a class="header-anchor" href="#特性" aria-hidden="true">#</a> 特性</h3>
 <ul>
 <li>

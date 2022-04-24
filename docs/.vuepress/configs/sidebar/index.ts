@@ -25,5 +25,21 @@ export const sidebar:SidebarConfig = {
                 '/vue/differerent.md'
             ]
         }
+    ],
+    '/js/':[
+        {
+            text:'JS片段',
+            children:[
+                '/js/js片段.md',
+                '/js/rem.md',
+                '/js/savefile.md',
+                '/js/ts.md',
+                '/js/js-task-origin.md',
+                '/js/js-native-copy.md',
+                '/js/iphone.md',
+                '/js/async-validator.md',
+                '/js/mp/index.md'
+            ]
+        }
     ]
 }

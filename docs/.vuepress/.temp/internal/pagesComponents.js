@@ -31,8 +31,6 @@ export const pagesComponents = {
   "v-4d1e69ca": defineAsyncComponent(() => import(/* webpackChunkName: "v-4d1e69ca" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/guide/tools.html.vue")),
   // path: /hello-vue3/
   "v-987215e4": defineAsyncComponent(() => import(/* webpackChunkName: "v-987215e4" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/hello-vue3/index.html.vue")),
-  // path: /vscode/
-  "v-d3edbba8": defineAsyncComponent(() => import(/* webpackChunkName: "v-d3edbba8" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/vscode/index.html.vue")),
   // path: /js/%08fullscreen.html
   "v-df171ac4": defineAsyncComponent(() => import(/* webpackChunkName: "v-df171ac4" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/js/\bfullscreen.html.vue")),
   // path: /js/async-validator.html
@@ -51,6 +49,8 @@ export const pagesComponents = {
   "v-2a5172b3": defineAsyncComponent(() => import(/* webpackChunkName: "v-2a5172b3" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/js/savefile.html.vue")),
   // path: /js/ts.html
   "v-62ddaaad": defineAsyncComponent(() => import(/* webpackChunkName: "v-62ddaaad" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/js/ts.html.vue")),
+  // path: /vscode/
+  "v-d3edbba8": defineAsyncComponent(() => import(/* webpackChunkName: "v-d3edbba8" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/vscode/index.html.vue")),
   // path: /vue/differerent.html
   "v-94d24d62": defineAsyncComponent(() => import(/* webpackChunkName: "v-94d24d62" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/vue/differerent.html.vue")),
   // path: /vue/elementui.html
@@ -65,6 +65,8 @@ export const pagesComponents = {
   "v-6abdbdea": defineAsyncComponent(() => import(/* webpackChunkName: "v-6abdbdea" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/vue/vue3.html.vue")),
   // path: /webpack/webpack.html
   "v-5c093d67": defineAsyncComponent(() => import(/* webpackChunkName: "v-5c093d67" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/webpack/webpack.html.vue")),
+  // path: /guide/excel/
+  "v-6a4c4778": defineAsyncComponent(() => import(/* webpackChunkName: "v-6a4c4778" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/guide/excel/index.html.vue")),
   // path: /guide/mac/
   "v-5d5230a8": defineAsyncComponent(() => import(/* webpackChunkName: "v-5d5230a8" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/guide/mac/index.html.vue")),
   // path: /guide/npm/

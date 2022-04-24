@@ -56,7 +56,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1648538588000
+    "updatedTime": 1648641931000
   },
   "filePathRelative": "vue/vite+eslint+prettier.md"
 }

@@ -7,7 +7,11 @@ export const navbar:NavbarConfig = [
     {
         text: 'VUE',
         link: '/vue/vue3.md'
-    },    
+    }, 
+    {
+        text: 'JS片段',
+        link: '/js/js片段.md'
+    },        
     {
         text: '工具',
         link: '/guide/tools.md'

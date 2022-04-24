@@ -21,4 +21,9 @@
 </code></pre><div class="highlight-lines"><br><br><br><br><br><div class="highlight-line">&nbsp;</div><br><div class="highlight-line">&nbsp;</div><br><br><br><br></div><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>项目的入口文件是 <code>package.json</code> <code>src/extension.js</code></p>
 </div>
-</template>
+<div class="custom-container tip"><p class="custom-container-title">提示</p>
+<p>首次调试按 <code>F5</code> 会打开一个新的vscode窗口，写的插件会在新窗口里运行， 修改代码后在新窗口 (<code>Ctrl+R</code> or <code>Cmd+R</code> on Mac) 重新预览效果</p>
+</div>
+<h2 id="hello" tabindex="-1"><a class="header-anchor" href="#hello" aria-hidden="true">#</a> hello</h2>
+<div class="language-json ext-json line-numbers-mode"><pre v-pre class="language-json"><code>
+## package.json</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div></template>
