@@ -160,25 +160,11 @@ new HtmlWebpackPlugin({
 - [用户指引库](https://github.com/usablica/intro.js/)
 - [腾讯蓝鲸](http://o.qcloud.com/static/api/v3/#templates)
 
-## 博客
 
-- [美团技术团队](https://tech.meituan.com/)
-- [朱嘉伟](http://buzhundong.com/)
-- [小火柴的蓝色理想](https://www.xiaohuochai.cc/)
-- [dwqs/blog](https://github.com/dwqs/blog)
-- [滴滴前端博客](https://github.com/DDFE/DDFE-blog)
-- [CSS教程](https://pengfeixc.com/)
 
 ## 工具
 
-### 图片相关
 
-- [Tinypng 压缩图片](https://tinypng.com/)
-- [智图 压缩](https://zhitu.isux.us/)
-- [up up to you 生产举牌小人图片](http://upuptoyou.com/)
-- [生成文字云图片](https://wordart.com/create)
-- [网页编辑图片工具](https://nhnent.github.io/tui.image-editor/latest/)
-- [免费商用的插画](https://illlustrations.co/)
 
 ### pm2
 

@@ -1,7 +1,36 @@
 <template><h1 id="工具集🔧" tabindex="-1"><a class="header-anchor" href="#工具集🔧" aria-hidden="true">#</a> 工具集🔧</h1>
-<p>1、 <a href="https://github.com/Bowen7/regex-vis" target="_blank" rel="noopener noreferrer">正则表达式可视化编辑器<ExternalLinkIcon/></a></p>
+<ul>
+<li><a href="https://qwerty.cooleryue.cn/gallery" target="_blank" rel="noopener noreferrer">学习单词的好工具<ExternalLinkIcon/></a></li>
+</ul>
+<h2 id="图片相关" tabindex="-1"><a class="header-anchor" href="#图片相关" aria-hidden="true">#</a> 图片相关</h2>
+<ul>
+<li><a href="https://devtool.tech/image-share" target="_blank" rel="noopener noreferrer">图片美化<ExternalLinkIcon/></a></li>
+<li><a href="https://svgsilh.com/" target="_blank" rel="noopener noreferrer">SVG 图片库<ExternalLinkIcon/></a></li>
+<li><a href="https://dotown.maeda-design-room.net/" target="_blank" rel="noopener noreferrer">像素图片<ExternalLinkIcon/></a></li>
+<li><a href="https://tinypng.com/" target="_blank" rel="noopener noreferrer">Tinypng 压缩图片<ExternalLinkIcon/></a></li>
+<li><a href="https://zhitu.isux.us/" target="_blank" rel="noopener noreferrer">智图 压缩<ExternalLinkIcon/></a></li>
+<li><a href="http://upuptoyou.com/" target="_blank" rel="noopener noreferrer">up up to you 生产举牌小人图片<ExternalLinkIcon/></a></li>
+<li><a href="https://wordart.com/create" target="_blank" rel="noopener noreferrer">生成文字云图片<ExternalLinkIcon/></a></li>
+<li><a href="https://nhnent.github.io/tui.image-editor/latest/" target="_blank" rel="noopener noreferrer">网页编辑图片工具<ExternalLinkIcon/></a></li>
+<li><a href="https://illlustrations.co/" target="_blank" rel="noopener noreferrer">免费商用的插画<ExternalLinkIcon/></a></li>
+</ul>
+<h2 id="js-css" tabindex="-1"><a class="header-anchor" href="#js-css" aria-hidden="true">#</a> js/css</h2>
+<ul>
+<li><a href="https://www.deviceinfo.me/" target="_blank" rel="noopener noreferrer">显示浏览器可以收集的所有用户设备信息<ExternalLinkIcon/></a></li>
+<li><a href="https://github.com/Bowen7/regex-vis" target="_blank" rel="noopener noreferrer">正则表达式可视化编辑器<ExternalLinkIcon/></a>
 <ul>
 <li><a href="https://regex-vis.com/" target="_blank" rel="noopener noreferrer">网站<ExternalLinkIcon/></a></li>
 </ul>
-<p>2 <a href="https://bpmn.io/" target="_blank" rel="noopener noreferrer">BPMN, DMN and Forms.<ExternalLinkIcon/></a></p>
+</li>
+<li><a href="https://bpmn.io/" target="_blank" rel="noopener noreferrer">BPMN, DMN and Forms.<ExternalLinkIcon/></a></li>
+</ul>
+<h2 id="博客" tabindex="-1"><a class="header-anchor" href="#博客" aria-hidden="true">#</a> 博客</h2>
+<ul>
+<li><a href="https://tech.meituan.com/" target="_blank" rel="noopener noreferrer">美团技术团队<ExternalLinkIcon/></a></li>
+<li><a href="http://buzhundong.com/" target="_blank" rel="noopener noreferrer">朱嘉伟<ExternalLinkIcon/></a></li>
+<li><a href="https://www.xiaohuochai.cc/" target="_blank" rel="noopener noreferrer">小火柴的蓝色理想<ExternalLinkIcon/></a></li>
+<li><a href="https://github.com/dwqs/blog" target="_blank" rel="noopener noreferrer">dwqs/blog<ExternalLinkIcon/></a></li>
+<li><a href="https://github.com/DDFE/DDFE-blog" target="_blank" rel="noopener noreferrer">滴滴前端博客<ExternalLinkIcon/></a></li>
+<li><a href="https://pengfeixc.com/" target="_blank" rel="noopener noreferrer">CSS教程<ExternalLinkIcon/></a></li>
+</ul>
 </template>

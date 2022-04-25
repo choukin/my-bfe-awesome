@@ -195,25 +195,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
 <li><a href="https://github.com/usablica/intro.js/" target="_blank" rel="noopener noreferrer">用户指引库<ExternalLinkIcon/></a></li>
 <li><a href="http://o.qcloud.com/static/api/v3/#templates" target="_blank" rel="noopener noreferrer">腾讯蓝鲸<ExternalLinkIcon/></a></li>
 </ul>
-<h2 id="博客" tabindex="-1"><a class="header-anchor" href="#博客" aria-hidden="true">#</a> 博客</h2>
-<ul>
-<li><a href="https://tech.meituan.com/" target="_blank" rel="noopener noreferrer">美团技术团队<ExternalLinkIcon/></a></li>
-<li><a href="http://buzhundong.com/" target="_blank" rel="noopener noreferrer">朱嘉伟<ExternalLinkIcon/></a></li>
-<li><a href="https://www.xiaohuochai.cc/" target="_blank" rel="noopener noreferrer">小火柴的蓝色理想<ExternalLinkIcon/></a></li>
-<li><a href="https://github.com/dwqs/blog" target="_blank" rel="noopener noreferrer">dwqs/blog<ExternalLinkIcon/></a></li>
-<li><a href="https://github.com/DDFE/DDFE-blog" target="_blank" rel="noopener noreferrer">滴滴前端博客<ExternalLinkIcon/></a></li>
-<li><a href="https://pengfeixc.com/" target="_blank" rel="noopener noreferrer">CSS教程<ExternalLinkIcon/></a></li>
-</ul>
 <h2 id="工具" tabindex="-1"><a class="header-anchor" href="#工具" aria-hidden="true">#</a> 工具</h2>
-<h3 id="图片相关" tabindex="-1"><a class="header-anchor" href="#图片相关" aria-hidden="true">#</a> 图片相关</h3>
-<ul>
-<li><a href="https://tinypng.com/" target="_blank" rel="noopener noreferrer">Tinypng 压缩图片<ExternalLinkIcon/></a></li>
-<li><a href="https://zhitu.isux.us/" target="_blank" rel="noopener noreferrer">智图 压缩<ExternalLinkIcon/></a></li>
-<li><a href="http://upuptoyou.com/" target="_blank" rel="noopener noreferrer">up up to you 生产举牌小人图片<ExternalLinkIcon/></a></li>
-<li><a href="https://wordart.com/create" target="_blank" rel="noopener noreferrer">生成文字云图片<ExternalLinkIcon/></a></li>
-<li><a href="https://nhnent.github.io/tui.image-editor/latest/" target="_blank" rel="noopener noreferrer">网页编辑图片工具<ExternalLinkIcon/></a></li>
-<li><a href="https://illlustrations.co/" target="_blank" rel="noopener noreferrer">免费商用的插画<ExternalLinkIcon/></a></li>
-</ul>
 <h3 id="pm2" tabindex="-1"><a class="header-anchor" href="#pm2" aria-hidden="true">#</a> pm2</h3>
 <h4 id="安装" tabindex="-1"><a class="header-anchor" href="#安装" aria-hidden="true">#</a> 安装</h4>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code>  npm install pm2 <span class="token operator">-</span>g

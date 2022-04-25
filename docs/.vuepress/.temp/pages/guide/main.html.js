@@ -64,21 +64,9 @@ export const data = {
     },
     {
       "level": 2,
-      "title": "博客",
-      "slug": "博客",
-      "children": []
-    },
-    {
-      "level": 2,
       "title": "工具",
       "slug": "工具",
       "children": [
-        {
-          "level": 3,
-          "title": "图片相关",
-          "slug": "图片相关",
-          "children": []
-        },
         {
           "level": 3,
           "title": "pm2",

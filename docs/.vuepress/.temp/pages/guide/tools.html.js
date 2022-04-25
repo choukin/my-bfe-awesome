@@ -5,7 +5,26 @@ export const data = {
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
-  "headers": [],
+  "headers": [
+    {
+      "level": 2,
+      "title": "图片相关",
+      "slug": "图片相关",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "js/css",
+      "slug": "js-css",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "博客",
+      "slug": "博客",
+      "children": []
+    }
+  ],
   "git": {
     "updatedTime": 1648641931000
   },
