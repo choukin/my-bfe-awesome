@@ -172,7 +172,7 @@ git pull --allow-unrelated-histories
    ``` 
   - 删除远程分支
    ```sh
-      git push origin  -D branchName
+      git push origin --delete branchname
    ```    
 
 6. 命令git update-index --assume-unchanged，忽略不想提交的文件（忽略跟踪）

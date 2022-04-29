@@ -239,3 +239,11 @@ var htmlSTring =
 ```
 
 http://[fe80::461c:a8ff:fe2a:accf%2]:3911/1ed680d5-6138-4608-a269-8840850a96f9
+
+
+
+## 项目模版
+
+- [vue3 + setup + ts， vw + rem等来搭建的移动端项目](https://github.com/cll123456/template-varlet-v3-ts)
+
+- [vue3 企业端项目](https://vvbin.cn/doc-next/)

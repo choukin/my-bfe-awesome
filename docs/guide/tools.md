@@ -32,3 +32,9 @@
 - [dwqs/blog](https://github.com/dwqs/blog)
 - [滴滴前端博客](https://github.com/DDFE/DDFE-blog)
 - [CSS教程](https://pengfeixc.com/)
+
+
+## 软件
+- [打造一个高效的开发终端](https://zhuanlan.zhihu.com/p/438124776)
+- [asdf](http://asdf-vm.com/zh-hans/)
+  管理多个运行环境版本的简单命令行工具
