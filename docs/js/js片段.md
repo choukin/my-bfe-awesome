@@ -350,3 +350,54 @@ if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
         }
     })
 ```
+
+
+### 监听错误
+```js
+
+      var errors = [];
+      function collectError() {
+        // 资源加载错误数据采集
+        addEventListener(
+          "error",
+          (e) => {
+            var target = e.target;
+            if (target != window) {
+              var item = {
+                type: target.localName,
+                url: target.src || target.href,
+                msg: (target.src || target.href) + " is load error",
+                time: new Date().getTime(), // 错误发生的时间
+              };
+              errors.push(item);
+              alert(JSON.stringify(item));
+            }
+          },
+          true
+        );
+        // 监听js错误
+        window.onerror = function (msg, url, row, col, error) {
+          var item = {
+            type: "javascript",
+            row: row,
+            col: col,
+            msg: error && error.stack ? error.stack : msg,
+            url: url,
+            time: new Date().getTime(), // 错误发生的时间
+          };
+          errors.push(item);
+          alert(JSON.stringify(item));
+        };
+        // 监听 promise 错误 缺点是获取不到行数数据
+        addEventListener("unhandledrejection", (e) => {
+          var item = {
+            type: "promise",
+            msg: (e.reason && e.reason.msg) || e.reason || "",
+            time: new Date().getTime(), // 错误发生的时间
+          };
+          errors.push(item);
+          alert(JSON.stringify(item));
+        });
+      }
+      collectError();
+```      

@@ -1,7 +1,11 @@
 # [VSCode 插件](https://github.com/sxei/vscode-plugin-demo)
 - [参考](http://blog.haoji.me/vscode-plugin-overview.html)
+
+
 - [官方文档](https://code.visualstudio.com/api/get-started/your-first-extension)
 
+
+    - [when 语句可以使用的上下文](https://code.visualstudio.com/api/references/when-clause-contexts)
 ## vscode 插件能做什么
 - 不受限制的访问本地磁盘
 - 自定义命令，快捷，菜单
@@ -326,8 +330,22 @@ context.subscriptions.push(vscode.commands.registerTextEditorCommand('extension.
 
  也可以打开快捷键设置，查看命令右键赋值命令
 
+ ### [内置命令](https://code.visualstudio.com/api/references/commands)
+  打开文件夹，高亮、格式化等
+
+
 
  ## 菜单
+
+ ### 配置
+
+- key
+- `when` [出现时机](https://code.visualstudio.com/api/references/when-clause-contexts)
+- `command` 定义菜单被点击后要执行的命令
+- `alt` 定义备用命令，按住 `alt` 键打开菜单时执行对应命令；
+- `group` 菜单分组
+
+ ### key/位置 列表
 |key|解释|
 |:-:|:-:|
 |explorer/context|资源管理器上下文菜单|
@@ -341,16 +359,30 @@ context.subscriptions.push(vscode.commands.registerTextEditorCommand('extension.
 |view/title|左侧是图标题菜单|
 |view/item/context|视图项菜单|
 |commandPalette|控制命令是否显示在命令选项板中|
-|||
-|||
-|||
-|||
-|||
-|||
-|||
 
-- explorer/context 
-- editor/content 
+
+###  group 
+
+#### `editor/context` 编辑器默认组有
+ - `navigative` 最上面的组
+ - `1_modification` 更改组
+ - `9_cutcopypaste` 编辑组
+ - `z_commands` 默认分组
+
+ ![editor-title-group](img/groupSorting.png)
+
+#### [explorer/context](https://code.visualstudio.com/api/references/contribution-points)
+
+ -  navigation
+ - 2_workspace
+ - 3_compare
+ - 4_search
+ - 5_cutcopypaste
+ - 6_copypath
+ - 7_modification
+
+ ### 
+
 
 
 

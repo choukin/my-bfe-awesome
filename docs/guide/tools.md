@@ -14,6 +14,7 @@
   - [生成文字云图片](https://wordart.com/create)
   - [网页编辑图片工具](https://nhnent.github.io/tui.image-editor/latest/)
   - [免费商用的插画](https://illlustrations.co/)
+  - [1000多个 svg icons](https://iconoir.com/)
 
 
 ## js/css
@@ -32,9 +33,12 @@
 - [dwqs/blog](https://github.com/dwqs/blog)
 - [滴滴前端博客](https://github.com/DDFE/DDFE-blog)
 - [CSS教程](https://pengfeixc.com/)
+- [前端工程化三十八讲](https://q.shanyue.tech/engineering/)
 
 
 ## 软件
 - [打造一个高效的开发终端](https://zhuanlan.zhihu.com/p/438124776)
 - [asdf](http://asdf-vm.com/zh-hans/)
   管理多个运行环境版本的简单命令行工具
+
+- [bilibili视频下载工具](https://github.com/sansui-orz/bilibili2local)
