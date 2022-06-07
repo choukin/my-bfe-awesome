@@ -55,10 +55,35 @@ export const data = {
       "title": "账号管理",
       "slug": "账号管理",
       "children": []
+    },
+    {
+      "level": 2,
+      "title": "用户组",
+      "slug": "用户组",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "磁盘管理",
+      "slug": "磁盘管理",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "进程管理",
+      "slug": "进程管理",
+      "children": [
+        {
+          "level": 3,
+          "title": "ps 查看当前系统中正在执行的各种进程信息",
+          "slug": "ps-查看当前系统中正在执行的各种进程信息",
+          "children": []
+        }
+      ]
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1654568116000
   },
   "filePathRelative": "guide/linux/index.md"
 }

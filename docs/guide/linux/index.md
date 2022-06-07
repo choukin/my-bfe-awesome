@@ -236,3 +236,103 @@ r:4 w:2 x:1
     - `¥` 表示普通用户
     - `#` 表示root用户
 
+
+  - 查看主机名称
+    ```sh
+    hostname
+    ```  
+  - 修改/设置用户密码  
+    ```sh
+      passwd <username> # 没有用户名就是修改自己的秘密 带用户名就是修改指定用户密码
+    ```
+
+  - 查看用户
+    ```sh
+      cat /etc/passwd
+    ```
+    用户名:口令:用户标识：组标识：注释性描述：主目录：登录shell
+
+  - 查看加密的密码
+    ```sh
+      cat /etc/shadow
+    ```  
+    登录名：加密口令：最后一次修改时间：最小时间间隔：警告时间：不活动时间（天）：失效时间（天）：标志
+
+
+  - 查看组
+   ```sh
+      cat /etc/group
+   ```  
+
+
+  - 锁定账户,锁定后不能登录
+    ```sh
+      passwd -l guest # 锁定
+      passwd -d guest # 清空密码也不能登录
+    ``` 
+## 用户组
+ - 创建用户组
+  ```sh
+    groupadd <newgroupname> -option
+  ```
+
+     - `-g` 指定id
+
+  - 删除用户组 groupdel
+
+  - 修改用户组权限信息
+   - groupmod -g <id> -n newname  oldname
+
+  - 切换用户组
+    - newgroup groupname
+
+
+## 磁盘管理
+- df 列出文件系统整体磁盘使用量
+    - -h G/M 单位
+- du 检查磁盘使用量 一般会进入指定目录查看
+    ```sh
+      du -sm /*
+    ```
+
+- mount 挂载
+   ```sh
+    mount /dev/someupan /mnt/kuangshen
+   ```
+
+- unmount 卸载
+  - -f 强制卸载 
+  ```sh
+    unmount -f [挂载位置]
+  ``` 
+        
+
+## 进程管理
+
+ - Linux 中每个程序都有自己的进程，每个进程都有一个id号
+ - 每个进程都会有一个父进程
+ - 进程存在的两种方式 前台 后台运行
+ - 一般的服务都是后台运行，基本的程序都是前台运行的
+
+ ### ps 查看当前系统中正在执行的各种进程信息
+  - ps
+    - -a 显示当前终端运行的所有的进程信息
+    - -u 以用户的信息显示进程
+    - -x 显示后台运行进程的参数
+
+    ```sh
+     # 查看所有进程
+     ps -aux |grep mysql
+    ```  
+    - ｜ 管道命令
+    - grep 查找文件中符合调教的字符串
+
+  - ps -ef|grep mysql 查看父进程信息
+
+  -  pstree -pu 进程树展示
+      - p 显示父id
+      - u 显示用户组
+
+  - 杀掉进程 kill -9 【进程id】     
+  
+

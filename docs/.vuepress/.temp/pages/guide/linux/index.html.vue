@@ -382,5 +382,117 @@ vim -o/O ./a.txt ./b.txt
 <li><code>#</code> 表示root用户</li>
 </ul>
 </li>
+<li>
+<p>查看主机名称</p>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">hostname</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div></li>
+<li>
+<p>修改/设置用户密码</p>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>  <span class="token function">passwd</span> <span class="token operator">&lt;</span>username<span class="token operator">></span> <span class="token comment"># 没有用户名就是修改自己的秘密 带用户名就是修改指定用户密码</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div></li>
+<li>
+<p>查看用户</p>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>  <span class="token function">cat</span> /etc/passwd
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><p>用户名:口令:用户标识：组标识：注释性描述：主目录：登录shell</p>
+</li>
+<li>
+<p>查看加密的密码</p>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>  <span class="token function">cat</span> /etc/shadow
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><p>登录名：加密口令：最后一次修改时间：最小时间间隔：警告时间：不活动时间（天）：失效时间（天）：标志</p>
+</li>
+<li>
+<p>查看组</p>
+</li>
+</ul>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>   <span class="token function">cat</span> /etc/group
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><ul>
+<li>锁定账户,锁定后不能登录<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>  <span class="token function">passwd</span> -l guest <span class="token comment"># 锁定</span>
+  <span class="token function">passwd</span> -d guest <span class="token comment"># 清空密码也不能登录</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div></li>
+</ul>
+<h2 id="用户组" tabindex="-1"><a class="header-anchor" href="#用户组" aria-hidden="true">#</a> 用户组</h2>
+<ul>
+<li>创建用户组</li>
+</ul>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>  <span class="token function">groupadd</span> <span class="token operator">&lt;</span>newgroupname<span class="token operator">></span> -option
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><pre><code> - `-g` 指定id
+</code></pre>
+<ul>
+<li>
+<p>删除用户组 groupdel</p>
+</li>
+<li>
+<p>修改用户组权限信息</p>
+</li>
+<li>
+<p>groupmod -g <id> -n newname  oldname</p>
+</li>
+<li>
+<p>切换用户组</p>
+<ul>
+<li>newgroup groupname</li>
+</ul>
+</li>
+</ul>
+<h2 id="磁盘管理" tabindex="-1"><a class="header-anchor" href="#磁盘管理" aria-hidden="true">#</a> 磁盘管理</h2>
+<ul>
+<li>
+<p>df 列出文件系统整体磁盘使用量</p>
+<ul>
+<li>-h G/M 单位</li>
+</ul>
+</li>
+<li>
+<p>du 检查磁盘使用量 一般会进入指定目录查看</p>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>  <span class="token function">du</span> -sm /*
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div></li>
+<li>
+<p>mount 挂载</p>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code> <span class="token function">mount</span> /dev/someupan /mnt/kuangshen
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div></li>
+<li>
+<p>unmount 卸载</p>
+<ul>
+<li>-f 强制卸载</li>
+</ul>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>  unmount -f <span class="token punctuation">[</span>挂载位置<span class="token punctuation">]</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div></li>
+</ul>
+<h2 id="进程管理" tabindex="-1"><a class="header-anchor" href="#进程管理" aria-hidden="true">#</a> 进程管理</h2>
+<ul>
+<li>Linux 中每个程序都有自己的进程，每个进程都有一个id号</li>
+<li>每个进程都会有一个父进程</li>
+<li>进程存在的两种方式 前台 后台运行</li>
+<li>一般的服务都是后台运行，基本的程序都是前台运行的</li>
+</ul>
+<h3 id="ps-查看当前系统中正在执行的各种进程信息" tabindex="-1"><a class="header-anchor" href="#ps-查看当前系统中正在执行的各种进程信息" aria-hidden="true">#</a> ps 查看当前系统中正在执行的各种进程信息</h3>
+<ul>
+<li>
+<p>ps</p>
+<ul>
+<li>-a 显示当前终端运行的所有的进程信息</li>
+<li>-u 以用户的信息显示进程</li>
+<li>-x 显示后台运行进程的参数</li>
+</ul>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code> <span class="token comment"># 查看所有进程</span>
+ <span class="token function">ps</span> -aux <span class="token operator">|</span><span class="token function">grep</span> mysql
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ul>
+<li>｜ 管道命令</li>
+<li>grep 查找文件中符合调教的字符串</li>
+</ul>
+</li>
+<li>
+<p>ps -ef|grep mysql 查看父进程信息</p>
+</li>
+<li>
+<p>pstree -pu 进程树展示</p>
+<ul>
+<li>p 显示父id</li>
+<li>u 显示用户组</li>
+</ul>
+</li>
+<li>
+<p>杀掉进程 kill -9 【进程id】</p>
+</li>
 </ul>
 </template>
