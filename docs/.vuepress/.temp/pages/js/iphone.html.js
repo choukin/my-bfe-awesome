@@ -39,7 +39,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1646640020000
+    "updatedTime": 1650768637000
   },
   "filePathRelative": "js/iphone.md"
 }

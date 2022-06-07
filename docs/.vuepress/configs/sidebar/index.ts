@@ -9,6 +9,8 @@ export const sidebar:SidebarConfig = {
                 '/guide/mac/readme.md',
                 '/guide/npm/readme.md',
                 '/guide/git-use.md',
+                '/guide/linux/index.md',
+                '/guide/excel/index.md'
                 
                 
             ]

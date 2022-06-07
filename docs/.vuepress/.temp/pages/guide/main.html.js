@@ -86,10 +86,16 @@ export const data = {
       "title": "字符串模版 折行转义字符",
       "slug": "字符串模版-折行转义字符",
       "children": []
+    },
+    {
+      "level": 2,
+      "title": "项目模版",
+      "slug": "项目模版",
+      "children": []
     }
   ],
   "git": {
-    "updatedTime": 1646897333000
+    "updatedTime": 1651202888000
   },
   "filePathRelative": "guide/main.md"
 }

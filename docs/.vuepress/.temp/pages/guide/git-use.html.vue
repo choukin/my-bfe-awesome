@@ -142,7 +142,7 @@ Host gitee.com
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><ul>
 <li>删除远程分支</li>
 </ul>
-<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>   <span class="token function">git</span> push origin  -D branchName
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>   <span class="token function">git</span> push origin --delete branchname
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><ol start="6">
 <li>命令git update-index --assume-unchanged，忽略不想提交的文件（忽略跟踪）</li>
 </ol>

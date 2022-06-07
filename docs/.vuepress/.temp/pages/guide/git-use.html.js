@@ -39,7 +39,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1646648167000
+    "updatedTime": 1651202888000
   },
   "filePathRelative": "guide/git-use.md"
 }

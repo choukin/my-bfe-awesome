@@ -21,6 +21,8 @@ export const pagesComponents = {
   "v-5926181f": defineAsyncComponent(() => import(/* webpackChunkName: "v-5926181f" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/collect/getting-started.html.vue")),
   // path: /css/WindiCss.html
   "v-1cf90032": defineAsyncComponent(() => import(/* webpackChunkName: "v-1cf90032" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/css/WindiCss.html.vue")),
+  // path: /css/css.html
+  "v-a7937e8a": defineAsyncComponent(() => import(/* webpackChunkName: "v-a7937e8a" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/css/css.html.vue")),
   // path: /guide/git-use.html
   "v-2192a38e": defineAsyncComponent(() => import(/* webpackChunkName: "v-2192a38e" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/guide/git-use.html.vue")),
   // path: /guide/main.html
@@ -67,6 +69,8 @@ export const pagesComponents = {
   "v-5c093d67": defineAsyncComponent(() => import(/* webpackChunkName: "v-5c093d67" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/webpack/webpack.html.vue")),
   // path: /guide/excel/
   "v-6a4c4778": defineAsyncComponent(() => import(/* webpackChunkName: "v-6a4c4778" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/guide/excel/index.html.vue")),
+  // path: /guide/linux/
+  "v-5404b4b2": defineAsyncComponent(() => import(/* webpackChunkName: "v-5404b4b2" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/guide/linux/index.html.vue")),
   // path: /guide/mac/
   "v-5d5230a8": defineAsyncComponent(() => import(/* webpackChunkName: "v-5d5230a8" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/guide/mac/index.html.vue")),
   // path: /guide/npm/

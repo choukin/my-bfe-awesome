@@ -1,40 +1,28 @@
 export const data = {
-  "key": "v-4d1e69ca",
-  "path": "/guide/tools.html",
-  "title": "工具集🔧",
+  "key": "v-a7937e8a",
+  "path": "/css/css.html",
+  "title": "CSS 记录",
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
   "headers": [
     {
       "level": 2,
-      "title": "图片相关",
-      "slug": "图片相关",
+      "title": "将图片转换为块级对象可去掉下边空白",
+      "slug": "将图片转换为块级对象可去掉下边空白",
       "children": []
     },
     {
       "level": 2,
-      "title": "js/css",
-      "slug": "js-css",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "博客",
-      "slug": "博客",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "软件",
-      "slug": "软件",
+      "title": "【CSS进阶】巧用伪元素before和after制作绚丽效果",
+      "slug": "【css进阶】巧用伪元素before和after制作绚丽效果",
       "children": []
     }
   ],
   "git": {
     "updatedTime": 1652939436000
   },
-  "filePathRelative": "guide/tools.md"
+  "filePathRelative": "css/css.md"
 }
 
 if (import.meta.webpackHot) {

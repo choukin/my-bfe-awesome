@@ -8,6 +8,12 @@ export const data = {
   "headers": [
     {
       "level": 2,
+      "title": "vscode 插件能做什么",
+      "slug": "vscode-插件能做什么",
+      "children": []
+    },
+    {
+      "level": 2,
       "title": "安装生成器",
       "slug": "安装生成器",
       "children": [
@@ -27,13 +33,81 @@ export const data = {
     },
     {
       "level": 2,
-      "title": "hello",
-      "slug": "hello",
-      "children": []
+      "title": "package.json",
+      "slug": "package-json",
+      "children": [
+        {
+          "level": 3,
+          "title": "activationEvents 插件激活时机",
+          "slug": "activationevents-插件激活时机",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "contributes 贡献点",
+          "slug": "contributes-贡献点",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "编辑器命令",
+          "slug": "编辑器命令",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "执行命令",
+          "slug": "执行命令",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "获取所有命令",
+          "slug": "获取所有命令",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "内置命令",
+          "slug": "内置命令",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "菜单",
+      "slug": "菜单",
+      "children": [
+        {
+          "level": 3,
+          "title": "配置",
+          "slug": "配置",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "key/位置 列表",
+          "slug": "key-位置-列表",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "group",
+          "slug": "group",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "",
+          "slug": "",
+          "children": []
+        }
+      ]
     }
   ],
   "git": {
-    "updatedTime": 1649671942000
+    "updatedTime": 1652939436000
   },
   "filePathRelative": "vscode/index.md"
 }

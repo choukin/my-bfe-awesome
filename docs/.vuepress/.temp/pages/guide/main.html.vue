@@ -253,4 +253,13 @@ module<span class="token punctuation">.</span>exports <span class="token operato
   This is a string.\
 &lt;/div>"</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>http://[fe80::461c:a8ff:fe2a:accf%2]:3911/1ed680d5-6138-4608-a269-8840850a96f9</p>
+<h2 id="项目模版" tabindex="-1"><a class="header-anchor" href="#项目模版" aria-hidden="true">#</a> 项目模版</h2>
+<ul>
+<li>
+<p><a href="https://github.com/cll123456/template-varlet-v3-ts" target="_blank" rel="noopener noreferrer">vue3 + setup + ts， vw + rem等来搭建的移动端项目<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p><a href="https://vvbin.cn/doc-next/" target="_blank" rel="noopener noreferrer">vue3 企业端项目<ExternalLinkIcon/></a></p>
+</li>
+</ul>
 </template>
