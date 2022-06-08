@@ -5,6 +5,5 @@
 <li>Taro</li>
 <li>WePy</li>
 <li>Chameleon</li>
-<li><a href="https://remaxjs.org/guide/quick-start" target="_blank" rel="noopener noreferrer">remaxjs<ExternalLinkIcon/></a></li>
 </ul>
 </template>
