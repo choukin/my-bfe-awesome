@@ -119,7 +119,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1654670902000
+    "updatedTime": 1654674217000
   },
   "filePathRelative": "guide/linux/index.md"
 }

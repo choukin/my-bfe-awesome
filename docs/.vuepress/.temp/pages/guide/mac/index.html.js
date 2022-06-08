@@ -69,7 +69,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1646877060000
+    "updatedTime": 1654670902000
   },
   "filePathRelative": "guide/mac/readme.md"
 }
