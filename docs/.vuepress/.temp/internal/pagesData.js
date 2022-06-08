@@ -83,4 +83,6 @@ export const pagesData = {
   "v-f9230c74": () => import(/* webpackChunkName: "v-f9230c74" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/editor/ckeditor/ckeditordemo/index.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
+  // path: /guide/less.html
+  "v-8c6c7118": () => import(/* webpackChunkName: "v-8c6c7118" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/guide/less.html.js").then(({ data }) => data),
 }

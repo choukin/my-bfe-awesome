@@ -85,4 +85,6 @@ export const pagesComponents = {
   "v-f9230c74": defineAsyncComponent(() => import(/* webpackChunkName: "v-f9230c74" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/editor/ckeditor/ckeditordemo/index.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/404.html.vue")),
+  // path: /guide/less.html
+  "v-8c6c7118": defineAsyncComponent(() => import(/* webpackChunkName: "v-8c6c7118" */"/Users/qscbfe/qsccode/diy/my-bfe-awesome/docs/.vuepress/.temp/pages/guide/less.html.vue")),
 }

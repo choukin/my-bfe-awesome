@@ -43,6 +43,7 @@ const routeItems = [
   ["v-a8845b5a","/js/renderavatar/",{"title":"工具"},["/js/renderavatar/index.html","/js/renderavatar/README.md"]],
   ["v-f9230c74","/editor/ckeditor/ckeditordemo/",{"title":"ckeditordemo"},["/editor/ckeditor/ckeditordemo/index.html","/editor/ckeditor/ckeditordemo/README.md"]],
   ["v-3706649a","/404.html",{"title":""},["/404"]],
+  ["v-8c6c7118","/guide/less.html",{"title":"less"},["/guide/less","/guide/less.md"]],
 ]
 
 export const pagesRoutes = routeItems.reduce(
