@@ -1,3 +1,0 @@
-import{c as a}from"./app.91923fdf.js";import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";const s={},n=a(`<p>adb \u79EF\u7D2F</p><ul><li>adb</li><li>\u8986\u76D6\u5B89\u88C5 apk<div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code> adb <span class="token function">install</span> -r test-app.apk
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div></li><li>\u5378\u8F7D apk<div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code> adb uninstall test-app.apk
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div></li></ul>`,2);function i(l,r){return n}var c=e(s,[["render",i]]);export{c as default};

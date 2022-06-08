@@ -1,1 +1,0 @@
-import{o as e,a as t,b as o}from"./app.91923fdf.js";import{_ as n}from"./plugin-vue_export-helper.21dcd24c.js";const r={},s=o("li",null,"https://carbon.now.sh/ \u751F\u6210\u6F02\u4EAE\u7684\u4EE3\u7801\u56FE\u7247",-1),c=[s];function a(_,l){return e(),t("ul",null,c)}var m=n(r,[["render",a]]);export{m as default};

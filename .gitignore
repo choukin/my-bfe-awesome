@@ -62,4 +62,4 @@ typings/
 .next
 .vscode
 docs/.vuepress/.cache
-docs/.vuepressdist
+docs/.vuepress/dist
