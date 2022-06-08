@@ -361,3 +361,9 @@ r:4 w:2 x:1
 
 ## 查看系统版本
 cat /etc/redhat-release
+
+
+## 其他
+- history 查看历史使用过的命令
+- reset 初始化终端
+- clear 终端清屏

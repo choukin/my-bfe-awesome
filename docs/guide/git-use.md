@@ -100,6 +100,14 @@ git remote add <name> <url>
 git remote remove <name>
 ```
 
+### git 配置
+  - git config --system --list  系统配置
+  - git config --global -l/--list 查看用户配置
+  - git config [--global] user.name  [用户名]
+  - git config [--global] user.email [用户邮箱]
+
+
+
 
 ### 查看分支
 - 查看远程分支

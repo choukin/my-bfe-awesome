@@ -85,7 +85,14 @@ Host gitee.com
 <span class="token function">git</span> remote <span class="token function">add</span> <span class="token operator">&lt;</span>name<span class="token operator">></span> <span class="token operator">&lt;</span>url<span class="token operator">></span>
 <span class="token comment"># 删除remote </span>
 <span class="token function">git</span> remote remove <span class="token operator">&lt;</span>name<span class="token operator">></span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h3 id="查看分支" tabindex="-1"><a class="header-anchor" href="#查看分支" aria-hidden="true">#</a> 查看分支</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h3 id="git-配置" tabindex="-1"><a class="header-anchor" href="#git-配置" aria-hidden="true">#</a> git 配置</h3>
+<ul>
+<li>git config --system --list  系统配置</li>
+<li>git config --global -l/--list 查看用户配置</li>
+<li>git config [--global] user.name  [用户名]</li>
+<li>git config [--global] user.email [用户邮箱]</li>
+</ul>
+<h3 id="查看分支" tabindex="-1"><a class="header-anchor" href="#查看分支" aria-hidden="true">#</a> 查看分支</h3>
 <ul>
 <li>查看远程分支</li>
 </ul>

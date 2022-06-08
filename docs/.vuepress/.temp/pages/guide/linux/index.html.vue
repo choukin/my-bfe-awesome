@@ -518,4 +518,10 @@ vim -o/O ./a.txt ./b.txt
 <h2 id="yum-在线安装" tabindex="-1"><a class="header-anchor" href="#yum-在线安装" aria-hidden="true">#</a> yum 在线安装</h2>
 <h2 id="查看系统版本" tabindex="-1"><a class="header-anchor" href="#查看系统版本" aria-hidden="true">#</a> 查看系统版本</h2>
 <p>cat /etc/redhat-release</p>
+<h2 id="其他" tabindex="-1"><a class="header-anchor" href="#其他" aria-hidden="true">#</a> 其他</h2>
+<ul>
+<li>history 查看历史使用过的命令</li>
+<li>reset 初始化终端</li>
+<li>clear 终端清屏</li>
+</ul>
 </template>

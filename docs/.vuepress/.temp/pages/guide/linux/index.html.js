@@ -110,10 +110,16 @@ export const data = {
       "title": "查看系统版本",
       "slug": "查看系统版本",
       "children": []
+    },
+    {
+      "level": 2,
+      "title": "其他",
+      "slug": "其他",
+      "children": []
     }
   ],
   "git": {
-    "updatedTime": 1654612336000
+    "updatedTime": 1654670902000
   },
   "filePathRelative": "guide/linux/index.md"
 }

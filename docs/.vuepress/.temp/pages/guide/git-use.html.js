@@ -25,6 +25,12 @@ export const data = {
       "children": [
         {
           "level": 3,
+          "title": "git 配置",
+          "slug": "git-配置",
+          "children": []
+        },
+        {
+          "level": 3,
           "title": "查看分支",
           "slug": "查看分支",
           "children": []
