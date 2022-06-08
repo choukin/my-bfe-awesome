@@ -281,7 +281,7 @@ r:4 w:2 x:1
   - 删除用户组 groupdel
 
   - 修改用户组权限信息
-   - groupmod -g <id> -n newname  oldname
+   - groupmod -g [id] -n newname  oldname
 
   - 切换用户组
     - newgroup groupname
@@ -334,5 +334,30 @@ r:4 w:2 x:1
       - u 显示用户组
 
   - 杀掉进程 kill -9 【进程id】     
-  
 
+
+## 安装软件
+- rpm -ivh [包名]
+## 配置环境变量
+ `/etc/profile`
+  ```sh
+  export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_192
+  export MONGODB_HOME=/home/soft/mongodb-linux-x86_64-rhel70-5.0.2
+  export NODE_HOME=/home/soft/node-v12.18.1-linux-x64
+  export M2_HOME=/home/soft/apache-maven-3.5.4
+  export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/jre/lib/rt.jar
+  export PATH=$PATH:$JAVA_HOME/bin:$MONGODB_HOME/bin:$NODE_HOME/bin:$M2_HOME/bin
+  export RUN_AS_USER=root
+  ```
+
+ - `source /etc/profile` 让配置生效  
+
+## 解压安装
+-  tar -zxf ***.tar.gz
+
+
+## yum 在线安装
+
+
+## 查看系统版本
+cat /etc/redhat-release

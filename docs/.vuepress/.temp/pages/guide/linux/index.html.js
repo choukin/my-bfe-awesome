@@ -80,10 +80,40 @@ export const data = {
           "children": []
         }
       ]
+    },
+    {
+      "level": 2,
+      "title": "安装软件",
+      "slug": "安装软件",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "配置环境变量",
+      "slug": "配置环境变量",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "解压安装",
+      "slug": "解压安装",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "yum 在线安装",
+      "slug": "yum-在线安装",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "查看系统版本",
+      "slug": "查看系统版本",
+      "children": []
     }
   ],
   "git": {
-    "updatedTime": 1654568116000
+    "updatedTime": 1654612336000
   },
   "filePathRelative": "guide/linux/index.md"
 }

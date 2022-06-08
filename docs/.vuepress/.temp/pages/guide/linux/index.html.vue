@@ -425,7 +425,7 @@ vim -o/O ./a.txt ./b.txt
 <p>修改用户组权限信息</p>
 </li>
 <li>
-<p>groupmod -g <id> -n newname  oldname</p>
+<p>groupmod -g [id] -n newname  oldname</p>
 </li>
 <li>
 <p>切换用户组</p>
@@ -495,4 +495,27 @@ vim -o/O ./a.txt ./b.txt
 <p>杀掉进程 kill -9 【进程id】</p>
 </li>
 </ul>
+<h2 id="安装软件" tabindex="-1"><a class="header-anchor" href="#安装软件" aria-hidden="true">#</a> 安装软件</h2>
+<ul>
+<li>rpm -ivh [包名]</li>
+</ul>
+<h2 id="配置环境变量" tabindex="-1"><a class="header-anchor" href="#配置环境变量" aria-hidden="true">#</a> 配置环境变量</h2>
+<p><code>/etc/profile</code></p>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token builtin class-name">export</span> <span class="token assign-left variable">JAVA_HOME</span><span class="token operator">=</span>/usr/lib/jvm/jdk1.8.0_192
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">MONGODB_HOME</span><span class="token operator">=</span>/home/soft/mongodb-linux-x86_64-rhel70-5.0.2
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">NODE_HOME</span><span class="token operator">=</span>/home/soft/node-v12.18.1-linux-x64
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">M2_HOME</span><span class="token operator">=</span>/home/soft/apache-maven-3.5.4
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">CLASSPATH</span><span class="token operator">=</span>.:<span class="token variable">$JAVA_HOME</span>/lib/dt.jar:<span class="token variable">$JAVA_HOME</span>/lib/tools.jar:<span class="token variable">$JAVA_HOME</span>/jre/lib/rt.jar
+<span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token environment constant">$PATH</span><span class="token builtin class-name">:</span><span class="token variable">$JAVA_HOME</span>/bin:<span class="token variable">$MONGODB_HOME</span>/bin:<span class="token variable">$NODE_HOME</span>/bin:<span class="token variable">$M2_HOME</span>/bin
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">RUN_AS_USER</span><span class="token operator">=</span>root
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><ul>
+<li><code>source /etc/profile</code> 让配置生效</li>
+</ul>
+<h2 id="解压安装" tabindex="-1"><a class="header-anchor" href="#解压安装" aria-hidden="true">#</a> 解压安装</h2>
+<ul>
+<li>tar -zxf ***.tar.gz</li>
+</ul>
+<h2 id="yum-在线安装" tabindex="-1"><a class="header-anchor" href="#yum-在线安装" aria-hidden="true">#</a> yum 在线安装</h2>
+<h2 id="查看系统版本" tabindex="-1"><a class="header-anchor" href="#查看系统版本" aria-hidden="true">#</a> 查看系统版本</h2>
+<p>cat /etc/redhat-release</p>
 </template>

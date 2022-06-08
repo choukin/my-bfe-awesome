@@ -1,6 +1,11 @@
 <template><h1 id="mac-使用-软件" tabindex="-1"><a class="header-anchor" href="#mac-使用-软件" aria-hidden="true">#</a> mac 使用 软件</h1>
 <ul>
-<li><a href="https://github.com/hzlzh/Best-App" target="_blank" rel="noopener noreferrer">Best APP<ExternalLinkIcon/></a></li>
+<li>
+<p><a href="https://github.com/hzlzh/Best-App" target="_blank" rel="noopener noreferrer">Best APP<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p><a href="">dataGrip 链接数据库</a></p>
+</li>
 </ul>
 <h2 id="使用-homebrew-安装-tree-命令行" tabindex="-1"><a class="header-anchor" href="#使用-homebrew-安装-tree-命令行" aria-hidden="true">#</a> 使用 homebrew 安装 tree 命令行：</h2>
 <h2 id="安装" tabindex="-1"><a class="header-anchor" href="#安装" aria-hidden="true">#</a> 安装</h2>
