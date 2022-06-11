@@ -362,6 +362,19 @@ r:4 w:2 x:1
 ## 查看系统版本
 cat /etc/redhat-release
 
+## 配置云服务器免密码登陆
+- 1、 本地生产ssk publickey
+```sh
+ssh-keygen -f [.ssh/保存的文件]
+```
+
+- 2.两种方式把生成的公钥保存到云服务器上
+   - 手动复制到 `~/.ssh/authorized_keys`
+   - 使用 [`ssh-copy-id`](http://lnmp.ailinux.net/ssh-copy-id)
+    ```sh
+    ssh-copy-id [-i [identity_file]] [user@]machine
+    ```
+
 
 ## 其他
 - history 查看历史使用过的命令
