@@ -390,7 +390,7 @@ context<span class="token punctuation">.</span>subscriptions<span class="token p
 <li><code>9_cutcopypaste</code> 编辑组</li>
 <li><code>z_commands</code> 默认分组</li>
 </ul>
-<p><img src="img/groupSorting.png" alt="editor-title-group"></p>
+<p><img src="@source/vscode/img/groupSorting.png" alt="editor-title-group"></p>
 <h4 id="explorer-context" tabindex="-1"><a class="header-anchor" href="#explorer-context" aria-hidden="true">#</a> <a href="https://code.visualstudio.com/api/references/contribution-points" target="_blank" rel="noopener noreferrer">explorer/context<ExternalLinkIcon/></a></h4>
 <ul>
 <li>navigation</li>

@@ -113,26 +113,19 @@ export const data = {
     },
     {
       "level": 2,
+      "title": "配置云服务器免密码登陆",
+      "slug": "配置云服务器免密码登陆",
+      "children": []
+    },
+    {
+      "level": 2,
       "title": "其他",
       "slug": "其他",
       "children": []
     }
   ],
   "git": {
-    "updatedTime": 1654674217000
+    "updatedTime": 1654967843000
   },
   "filePathRelative": "guide/linux/index.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

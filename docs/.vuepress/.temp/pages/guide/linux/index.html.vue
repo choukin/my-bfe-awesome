@@ -518,6 +518,20 @@ vim -o/O ./a.txt ./b.txt
 <h2 id="yum-在线安装" tabindex="-1"><a class="header-anchor" href="#yum-在线安装" aria-hidden="true">#</a> yum 在线安装</h2>
 <h2 id="查看系统版本" tabindex="-1"><a class="header-anchor" href="#查看系统版本" aria-hidden="true">#</a> 查看系统版本</h2>
 <p>cat /etc/redhat-release</p>
+<h2 id="配置云服务器免密码登陆" tabindex="-1"><a class="header-anchor" href="#配置云服务器免密码登陆" aria-hidden="true">#</a> 配置云服务器免密码登陆</h2>
+<ul>
+<li>1、 本地生产ssk publickey</li>
+</ul>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>ssh-keygen -f <span class="token punctuation">[</span>.ssh/保存的文件<span class="token punctuation">]</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><ul>
+<li>2.两种方式把生成的公钥保存到云服务器上
+<ul>
+<li>手动复制到 <code>~/.ssh/authorized_keys</code></li>
+<li>使用 <a href="http://lnmp.ailinux.net/ssh-copy-id" target="_blank" rel="noopener noreferrer"><code>ssh-copy-id</code><ExternalLinkIcon/></a></li>
+</ul>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>ssh-copy-id <span class="token punctuation">[</span>-i <span class="token punctuation">[</span>identity_file<span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token punctuation">[</span>user@<span class="token punctuation">]</span>machine
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div></li>
+</ul>
 <h2 id="其他" tabindex="-1"><a class="header-anchor" href="#其他" aria-hidden="true">#</a> 其他</h2>
 <ul>
 <li>history 查看历史使用过的命令</li>
