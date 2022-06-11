@@ -13,6 +13,16 @@ export const pagesData = {
   "v-1f91015b": () => import(/* webpackChunkName: "v-1f91015b" */"/Users/code/github/my-bfe-awesome/docs/.vuepress/.temp/pages/intersting.html.js").then(({ data }) => data),
   // path: /miniProgram.html
   "v-485c23c5": () => import(/* webpackChunkName: "v-485c23c5" */"/Users/code/github/my-bfe-awesome/docs/.vuepress/.temp/pages/miniProgram.html.js").then(({ data }) => data),
+  // path: /collect/
+  "v-9e04a384": () => import(/* webpackChunkName: "v-9e04a384" */"/Users/code/github/my-bfe-awesome/docs/.vuepress/.temp/pages/collect/index.html.js").then(({ data }) => data),
+  // path: /collect/getting-started.html
+  "v-5926181f": () => import(/* webpackChunkName: "v-5926181f" */"/Users/code/github/my-bfe-awesome/docs/.vuepress/.temp/pages/collect/getting-started.html.js").then(({ data }) => data),
+  // path: /hello-vue3/
+  "v-987215e4": () => import(/* webpackChunkName: "v-987215e4" */"/Users/code/github/my-bfe-awesome/docs/.vuepress/.temp/pages/hello-vue3/index.html.js").then(({ data }) => data),
+  // path: /css/WindiCss.html
+  "v-1cf90032": () => import(/* webpackChunkName: "v-1cf90032" */"/Users/code/github/my-bfe-awesome/docs/.vuepress/.temp/pages/css/WindiCss.html.js").then(({ data }) => data),
+  // path: /css/css.html
+  "v-a7937e8a": () => import(/* webpackChunkName: "v-a7937e8a" */"/Users/code/github/my-bfe-awesome/docs/.vuepress/.temp/pages/css/css.html.js").then(({ data }) => data),
   // path: /guide/git-use.html
   "v-2192a38e": () => import(/* webpackChunkName: "v-2192a38e" */"/Users/code/github/my-bfe-awesome/docs/.vuepress/.temp/pages/guide/git-use.html.js").then(({ data }) => data),
   // path: /guide/less.html
@@ -23,18 +33,10 @@ export const pagesData = {
   "v-9b03dde6": () => import(/* webpackChunkName: "v-9b03dde6" */"/Users/code/github/my-bfe-awesome/docs/.vuepress/.temp/pages/guide/nuxt-readme.html.js").then(({ data }) => data),
   // path: /guide/tools.html
   "v-4d1e69ca": () => import(/* webpackChunkName: "v-4d1e69ca" */"/Users/code/github/my-bfe-awesome/docs/.vuepress/.temp/pages/guide/tools.html.js").then(({ data }) => data),
-  // path: /collect/
-  "v-9e04a384": () => import(/* webpackChunkName: "v-9e04a384" */"/Users/code/github/my-bfe-awesome/docs/.vuepress/.temp/pages/collect/index.html.js").then(({ data }) => data),
-  // path: /collect/getting-started.html
-  "v-5926181f": () => import(/* webpackChunkName: "v-5926181f" */"/Users/code/github/my-bfe-awesome/docs/.vuepress/.temp/pages/collect/getting-started.html.js").then(({ data }) => data),
-  // path: /css/WindiCss.html
-  "v-1cf90032": () => import(/* webpackChunkName: "v-1cf90032" */"/Users/code/github/my-bfe-awesome/docs/.vuepress/.temp/pages/css/WindiCss.html.js").then(({ data }) => data),
-  // path: /css/css.html
-  "v-a7937e8a": () => import(/* webpackChunkName: "v-a7937e8a" */"/Users/code/github/my-bfe-awesome/docs/.vuepress/.temp/pages/css/css.html.js").then(({ data }) => data),
-  // path: /js/%08fullscreen.html
-  "v-df171ac4": () => import(/* webpackChunkName: "v-df171ac4" */"/Users/code/github/my-bfe-awesome/docs/.vuepress/.temp/pages/js/\bfullscreen.html.js").then(({ data }) => data),
   // path: /js/async-validator.html
   "v-d80503b6": () => import(/* webpackChunkName: "v-d80503b6" */"/Users/code/github/my-bfe-awesome/docs/.vuepress/.temp/pages/js/async-validator.html.js").then(({ data }) => data),
+  // path: /js/fullscreen.html
+  "v-edfb001e": () => import(/* webpackChunkName: "v-edfb001e" */"/Users/code/github/my-bfe-awesome/docs/.vuepress/.temp/pages/js/fullscreen.html.js").then(({ data }) => data),
   // path: /js/iphone.html
   "v-2199ce72": () => import(/* webpackChunkName: "v-2199ce72" */"/Users/code/github/my-bfe-awesome/docs/.vuepress/.temp/pages/js/iphone.html.js").then(({ data }) => data),
   // path: /js/js-native-copy.html
@@ -49,8 +51,6 @@ export const pagesData = {
   "v-2a5172b3": () => import(/* webpackChunkName: "v-2a5172b3" */"/Users/code/github/my-bfe-awesome/docs/.vuepress/.temp/pages/js/savefile.html.js").then(({ data }) => data),
   // path: /js/ts.html
   "v-62ddaaad": () => import(/* webpackChunkName: "v-62ddaaad" */"/Users/code/github/my-bfe-awesome/docs/.vuepress/.temp/pages/js/ts.html.js").then(({ data }) => data),
-  // path: /hello-vue3/
-  "v-987215e4": () => import(/* webpackChunkName: "v-987215e4" */"/Users/code/github/my-bfe-awesome/docs/.vuepress/.temp/pages/hello-vue3/index.html.js").then(({ data }) => data),
   // path: /vscode/
   "v-d3edbba8": () => import(/* webpackChunkName: "v-d3edbba8" */"/Users/code/github/my-bfe-awesome/docs/.vuepress/.temp/pages/vscode/index.html.js").then(({ data }) => data),
   // path: /vue/differerent.html

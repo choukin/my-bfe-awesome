@@ -63,3 +63,6 @@ typings/
 .vscode
 docs/.vuepress/.cache
 docs/.vuepress/dist
+node_modules
+.temp
+.cache
