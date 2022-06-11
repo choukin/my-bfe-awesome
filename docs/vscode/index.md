@@ -369,7 +369,7 @@ context.subscriptions.push(vscode.commands.registerTextEditorCommand('extension.
  - `9_cutcopypaste` 编辑组
  - `z_commands` 默认分组
 
- ![editor-title-group](img/groupSorting.png)
+ ![editor-title-group](./img/groupSorting.png)
 
 #### [explorer/context](https://code.visualstudio.com/api/references/contribution-points)
 
