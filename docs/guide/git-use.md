@@ -19,7 +19,7 @@
 >
 > 在仓库里添加 publickey
 >
-> ssh -T git@github.com
+> ssh -T git@github.com [-p 22/其他在用端口]
 #
 1. 生成key
 ```sh
@@ -27,10 +27,10 @@
  ```
 2. 需要时使用 手动添加 rea
 ```sh 
-ssh-add -K ~/.ssh/github_id_rsa
+ssh-add  ~/.ssh/github_id_rsa
 ```
 3. 在仓库里添加 publickey
-4. 测试是否配置陈工
+4. 测试是否配置成功
 ```sh
 ssh -T git@github.com
 ```

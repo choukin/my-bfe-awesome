@@ -4,6 +4,7 @@
 - [Best APP](https://github.com/hzlzh/Best-App)
 
 - [dataGrip 链接数据库]()
+- [dbeaver开源的数据库图形界面](https://dbeaver.io/download/)
 
 ## 使用 homebrew 安装 tree 命令行：
 ## 安装
@@ -55,3 +56,10 @@ sudo xattr -d com.apple.quarantine /Applications/xxxx.app
 ::: tip
 xxxx.app 换成对应软件的名称
 :::
+
+
+3、Mac系统默认使用bash作为终端，可以使用命令修改默认使用zsh：
+chsh -s /bin/zsh
+如果想修改回默认 bash，同样使用chsh命令即可：
+
+chsh -s /bin/bash
