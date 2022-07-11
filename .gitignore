@@ -64,5 +64,5 @@ typings/
 docs/.vuepress/.cache
 docs/.vuepress/dist
 node_modules
-.temp
-.cache
+#.temp
+#.cache
