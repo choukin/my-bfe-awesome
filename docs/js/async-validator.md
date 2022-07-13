@@ -41,9 +41,20 @@ export const hiddenMobile = mobile => {
  */
 export const parseDateTime = (str) => {
   if (!str) return str
-  const result = str.replaceAll(/\d{4}-\d{1,2}-\d{1,2} \d{1,2}:\d{1,2}:\d{1,2}/g, function(match) { return `"${match}"` })
+  const result = str.replace(/\d{4}-\d{1,2}-\d{1,2} \d{1,2}:\d{1,2}:\d{1,2}/g, function(match) { return `"${match}"` })
   return result
 }
+
+/**
+ * 千分位
+ * 没有考虑小数点的情况
+ */
+export const thouthds = (str)=>{
+  return String(str).replace(/(\d)(?=(\d{3})+$)/g,"$1,")
+}
+ 
 ```
+
+
 
 
