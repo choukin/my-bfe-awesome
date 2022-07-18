@@ -19,35 +19,55 @@
 - [x] 学习 TypeScript
 - [ ] 学习 redis
 - [ ] webpack4.0 + vue
-- [ ] [Vue 源码分析](http://hcysun.me/vue-design/)
-- [ ] [Vue 技术揭秘](https://ustbhuangyi.github.io/vue-analysis/)
 - [ ] [CreateJS 是基于 HTML5 开发的一套模块化的库和工具](http://www.createjs.cc/)
-- [ ] [vue-test-utils](https://vue-test-utils.vuejs.org/zh/)
-- [ ] [Vue 组件的单元测试](https://cn.vuejs.org/v2/cookbook/debugging-in-vscode.html)
-- [ ] [Vue SSR 指南](https://ssr.vuejs.org/zh/)
-- [ ] [Nuxt.js](https://nuxtjs.org/)
+
 - [ ] [从 vue-cli 源码学习如何写模板](https://github.com/dwqs/blog/issues/56)
 - [ ] [面试经验](https://juejin.im/post/5ba34e54e51d450e5162789b)
 - [ ] [JavaScript 开发者应懂的 33 个概念](https://github.com/stephentian/33-js-concepts#1-%E8%B0%83%E7%94%A8%E5%A0%86%E6%A0%88)
 - [ ] [面试问题](https://mp.weixin.qq.com/s/biVa8Wvg82uvTd5C0yerug)
 - [ ] [开源 books](https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books-zh.md)
-- [] [react 源码](https://xiaochen1024.com/courseware/60b1b2f6cf10a4003b634718)
-- [] [ts](http://ts.xcatliu.com/)
 - [] [make games](https://makejsgames.com/#articles)
 - [] [storybook](https://storybook.js.org/)
-- [] [vue3.0](https://github.com/vue3/vue3-News#%E8%BF%8E%E6%8E%A5Vue3.0%E7%B3%BB%E5%88%97)
 - [] [手写面试](https://github.com/Mayandev/fe-interview-handwrite)
 - [] [BEM 命名法](https://www.bemcss.com/)
-- [x] [Vue3 入门指南，与实战案例](https://vue3.chengpeiquan.com/)
 - [] [web 全栈体系博客](https://hejialianghe.gitee.io/)
 - [] [Markdown教程](https://commonmark.org/help/)
 - [] [emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
 
+## Typescript
+- [] [ts](http://ts.xcatliu.com/)
+
+
+## react
+- [] [react 源码](https://xiaochen1024.com/courseware/60b1b2f6cf10a4003b634718)
+
+
+
+
+
+
+
+## Vue
+
+### Vue 2
+- [ ] [vue-test-utils](https://vue-test-utils.vuejs.org/zh/)
+- [ ] [Vue 组件的单元测试](https://cn.vuejs.org/v2/cookbook/debugging-in-vscode.html)
+- [ ] [Vue SSR 指南](https://ssr.vuejs.org/zh/)
+- [ ] [Vue 源码分析](http://hcysun.me/vue-design/)
+- [ ] [Vue 技术揭秘](https://ustbhuangyi.github.io/vue-analysis/)
+- [ ] [Nuxt.js](https://nuxtjs.org/)
+
+
 ### VUE3 
 - [] [vue3视频教程](https://space.bilibili.com/480140591)
+- [x] [Vue3 入门指南，与实战案例](https://vue3.chengpeiquan.com/)
+- [] [vue3.0](https://github.com/vue3/vue3-News#%E8%BF%8E%E6%8E%A5Vue3.0%E7%B3%BB%E5%88%97)
+- [x] [vue3挑战合集](https://cn-vuejs-challenges.netlify.app/)
+- [] [Nuxt 3](https://v3.nuxtjs.org/)
+- [] [Nuxt content](content.nuxtjs.org)
+
 
 ## 目录
-
 - [node 相关](#node-相关)
   - [node 常量](#node-常量)
 - [电子书](#电子书)
@@ -79,7 +99,6 @@
   - 数字动画跳动 [vue-countup-v2](https://github.com/xlsdg/vue-countup-v2?ref=madewithvuejs.com)
   - Vue 的 video.js 播放器组件[vue-video-player](https://npmjs.com/package/vue-video-player)
   - [better-scroll] (http://ustbhuangyi.github.io/better-scroll/)
-
   - [nuxt modules nuxt模块](https://modules.nuxtjs.org/?version=3.x)
 
 - 工具
@@ -247,3 +266,58 @@ http://[fe80::461c:a8ff:fe2a:accf%2]:3911/1ed680d5-6138-4608-a269-8840850a96f9
 - [vue3 + setup + ts， vw + rem等来搭建的移动端项目](https://github.com/cll123456/template-varlet-v3-ts)
 
 - [vue3 企业端项目](https://vvbin.cn/doc-next/)
+
+
+
+## 免费的软件
+
+### 桌面软件
+
+### 加速工具
+
+- [Steam](https://steampp.net/)
+#### 办公
+- [WPS](https://www.wps.cn/) office的替代品
+- [snipaste](https://www.snipaste.com/)截图工具
+- 
+
+#### 开发
+- [git](https://git-scm.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+  - 插件
+    - Better Align
+    - Volar
+    - vetur
+    - Git Graph
+    - Git History
+    - Git History Diff
+
+    - i18n Ally
+    - Eslint
+    - Prettier - code Formatter
+    - auto Import
+    - indent-rainbow
+    - open in browser 
+    - code Runner
+
+- [PostMan](https://www.postman.com/)
+
+- [oh my zsh](https://ohmyz.sh/)
+- [asdf](https://asdf-vm.com/) 
+- [iTerm2](https://iterm2.com/)
+
+- [https://dber.tech/] 开源免费的设计数据库的web应用，可以导出sql
+
+
+
+
+
+### 数据库
+#### 图形化界面
+- [DBeaver](https://dbeaver.io/)
+
+
+
+
+
+
