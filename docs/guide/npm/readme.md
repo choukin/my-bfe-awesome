@@ -81,6 +81,12 @@ npm login
 ```sh
 npm publish
 ```
+
+// 4. 本地调试 把当前开发的包软链到本机
+```sh
+# 当前项目根目录执行 卸载使用 npm uninstall xxx -g
+sudo npm link
+```
 以上，即可完成一个新包的发布了。
 
 
@@ -152,4 +158,11 @@ npm publish
 ```sh
 npm list -g --depth 0
 ```
+
+### 除非也指定，否则这是包含 package.json 文件或 node_modules 目录的最接近的父目录 -g。
+```
+npm prefix [-g]
+```
+
+
 
