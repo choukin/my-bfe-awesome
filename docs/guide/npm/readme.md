@@ -147,3 +147,9 @@ npm publish
 六、查看版本信息
 最后，可以通过 npm info 来查看模块的详细信息。
 
+
+### npm 查看全局安装包
+```sh
+npm list -g --depth 0
+```
+

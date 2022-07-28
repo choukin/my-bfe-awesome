@@ -34,6 +34,12 @@
 - [] [Markdown教程](https://commonmark.org/help/)
 - [] [emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
 
+- [] [头像生成1](https://kfs479.smartapps.cn/pages/blogdetail/blogdetail?id=3311880&_swebfr=1&_swebFromHost=baiduboxapp)
+     [头像生成2](https://www.cnblogs.com/blueVictory/p/15457894.html)
+      [头像生成3](https://github.com/YMAndroid/photoDemo)
+
+    
+
 ## Typescript
 - [] [ts](http://ts.xcatliu.com/)
 
