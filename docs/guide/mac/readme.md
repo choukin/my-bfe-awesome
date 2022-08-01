@@ -5,6 +5,7 @@
 
 - [dataGrip 链接数据库]()
 - [dbeaver开源的数据库图形界面](https://dbeaver.io/download/)
+- [Studio 3T GUI for MONGO](https://studio3t.com/)
 
 ## 使用 homebrew 安装 tree 命令行：
 ## 安装
