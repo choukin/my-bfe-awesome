@@ -37,6 +37,9 @@
 - [] [头像生成1](https://kfs479.smartapps.cn/pages/blogdetail/blogdetail?id=3311880&_swebfr=1&_swebFromHost=baiduboxapp)
      [头像生成2](https://www.cnblogs.com/blueVictory/p/15457894.html)
       [头像生成3](https://github.com/YMAndroid/photoDemo)
+- [] [chrome调试](https://blog.openreplay.com/
+- [] [](https://blog.openreplay.com/15-devtool-secrets-for-javascript-developers)
+how-to-use-chrome-as-a-code-editor-and-debugger)      
 
     
 
