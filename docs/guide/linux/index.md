@@ -337,6 +337,8 @@ r:4 w:2 x:1
 
 
 ## 安装软件
+
+### rpm 安装
 - rpm -ivh [包名]
 ## 配置环境变量
  `/etc/profile`
@@ -352,31 +354,28 @@ r:4 w:2 x:1
 
  - `source /etc/profile` 让配置生效  
 
-## 解压安装
+### 解压安装
 -  tar -zxf ***.tar.gz
 
 
-## yum 在线安装
+### yum 在线安装
+```sh
+yum update
+yum install mysql-server
 
+```
 
 ## 查看系统版本
 cat /etc/redhat-release
-
-## 配置云服务器免密码登陆
-- 1、 本地生产ssk publickey
-```sh
-ssh-keygen -f [.ssh/保存的文件]
-```
-
-- 2.两种方式把生成的公钥保存到云服务器上
-   - 手动复制到 `~/.ssh/authorized_keys`
-   - 使用 [`ssh-copy-id`](http://lnmp.ailinux.net/ssh-copy-id)
-    ```sh
-    ssh-copy-id [-i [identity_file]] [user@]machine
-    ```
 
 
 ## 其他
 - history 查看历史使用过的命令
 - reset 初始化终端
 - clear 终端清屏
+
+
+
+
+
+##
