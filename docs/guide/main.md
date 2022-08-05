@@ -41,6 +41,8 @@
 - [] [](https://blog.openreplay.com/15-devtool-secrets-for-javascript-developers)
 how-to-use-chrome-as-a-code-editor-and-debugger)      
 
+- [] [emmet](https://docs.emmet.io/actions/expand-abbreviation/)
+
     
 
 ## Typescript
