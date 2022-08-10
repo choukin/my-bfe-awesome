@@ -181,6 +181,8 @@ new HtmlWebpackPlugin({
 4. [hilo](http://hiloteam.github.io/) 阿里的 HTML5 互动游戏引擎
 5. [pixijs](https://www.pixijs.com/) PixiJS 是一个超快的 2D 渲染游戏引擎。它自动侦测使用 WebGL 或者 Canvas。
 6. [Kaboom.js](https://kaboomjs.com/doc/intro) Kaboom 是一个 JavaScript 库，可帮助您快速有趣地制作游戏.
+7. [p5.js](https://p5js.org/zh-Hans/)
+8. [拼图游戏](https://www.jb51.net/article/91918.htm?t=1493428123756) 
 
 ## 前端工具
 

@@ -144,6 +144,111 @@ module.exports={
  pm2 start ecosystem.config.js  
 ```
 
+## 设置启动脚本
+通过重启PM2在服务器上管理进程的启动和重启非常重要。要解决这个问题，只需要运行下面的命令来激活可用的启动脚本：
+
+```sh
+pm2 startup
+```
+通过命令冻结自动生成的进程列表：
+
+```sh
+pm2 save
+```
+
+## 内容变更自动重启应用
+
+```sh
+cd /path/to/my/sapp
+pm2 start env.js --watch --ignore-watch="node_modules"
+```
+上面的命令会在当前文件夹以及所有子文件夹中任何文件变更时重启应用，通过`--ignore-watch="node_modules"` 来忽略 `node_modules` 变更。
+
+然后可以使用`pm2 logs` 来查看重启后的应用日志。
+
+## 更新PM2
+
+我们做的很简单，在版本间没有破坏性的变化，且操作简单：
+```sh
+npm install pm2@latest -g
+```
+更新已安装的PM2:
+```sh
+pm2 update
+```
+
+## 备忘录
+
+下面是一些值得了解的命令。可以使用简单的应用或者你当前开发的web应用中使用它们：
+```sh
+
+## fork 模式
+pm2 start app.js --name mu-api # 进程名称
+
+# 集群模式
+pm2 start app.js -i 0 # 将使用LB启动最大进程，具体值取决于可用CPU
+pm2 start app.js -i max # 和上面一样，已弃用
+pm2 scale app +3 # 将应用扩展3个进程
+pm2 scale app 2  # 扩展或缩小到 2个进程
+
+# 查看列表
+
+pm2 list          # 展示所有进程的状态
+
+pm2 jlist         # 以json格式展示进程状态
+
+pm2 prettylist   #  用好看的JOSN格式打印进程信息
+
+pm2 describe 0   # 展示某个进程的详细信息
+
+pm2 monit        # 监控所有进程
+
+# 日志
+
+pm2 logs [--raw] # 以数据流的方式查看所有进程日志
+ 
+pm2 flush        # 清空所有日志文件
+
+pm2 reloadLogs   # 重新加载所有日志
+
+# actions
+
+pm2 stop all    # 停止所有进程
+
+pm2 restart all # 重启所有进程
+
+pm2 reload all # 热重启所有进程（对于在线的应用）
+
+pm2 stop 0 # 停止指定进程
+
+pm2 restart 0 # 重启指定进程
+
+pm2 delete 0 # 删除指定进程
+
+pm2 delete all # 删除所有进程
 
 
+# 指标
+
+pm2 reset <name|id|all> # 重置应用元数据
+
+pm2 update/updatePM2   # 更新内存中的PM2
+
+pm2 ping              # ping pm2 进程守护，如果没有启动就会加载
+
+pm2 sendSignal SIGUSR2 my-app # 给指定进程发送系统信号
+
+pm2 start app.js --node-daemon # 非守护模式运行，
+
+pm2 start app.js --no-vizion  # 使用没有版本控制模式启动应用
+
+pm2 start app.js --no-autorestart # 启动一个不会自动重启的应用
+```
+
+我用的M1芯片8核8线程 `pm2 start src/servers/server.js -i 0`
+
+![pm2 start src/servers/server.js -i 0](./imgs/pm2clusteri0.png)
+
+
+### 要了解更多相关命令可以通过`pm2 -h`查看
 
