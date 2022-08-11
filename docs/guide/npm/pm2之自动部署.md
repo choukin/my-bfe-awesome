@@ -11,14 +11,14 @@ PM2 具有一个简单但是功能强大的部署功能。可以在生产环境�
     prev[ious]      输出上一八佰伴的提交信息
     exec|run <cmd>  执行指定的命令
     list            列出上一版本的的部署提交
-    【ref】          部署配置的分支或者最新的tag
+    ref】          部署配置的分支或者最新的tag
 ```
 
 ## 部署文件配置
 在应用配置文件中添加`deplay` 属性来配置部署功能：
 
-```sh
-# ecosystem.config.js
+```js
+// ecosystem.config.js
 module.exports = {
     apps:[{
         script:'api.js'
@@ -101,7 +101,7 @@ pm2 deploy production exec "pm2 reload all"
 ```js
 production:{
      "key":"/path/to/some.pem"     // 验权公钥路径
-     "user" : "node",              // 登陆的用户名
+     "user" : "node",              // 登录的用户名
       "host" : "212.83.163.1",      // host
       "ref"  : "origin/master",
       "repo" : "git@github.com:repo.git",

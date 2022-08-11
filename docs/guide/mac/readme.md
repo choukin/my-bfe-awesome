@@ -9,6 +9,23 @@
 - [Studio 3T GUI for MONGO](https://studio3t.com/)
 
 ## 使用 homebrew 安装 tree 命令行：
+安装命令：
+
+brew install telnet
+如没有提前安装brew，可执行如下命令：
+
+/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+选择对应镜像源后，输入Y，回车即可安装brew
+
+继续执行安装telnet命令，过程中如出现could not lock config file .git/config: Permission denied错误，请先修改文件权限，执行如下命令：
+
+sudo chgrp -R admin /usr/local/*
+sudo chmod -R g+w /usr/local/*
+修改权限后，再执行安装telnet命令，即可顺利安装。
+```sh
+# 通过gitee安装homebrew
+/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+```
 ## 安装
 ```shell
 $ brew install tree
