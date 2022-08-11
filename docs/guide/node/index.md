@@ -2,6 +2,7 @@
 [示例源码](https://www.ituring.com.cn/book/1993)
 [NODE支持的ES6特性](https://node.green/)
 [源码](https://github.com/nodejs/node)
+[闭包](https://developer.mozilla.org/zh-CN/docs/JavaScript/Guide/Closures)
 ## Node.js 是什么
 Node.js 是一个JavaScript 运行平台，特定是异步和事件驱动机制，小巧精悍的标准库
 ## 定义Node应用程序
@@ -166,3 +167,18 @@ module.exports = exports = Currency
 
 ## 如何让异步逻辑顺序执行
 
+异步程序需要关注事件轮询条件，程序变量，以及其他随着程序逻辑执行而发生变化的资源。
+
+让一组异步任务顺序执行的感念被Node社区称为流程控制，控制分为 串行和并行；
+![流程控制](./imgs/order.jpeg)
+
+跟踪串行和并行流程控制要做编程记账工作。
+### 何时使用串行化流程控制；
+串行的异步时
+### 如何实现串行化流程控制
+- 可以使用 `async`
+![串行流程控制](./imgs/async.jpeg)
+
+
+### 如何实现并行化流程控制；
+### 如何使用第三方模块做流程控制
