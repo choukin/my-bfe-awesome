@@ -34,6 +34,7 @@
 - [滴滴前端博客](https://github.com/DDFE/DDFE-blog)
 - [CSS教程](https://pengfeixc.com/)
 - [前端工程化三十八讲](https://q.shanyue.tech/engineering/)
+- [博客推荐](https://liujiacai.net/podcast/)
 
 
 ## 软件
