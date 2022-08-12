@@ -46,7 +46,7 @@ module.exports = {
 可以定义任意多个环境变量，只要在`--env` 加上`env_`后面的环境名称.
 
 ## 特殊的环境变量
-### NODE_APP_INSTANCE(PM2 最低版本 2.5)
+### NODE_APP_INSTANCE(PM2 最低版本 2.5) 获取进程编号
 环境变量 `NODE_APP_INSTACE` 可以用来区分不同的进程，例如想在一个进程中运行定时任务，只需要对比`process.env.NODE_APP_INSTNCE === '0'`. 两个进程不可能有相同的编号， 在运行`pm2 restart` 和 `pm2 scal` 后依然成立；
 
 如果使用 `NODE_APP_INSTANCE` 有冲突，可以使用 `instance_var` 来重命名：
@@ -76,7 +76,7 @@ module.exports = {
 
 这样就可以在程序中使用 `process.env.INSTANCE_ID` 来代替`NODE_APP_INSTANCE`
 
-### increment_var (PM2最低版本 2.5)
+### increment_var 让环境变量递增 (PM2最低版本 2.5)
 
 PM2一个选项可以让 PM2 为某一个环境变量变成递增值：
 
