@@ -176,9 +176,38 @@ module.exports = exports = Currency
 ### 何时使用串行化流程控制；
 串行的异步时
 ### 如何实现串行化流程控制
-- 可以使用 `async`
+- 可以使用 `async` 库
 ![串行流程控制](./imgs/async.jpeg)
 
 
 ### 如何实现并行化流程控制；
+![异步函数并行执行](./imgs/asyncparaller.jpeg)
+
+
 ### 如何使用第三方模块做流程控制
+
+社区中比较好用的流程控制工具
+- Async
+- Step 
+- Seq
+
+# 三、 Node Web 程序是什么
+
+```sh
+package.js
+public/
+node_modules/
+app.js/index.js
+models/
+views/
+controllers/
+routes/
+middleware/
+
+
+```
+## MIME-encoded 多用途互联网邮件扩展
+
+## SQLLite 是进程内数据库，不需要在系统上安装一个后台运行的数据库，添加的所有数据都会写在一个文件里
+
+
