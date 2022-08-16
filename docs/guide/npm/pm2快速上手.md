@@ -238,7 +238,7 @@ pm2 ping              # ping pm2 进程守护，如果没有启动就会加载
 
 pm2 sendSignal SIGUSR2 my-app # 给指定进程发送系统信号
 
-pm2 start app.js --node-daemon # 非守护模式运行，
+pm2 start app.js --no-daemon # 非守护模式运行，
 
 pm2 start app.js --no-vizion  # 使用没有版本控制模式启动应用
 

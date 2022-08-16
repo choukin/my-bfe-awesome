@@ -331,5 +331,87 @@ function setup(format){
 ```sh
 sudo npm i express-generator -g
 ```
+```sh
+express -h
+
+  Usage: express [options] [dir]
+
+  Options:
+
+        --version        output the version number
+    -e, --ejs            add ejs engine support
+        --pug            add pug engine support
+        --hbs            add handlebars engine support
+    -H, --hogan          add hogan.js engine support
+    -v, --view <engine>  add view <engine> support (dust|ejs|hbs|hjs|jade|pug|twig|vash) (defaults to jade)
+        --no-view        use static html instead of view engine
+    -c, --css <engine>   add stylesheet <engine> support (less|stylus|compass|sass) (defaults to plain css)
+        --git            add .gitignore
+    -f, --force          force on non-empty directory
+    -h, --help           output usage information
+```
+
+## 在线留言板
+1、用户可以注册登陆退出
+2、用户可以发消息
+3、站点的访问者可以分页浏览条目
+4、应该有个支持认证的简单的REST API
+
+### API 路由
+- GET  /api/entries: 获取条目列表
+- GET  /api/entries/page： 获取单页条目
+- POST /api/entry: 创建留言条目
+
+### Web UI路由
+
+- GET /post 显示创建条目的表单
+- POST /post 提交新条目
+- GET /register 显示注册表单
+- POST /register 创建新的用户账户
+- GET /login 显示登录表单
+- POST /login 登录
+- GET / logout 退出
+
+## Express 和程序配置
+设置环境变量
+```sh
+# UNIX
+NODE_ENV=production node app
+
+# Windows
+set NODE_ENV=production
+node app
+```
+
+通过`process.env.NODE_ENV` 访问
+
+极简的环境驱动配置系统
+- app.set()
+- app.get()
+- app.enable()
+- app.disable()
+- app.enabled()  是否启用
+- app.disabled() 
+
+```js
+// 输出格式
+app.set('json space', 2)
+```
+
+1、 配置视图系统
+- 调整试图的查找
+- 配置默认的模版赢取
+- 启动试图缓存 减少文件 I/O
+
+```js
+app.set('views', __dirname+'views')
+```
+
+
+## 路由入门
+
+路由的主要任务是将特定模式的URL匹配到响应逻辑上。也可以将URL模式匹配到中间件上。
+- 用特定路由中间件验证用户提交内容
+- 实现特定路由的校验
 
 
