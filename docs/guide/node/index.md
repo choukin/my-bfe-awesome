@@ -210,4 +210,126 @@ middleware/
 
 ## SQLLite 是进程内数据库，不需要在系统上安装一个后台运行的数据库，添加的所有数据都会写在一个文件里
 
+# 前端构建系统
+
+- 用npm脚本简化复杂的命令
+- 用Gulp管理重复性任务
+- 用Webpack打包客户端Web程序
+
+## 配置前端构建工具
+- 指定命令参数。比如：`/node_modules/.bin/uglify --source-map`
+- 针对项目创建配置文件，将参数放在咋个文件中。Babel和ESLint经常这么干
+- 将配置参数添加到package.json，Babel 也是支持的
+
+## 用Gulp实现自动化
+
+## 用Webpack构建Web程序
+Webpack 写的是配置文件，用插件和加载器添加新功能。有时候不需要额外配置
+
+Webpack的优势之一是更容易快速搭建出一个支持增量式结构的构建系统，如果配置成文件发生变化时自动改构建，Webpack不会因为一个文件发生变化而重新构建整个项目，所以构建更快，也更好理解。
+
+
+### Webpack插件是用来改变构建过程的行为的。：上传，去除重复文件等。插件是可以挂接到Webpack更底层的类的实例。
+### Webpack加载器，负责转换资源文件，ES2015转换为ES5， SASS 转换为CSS，加载器是函数，负责将输入的源文本，转换为特定的文本输出。可以是异步或同步，
+
+
+
+# 5 服务端框架
+- 使用热门的Node Web 框架
+- 选择合适的框架
+- 用Web 框架搭建Web程序
+
+- Express
+- Koa
+- Kraken
+- hapi
+- Sails.js
+- DerbyJS
+- Flatiron.js
+- LoopBack
+
+不想每个项目都用同一个框架，要能做到监收并蓄、针对每个问题组合使用适合的工具。用用户画像考虑设计问题。
+
+框架定义
+1、 API框架： 用于搭建WebAPI 的库，有协助组织程序结构的框架支持。LoopBack
+2、 HTTP服务器库：所有基于Express的项目都可以归为这一类,Koa\Kraken.js 这些库帮助我们围绕HTTP动词和路由搭建程序
+3、 HTTP服务器框架： 用来搭建模块化HTTP服务器的框架,hapi
+4、Web MVC 框架：模式-视图-控制器框架 Sail.js
+5、全栈框架：这些框架在服务器和浏览器上用的都是Javascript，并且两端可以共享代码。被称为同构代码。DerbyJS 
+
+### Koa特点
+|库类型|HTTP服务器库|
+|-|-|
+|功能特性|基于生成器的中间件，请求/响应模型|
+|建议应用|轻型Web程序、不严格的HTTPAPI、单页Web程序|
+|插件架构|中间件|
+|文档|http://koajs.com|
+|热门度|GitHub10000颗星|
+|授权许可|MIT|
+
+
+### 特点
+|库类型||
+|-|-|
+
+|库名|库类型|功能特性|建议应用|插件架构|文档|热度|授权许可|
+|-|-|-|-|-|-|-|-|
+|Koa|HTTP服务器库|基于生成器的中间件，请求/响应模型|轻型Web程序、不严格的HTTPAPI、单页Web程序|中间件|http://koajs.com|GitHub10000颗星|MIT|
+|Kraken|HTTP服务器库|对象项目结构要求严格、模版（Dust）、模型、安全强化（Lusca）、配置管理、国际化|企业web程序|Express中间件|http://www.kraken.com/help/api|GitHub4000颗星|Apache2.0|
+|hapi|HTTP服务器库|高层次服务器容器抽象、安全的头部信息|单页Web程序、HTTPAPI|hapi插件|http://hapijs.com/api|GitHub6000颗星|BSD3条款|
+|Sails.js|MVC框架|有支持数据库的ORM，生成REST API，WebSocket|Rails风格的MVC程序|Express中间件|http://sailsjs.org/documentation/concepts|GitHub6000颗星|BSD3条款|
+|DerbyJS|全栈框架|有支持数据库的ORM（Racer）同构|有服务器端支持的单页面Web程序|DerbyJS插件|http://derbyjs.com/docs/derby-0.6|GitHub4000颗星|MIT|
+|Flatiron.js|模块化MVC框架|数据库管理层（Resourceful），解藕的可重用模块|轻量的MVC程序，在其他框架中使用Flatiron|中间件|http://github.com/flatiron|GitHub1500颗星|MIT|
+|LoopBack|API框架|ORM.API用户界面，WebSocket,客户端SDK 包括IOS|支持多客户端API(移动端，桌面端，Web)|Express中间件|http://loopback.io/doc|GitHub6500颗星|MIT和StrongLoop|
+
+![框架对比](./imgs/kuangjia.jpeg)
+
+
+# 6、 深入了解Connect 和Express
+- 了解Connect 和 Express 是用来做什么的
+- 中间件的使用和创建
+- Express 程序的创建及配置
+- 用Express中的关键技术处理错误，渲染试图和表单
+- 用Express的架构化技术实现路由，REST API和用户认证
+
+Express 是在Connect的基础上添加高层糖衣扩展和搭建出来的。
+
+## Connect
+![中间件](./imgs/middleware.jpeg)
+
+### 创建可配置的中间件
+
+用一个函数返回另一个函数
+```js
+function setup(opitons){
+    // 设置逻辑
+    return function(req, res, next){
+        //中间件逻辑
+    }
+}
+
+//用法
+app.use(setup({some:'options'}))
+```
+// 可配置的日志中间件
+```js
+function setup(format){
+    const regexp = /:(\w+)/g
+    return function createLogger(req, res, next){
+        const str = fomat.replace(regexp, (match,property)=>{
+            return req,property
+        });
+        console.log(str)
+        next()
+    }
+}
+```
+
+## express
+
+生成程序
+```sh
+sudo npm i express-generator -g
+```
+
 
