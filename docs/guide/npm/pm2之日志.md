@@ -163,7 +163,7 @@ sudo pm2 logrotate -u user
 
 ```
 
-上面的命令会输出一个基础的日志切肤配置到`/etc/logrotate.d/pm2-user`:
+上面的命令会输出一个基础的日志切分配置到`/etc/logrotate.d/pm2-user`:
 ```sh
 /home/user/.pm2/pm2.log/ /home/user/.pm2/logs/*.log{
     rotate 12
