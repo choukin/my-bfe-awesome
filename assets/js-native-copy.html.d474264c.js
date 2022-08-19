@@ -1,0 +1,11 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as a,c as n,a as i}from"./app.8e201d3a.js";const t={},s=i(`<h1 id="javascript-\u539F\u751F-\u76D1\u542C\u6D4F\u89C8\u5668\u590D\u5236\u7C98\u8D34\u5185\u5BB9" tabindex="-1"><a class="header-anchor" href="#javascript-\u539F\u751F-\u76D1\u542C\u6D4F\u89C8\u5668\u590D\u5236\u7C98\u8D34\u5185\u5BB9" aria-hidden="true">#</a> javascript \u539F\u751F \u76D1\u542C\u6D4F\u89C8\u5668\u590D\u5236\u7C98\u8D34\u5185\u5BB9</h1><h2 id="\u76D1\u542C\u4E8B\u4EF6" tabindex="-1"><a class="header-anchor" href="#\u76D1\u542C\u4E8B\u4EF6" aria-hidden="true">#</a> \u76D1\u542C\u4E8B\u4EF6</h2><ul><li>copy \u5F53\u7528\u6237\u5728\u6D4F\u89C8\u5668\u8FDB\u884C\u590D\u5236\u64CD\u4F5C\uFF08ctrl+c \u6216\u8005\u9F20\u6807\u53F3\u952E\u590D\u5236\uFF09 \u548C\u8C03\u7528 <code>document.execCommand(&#39;copy&#39;)</code> \u65F6\uFF0C copy \u4E8B\u4EF6\u4F1A\u88AB\u89E6\u53D1</li><li>paste \u5F53\u4ECE\u526A\u5207\u677F\u7C98\u8D34\u5185\u5BB9\u65F6\u4F1A\u89E6\u53D1 paste \u4E8B\u4EF6</li></ul><h3 id="\u6CE8\u518C\u76D1\u542C\u4E8B\u4EF6" tabindex="-1"><a class="header-anchor" href="#\u6CE8\u518C\u76D1\u542C\u4E8B\u4EF6" aria-hidden="true">#</a> \u6CE8\u518C\u76D1\u542C\u4E8B\u4EF6</h3><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code> document.addEventListener(&#39;copy&#39;, copy)
+ function copy(onEvent) {
+     onEvent.preventDefault();
+     onEvent.clipboardData.setData(&#39;text&#39;, &#39;\u6211\u662F\u62F7\u8D1D\u5185\u5BB9&#39;)
+ }
+
+ document.addEventListener(&#39;paste&#39;, paste)
+ function paste (onEvent){
+     console.log(onEvent.clipboardData.getData(&#39;text&#39;))
+ }
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,5),d=[s];function c(r,l){return a(),n("div",null,d)}var u=e(t,[["render",c],["__file","js-native-copy.html.vue"]]);export{u as default};

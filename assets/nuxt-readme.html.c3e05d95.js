@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-9b03dde6","path":"/guide/nuxt-readme.html","title":"Nuxt","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"\u65B0\u5EFA\u9879\u76EE","slug":"\u65B0\u5EFA\u9879\u76EE","children":[]}]}');export{e as data};

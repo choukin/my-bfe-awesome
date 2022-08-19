@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6b7082aa","path":"/vue/elementui.html","title":"element UI \u95EE\u9898\u8BB0\u5F55","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"\u95EE\u9898\u63CF\u8FF0\uFF1A","slug":"\u95EE\u9898\u63CF\u8FF0","children":[{"level":3,"title":"\u77E5\u8BC6\u70B9\uFF1A","slug":"\u77E5\u8BC6\u70B9","children":[]}]}]}');export{e as data};

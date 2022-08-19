@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper.21dcd24c.js";import{o as n,c as o,b as e}from"./app.8e201d3a.js";const r={},s=e("ul",null,[e("li",null,"https://carbon.now.sh/ \u751F\u6210\u6F02\u4EAE\u7684\u4EE3\u7801\u56FE\u7247")],-1),c=[s];function _(l,a){return n(),o("div",null,c)}var m=t(r,[["render",_],["__file","intersting.html.vue"]]);export{m as default};

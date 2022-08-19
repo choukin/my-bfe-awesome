@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-a66e9428","path":"/js/rem.html","title":"rem","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[{"level":3,"title":"\u7B49\u6BD4\u4F8B\u7F29\u653E","slug":"\u7B49\u6BD4\u4F8B\u7F29\u653E","children":[]},{"level":2,"title":"\u6709\u7F29\u653E\u7684\u65B9\u6848","slug":"\u6709\u7F29\u653E\u7684\u65B9\u6848","children":[]}]}');export{e as data};
