@@ -44,7 +44,8 @@ how-to-use-chrome-as-a-code-editor-and-debugger)
 - [] [emmet](https://docs.emmet.io/actions/expand-abbreviation/)
 - [] [ssh 登陆android](https://www.jianshu.com/p/c65773acce48)
 - [] [android作为服务器](https://lbrito1.github.io/blog/2020/02/repurposing-android.html)
-- [] [temir VUE开发命令行工具]https://github.com/webfansplz/temir/blob/main/README.zh-CN.md
+- [] [temir VUE开发命令行工具](https://github.com/webfansplz/temir/blob/main/README.zh-CN.md)
+- [] [神经网络](https://tensorflow.google.cn/js/tutorials?hl=zh-cn)
     
 
 ## Typescript
