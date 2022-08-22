@@ -419,3 +419,171 @@ app.set('views', __dirname+'views')
 Post/Redirect/Get (PRG) 是一种常用的Web程序设计模式。这种模式是指，用户请求表单，表单数据作为HTTP POST 请求被提交，然后用户被重定向到另外一个WEB页面上，用户被重定向到哪里取决于表单数据是否有效，如果表单数据无效，程序会让用户回到表单页面。如果表单数据有效，程序会让用户到新的Web页面中，PRG模式主要为了防止表单的重复提交。
 
 
+### 内容协商
+内容协商让客户端可以指定它乐于接受且喜欢的数据格式，
+HTTP通过Accept请求头域提供了内容协商机制，
+
+1、 HTMl 或文本
+```sh
+Accept: text/plain; q=0.5, text/html
+```
+
+- `q=0.5` 是qvalue 或 qualityvalue 表示 即便text/html 放在后面，优先级也比`text/plain` 高50%， Express 会解析这个信息并提供一个规范化的req.accepted数组：
+
+```js
+[
+    {value:'text/html',quality:1},
+    {
+        value:'text/plain', quality:0.5
+    }
+]
+```
+
+Express 提供了一个 res.format()  方法，它的参数是一个MIME 类型数组和回调函数。
+
+1、 实现内容协商
+
+res.fromat() 会自动设定关联的类型
+
+```js
+res.format({
+    'application/json':()=>{
+        res.send(entries)
+    },
+    'application/xml':()=>{
+        res.write('<entries>\n')
+        entries.forEach((entry)=>{
+            res.write(```
+            <entry>
+                  <title>${entry.title}</title>  
+                  <body>${entry.body}</body>
+                  <username>${entry.username}</username>
+            </entry>
+            ```)
+        })
+        res.end('entries')
+    }
+})
+```
+
+# 7、模版
+
+- Embedded JavaScript (EJS)引擎
+- 极简的Hogan引擎
+- Pug模版引擎
+
+## MVC
+
+![MVC 程序流程以及它跟模版交互](./imgs/nodemvc.jpeg)
+
+
+- ejs 保留字
+
+cache client close compileDebug debug filename open scope
+
+
+### Mustache模版
+1、 显示简单的值
+ {{name}}
+
+  不想转译 {{{name}}} {{&name}}
+
+  注释 {{!this is a comment}}
+
+
+2、区块： 多个值的循环遍历
+```html
+{{#students}}
+    <p>Name:{{name}}, Age:{{age}} years old</p>
+{{students}}
+```
+
+3、反区块，值不存在时的默认HTMl
+```html
+
+{{^students}}
+<p>No students found.</p>
+{{/students}}
+```
+
+4、区块 lambda：区块内的定制功能
+
+```sh
+npm i -D github-flavored-moardown
+```
+
+5、子模板：在其他模版种重用模版
+
+```js
+const hogan = require('hogan.js')
+const studentTemplate = `
+    <p>
+        Name:{{name}}
+        Age: {{age}} years o;d
+    </p>
+`
+
+const mainTemplate = `
+    {{#student}}
+        {{>student}}
+    {{/student}}
+`
+
+const context = {
+    students:[
+        {
+            name:'1',
+            age:21
+        },{
+            name:'2',
+            age:21
+        }
+    ]
+}
+
+const template = hogan.compile(maintemplate)
+
+const partial = hogan.compile(studentTemplate)
+
+const html = template.render(context,{student:partial})
+consol.log(html)
+```
+
+## pug
+
+# 存储数据
+
+- 关系型数据库: PostgreSQL
+- 非关系型数据库: MongoDB
+- ACID 类
+- 云数据库和存储服务
+
+
+## postgres
+### 安装
+```sh
+brew update
+brew install postgres
+#  遇到问题可以删除
+rem -rf /usr/local/var/postgres
+
+# 启动
+brew services start postgresql
+# 命令行操作
+psql postgres
+# 新建数据库
+createDB articles
+# 删除数据库中数据
+dropdb articles
+```
+
+### Node连接 Postgres
+```sh
+npm install pg -S
+```
+
+ORM 工具
+- Knex
+- [sequelize](https://github.com/demopark/sequelize-docs-Zh-CN)
+
+
