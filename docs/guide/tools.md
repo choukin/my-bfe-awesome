@@ -15,6 +15,7 @@
   - [网页编辑图片工具](https://nhnent.github.io/tui.image-editor/latest/)
   - [免费商用的插画](https://illlustrations.co/)
   - [1000多个 svg icons](https://iconoir.com/)
+  - [自动扣图](https://bgsub.cn/webapp/)
 
 
 ## js/css

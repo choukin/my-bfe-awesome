@@ -583,7 +583,93 @@ npm install pg -S
 ```
 
 ORM 工具
-- Knex
+- [Knex](https://knexjs.org/)
 - [sequelize](https://github.com/demopark/sequelize-docs-Zh-CN)
 
+
+### ACID
+ACID 是对数据库事务的一组要求：原子性、一致性、隔离性和耐用性。
+
+- 原子性: 无论成败，事务必须整体执行
+- 一致性: 始终确保约束条件
+- 隔离性：并发事务不会相互干扰
+- 耐用性：事务是永久的
+
+### NoSQL
+
+非关系模型的数据存储统称为 NoSQL, NOSQL 的含义接近于非关系型，或者被当作不仅是SQL的缩写。
+
+NoSQL的范式及相应的数据库的例子：
+- 键值/元组存储： DynamoDB\LevelDB\ Redis\ etcd\ Riak\ Aerospike\ Berkeley DB
+
+- 图存储： Neo4J\ OrientDB
+
+- 文档存储： CouchDB\ MongoDb Elastic
+- 列存储： Cassandra\ HBase
+- 时间序列存储： Graphite\ InfluxDB \ RRDtool
+- 多范式 - Couchbase(文档数据库、键值存储、分布式缓存)
+- 
+
+### 分布式数据库
+程序可以在垂直和水平两个方向上扩展，垂直扩展指增加机器的能力，水平扩展指增加机器的数量。
+
+分布式数据库从一开始就按照水平扩展设计的。把数据存储在多台机器上解决了单点故障问题。可以提升耐用性。
+
+一般使用：分片、主/从 主、主复制等形态进行一定水平扩展。 MySQL 集群上限是 255个节点，而分布式数据库可以有几千个节点。
+
+### MongoDB
+
+把文档存储在无模式的数据集中。不需要预先为文档定义模式。
+同一个数据集中的文档也不用遵循相同的模式。
+
+
+### 嵌入式数据库
+
+嵌入式数据库不需要安装或管理一个外部服务器，它是嵌入在程序进程里运行的，
+
+Node 和 Electron 程序常用的嵌入式数据库有
+
+- SQLite
+- LevelDB
+- RocksDB
+- Aerospike
+- EJDB
+- NeDB
+- LokiJS
+- Lowdb
+
+NeDB,LokiJS 和 Lowdb 都是纯JavaScript写的，除SQLite是可嵌入关系数据库，大多数都是键值或文档存储
+
+### 昂贵的序列化和反序列化
+JSON操作是昂贵的阻塞式操作，在进程将数据装进JOSN,或从JSON取出数据时，做不了别的事情。大多数数序列化都是如此。
+
+减少序列化
+
+改变序列化格式，（MesssgePack 或 Protocol Buffer） 嗯能会加快处理速度
+
+
+## 浏览器内存储
+不同浏览器有不同的数据存储空间上限。移动端浏览器中只有5MB的存储空间。
+
+```js
+// 遍历localStorage中整个数据集
+        function getAllKeys() {         
+             return Object.keys(localStorage);        
+        }        
+        function getAllKeysAndValues() {          
+                return getAllKeys()            
+                .reduce((obj, str) => {              
+                    obj[str] = localStorage.getItem(str);              
+                    return obj;            
+                    }, {});        
+        }
+          // 得到所有的值          
+          const allValues = getAllKeys().map(key => localStorage.getItem(key));          
+          // 作为对象输出          
+          console.log(getAllKeysAndValues());        
+```
+
+
+## [localForage](http://localforage.docschina.org/#)
+- IndexedDB
 
