@@ -36,7 +36,7 @@
 
 - [] [头像生成1](https://kfs479.smartapps.cn/pages/blogdetail/blogdetail?id=3311880&_swebfr=1&_swebFromHost=baiduboxapp)
      [头像生成2](https://www.cnblogs.com/blueVictory/p/15457894.html)
-      [头像生成3](https://github.com/YMAndroid/photoDemo)
+      [github头像生成3](https://github.com/YMAndroid/photoDemo)
 - [x] [chrome调试](https://blog.openreplay.com/
 - [] [](https://blog.openreplay.com/15-devtool-secrets-for-javascript-developers)
 how-to-use-chrome-as-a-code-editor-and-debugger)      
@@ -48,6 +48,8 @@ how-to-use-chrome-as-a-code-editor-and-debugger)
 - [] [神经网络](https://tensorflow.google.cn/js/tutorials?hl=zh-cn)
 - [][nestjs](https://docs.nestjs.cn/9/introduction)
 - [] [knexjs](https://knexjs.org/)
+- [] [Koa RESTfual API 实战](https://www.bookstack.cn/read/koa-todo-api/%E6%90%AD%E5%BB%BA%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83.md)
+- [] [jest](https://jestjs.io/zh-Hans/)
     
 
 ## Typescript

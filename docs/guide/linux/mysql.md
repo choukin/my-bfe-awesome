@@ -19,3 +19,7 @@
   575  2022-08-02 14:41:45 root systemctl status mysqld
   576  2022-08-02 14:42:04 root mysqladmin --version
   577  2022-08-02 14:42:09 root history
+
+
+安装MySQL
+

@@ -673,3 +673,124 @@ JSON操作是昂贵的阻塞式操作，在进程将数据装进JOSN,或从JSON�
 ## [localForage](http://localforage.docschina.org/#)
 - IndexedDB
 
+
+# 9 测试Node程序
+TDD 测试驱动开发
+BDD 行为驱动开发
+- Node 自带的 assert 模块， TDD 风格自动化测试的好工具
+- Mocha  相对比较新的测试框架，可以用来做TDD 或 BDD-风格的测试
+- Vows 得到广泛应用的BDD风格测试框架
+- Should.js 构建在Node assert 模块上的模块，提供BDD 风格断言
+
+
+## Mocha 
+### BDD 风格
+ - describe
+ - it
+ - before
+ - after
+ - beforeEach
+ - afterEach
+
+### TDD 风格
+ - suite
+ - test
+ - setup 
+ - teardown 
+
+ ## Vows 测试代码结构化更强, 有特定的结构和术语
+
+
+ ## Chai 是一个流行的断言库，有三个接口，should,expect 和 assert
+
+ ## 功能测试
+ - 无头测试
+    - PhantomJS
+    - Cheerio
+    - JSDOM
+
+ - 基于浏览器测试
+
+    - Selenium
+
+
+
+# Node 部署
+
+## 用 Docker 运行Node
+1、 安装 Docker
+2、 创建Node程序。
+3、 在项目中添加文件Dockerfile
+
+
+## 保证程序不掉线
+
+### 安装
+```sh
+npm install -g forever
+```
+###  启动
+```sh
+forever start server.js
+```
+### 停止
+```sh
+forever stop server.js
+```
+
+### 查看管理的程序
+```sh
+forever list
+```
+
+### 监听变化重启
+```sh
+forever -w start server.js
+```
+
+## 保证成功程序在线时长和性能最大化的技术
+
+- 用Upstart保证程序在线，在服务器重启，崩溃后继续运行
+- 用Node集群API 充分利用多核处理器的处理能力
+- 用Nighx提供Node程序中的镜头文件
+
+Upstart 可以优雅地管理所有Linux程序的启动和关停，
+CentOS 安装upstart
+```sh
+sudo yum install upstart
+```
+
+# 编写命令行程序
+
+- 按通用惯例设计命令行程序
+- 管道通信
+- 使用退出码
+
+## 惯例
+- 连字符 - 双连字符 --
+- -h  --help
+- -f --filename
+- -q
+- -v --version
+
+- 准则4 所有选项都应该带有-
+- 准则10 第一个非选项参数的 -- 参数都应该当作表明参数结束的分隔符，之后的参数即便以- 开头都应该作为操作数处理
+
+UNIX 的理念基础:
+编写只做一件事并能把它做好的程序；编写能协作的程序；编写能处理文件流的程序，因为那是通用的接口；
+
+
+shell：获取帮助信息
+
+如果使用shell时卡住了，可以试试man <cmd> 就会看到这条命了的使用手册
+如果忘记某个命令如何拼写，可以用 apropos <cmd> 在系统命令库中搜
+
+
+如何解析命令行参数
+
+- stdout 是给其他命令程序用的
+- stderr 是给开发人员看的
+
+
+
+

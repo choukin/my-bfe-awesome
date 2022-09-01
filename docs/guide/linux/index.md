@@ -137,8 +137,10 @@ r:4 w:2 x:1
 
 - touch 创建文件命令
 
-- echo 出入字符串
-  > echo "admin test" > f
+- echo 出入字符串到文件
+  > echo "admin test" > f.txt
+  > echo "追加内容到文件末尾"> f.txt
+
 
 
 
@@ -371,6 +373,13 @@ cat /etc/redhat-release
 
 ## 其他
 - history 查看历史使用过的命令
+
+  - 和grep命令结合搜索 
+  ```sh
+  history | grep node
+  ```
+
+
 - reset 初始化终端
 - clear 终端清屏
 
@@ -378,4 +387,27 @@ cat /etc/redhat-release
 
 
 
-##
+## 获取帮助信息
+
+如果使用shell时卡住了，可以试试man <cmd> 就会看到这条命了的使用手册
+如果忘记某个命令如何拼写，可以用 apropos <cmd> 在系统命令库中搜
+
+## 键盘快捷键
+- `Ctrl + R` 从命令历史中搜索
+- `Ctrl + S` 向前搜索
+- `Ctrl + G` 放弃搜索
+- `Ctrl + W` 删除字词
+- `ALT + F/B` 向前或向后移动一个单词
+- `CtrL +  A/E` 跳到某行开头或结尾
+- `Ctrl + U` 删除当前命令行
+- `Ctrl + Y` 撤销上面的删除
+- `Ctrl + L` 清屏
+
+
+
+# shell
+ 
+ - && 表示前面的命令退出码为0时执行下一条命令
+ - || 表示退出码非0时执行
+
+
