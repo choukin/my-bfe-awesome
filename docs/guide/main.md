@@ -50,6 +50,9 @@ how-to-use-chrome-as-a-code-editor-and-debugger)
 - [] [knexjs](https://knexjs.org/)
 - [] [Koa RESTfual API 实战](https://www.bookstack.cn/read/koa-todo-api/%E6%90%AD%E5%BB%BA%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83.md)
 - [] [jest](https://jestjs.io/zh-Hans/)
+
+## 翻译
+- [] [Macbook 的触摸栏设置成 git 操作](https://refruity.xyz/macbook-touch-bar-in-iterm2/)
     
 
 ## Typescript
