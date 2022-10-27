@@ -234,6 +234,14 @@ git clone github@choukin.com --depth=1
 https://cloud.tencent.com/developer/article/1665810
 
 
+10. 把仓库代码提交到一个新仓库里
+```sh
+git remote add dipper git@gitee.com:dipper/my-qianshi-qiankui-kid-medical.git
+➜  lepu-medical-system git:(dev_1.1.0_zx) ✗ git push -u dipper --all
+
+```
+
+
 
 
 
