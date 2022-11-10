@@ -61,6 +61,16 @@ sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say DNS cache flu
 ## [Alfred](https://www.alfredapp.com/)
 > Alfred 是一款屡获殊荣的 macOS 应用程序，它通过热键、关键字、文本扩展等提高您的效率。搜索您的 Mac 和网络，并通过自定义操作来控制您的 Mac，从而提高工作效率。
 
+## [pap.er](https://paper.meiyuan.in/index.html)
+>专为 Mac 设计的壁纸应用
+
+## [SwitchHosts](https://github.com/oldj/SwitchHosts/releases)
+> SwitchHosts 是一个管理、切换多个 hosts 方案的工具。
+它是一个免费开源软件
+
+## [dev-sidecar](https://github.com/docmirror/dev-sidecar)
+> github加速
+
 ## 常见问题
 
 1、 开启允许任何来源安装软件
