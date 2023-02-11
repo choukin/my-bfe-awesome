@@ -241,6 +241,15 @@ git remote add dipper git@gitee.com:dipper/my-qianshi-qiankui-kid-medical.git
 
 ```
 
+11. 从commit中拉取分支
+  - 1. git log ：找出当初打出版本1.0的最后一次提交对应的commitid
+  - 2. git checkout commitid(此处替换为步骤一查到的commitid) -b branchName(本地新拉出分支的名称)
+
+```sh
+git log
+git checkout <commitid> -b branchName
+```
+
 
 
 

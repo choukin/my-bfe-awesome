@@ -164,5 +164,8 @@ npm list -g --depth 0
 npm prefix [-g]
 ```
 
+###  清除 npm 缓存
+npm cache clear --force
+
 
 

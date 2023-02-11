@@ -3,6 +3,7 @@
 [NODE支持的ES6特性](https://node.green/)
 [源码](https://github.com/nodejs/node)
 [闭包](https://developer.mozilla.org/zh-CN/docs/JavaScript/Guide/Closures)
+[node 版本对应的npm版本](https://nodejs.org/zh-cn/download/releases/)
 ## Node.js 是什么
 Node.js 是一个JavaScript 运行平台，特定是异步和事件驱动机制，小巧精悍的标准库
 ## 定义Node应用程序
