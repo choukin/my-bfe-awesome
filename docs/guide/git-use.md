@@ -250,6 +250,17 @@ git log
 git checkout <commitid> -b branchName
 ```
 
+12. 修改分支名称
+
+```sh
+#1、查看分支
+git branch -a 
+#2、修改本地分支
+git branch -m old-branch-name new-branch-name
+#3、修改后的分支推送到远端
+git push -u origin new-branch-name
+```
+
 
 
 

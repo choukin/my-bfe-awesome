@@ -322,6 +322,7 @@ http://[fe80::461c:a8ff:fe2a:accf%2]:3911/1ed680d5-6138-4608-a269-8840850a96f9
     - indent-rainbow
     - open in browser 
     - code Runner
+    - 生成的代码 codeium.com
 
 - [PostMan](https://www.postman.com/)
 
