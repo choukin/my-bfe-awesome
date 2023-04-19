@@ -234,14 +234,9 @@ git clone github@choukin.com --depth=1
 https://cloud.tencent.com/developer/article/1665810
 
 
-10. 把仓库代码提交到一个新仓库里
-```sh
-git remote add dipper git@gitee.com:dipper/my-qianshi-qiankui-kid-medical.git
-➜  lepu-medical-system git:(dev_1.1.0_zx) ✗ git push -u dipper --all
 
-```
 
-11. 从commit中拉取分支
+10. 从commit中拉取分支
   - 1. git log ：找出当初打出版本1.0的最后一次提交对应的commitid
   - 2. git checkout commitid(此处替换为步骤一查到的commitid) -b branchName(本地新拉出分支的名称)
 
@@ -250,7 +245,7 @@ git log
 git checkout <commitid> -b branchName
 ```
 
-12. 修改分支名称
+11. 修改分支名称
 
 ```sh
 #1、查看分支
@@ -261,6 +256,18 @@ git branch -m old-branch-name new-branch-name
 git push -u origin new-branch-name
 ```
 
+
+12. 迁移代码到另一个仓库
+```sh
+cd existing_repo
+git remote rename origin old-origin
+
+git branch -r | grep -v '\->' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done 
+
+git remote add neworigin git@git.xuepeiyou.com:xx/xxx/xxx/xx.git
+git push -u neworigin --all
+git push -u neworigin --tags
+```
 
 
 

@@ -167,5 +167,31 @@ npm prefix [-g]
 ###  清除 npm 缓存
 npm cache clear --force
 
+### `.npmrc` 文件
+1. .npmrc，可以理解成npm running cnfiguration, 即npm运行时配置文件。简单点说， .npmrc 可以设置 package.json 中依赖包的安装来源，既从哪里下载依赖包。
+2.项目下 .npmrc 文件的优先级最高，可以给每个项目配置不同的镜像，项目之间的配置互不影响。
+   在项目的根目录下新建 .npmrc 文件，在里面以 key=value 的格式进行配置。
+```sh
+# 指定package.json 中的下载源
+registry=https://registry.npm.taobao.org
+# 指定@test 开头的包下载地址
+@test:registry=https://npm.test.com
+# 配置此项目的局部镜像源之 electron
+electron_mirror = "https://npm.taobao.org/mirrors/electron/"
+# 其它包的配置配置
+disturl=https://npm.taobao.org/dist
+sass_binary_site=https://npm.taobao.org/mirrors/node-sass
+electron_mirror=https://cdn.npm.taobao.org/dist/electron/
+PUPPETEER_DOWNLOAD_HOST=https://npm.taobao.org/mirrors
+canvas_binary_host_mirror=https://npm.taobao.org/mirrors/node-canvas-prebuilt/
+sentrycli_cdnurl=https://registry.npmmirror.com/-/binary/sentry-cli
+```
+
+- npm 的配置文件 .npmrc
+- yarn 会读取.npmrc 的配置文件，所以不必为 yarn 再设置一次
+- 删除 .npmrc 文件，即可恢复默认配置
+- 项目根目录命令行 npm config get registry 查看是否设置成功
+
+
 
 
