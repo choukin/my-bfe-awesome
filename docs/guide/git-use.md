@@ -257,7 +257,7 @@ git push -u origin new-branch-name
 ```
 
 
-12. 迁移代码到另一个仓库
+12. 迁移代码到另一个仓库、还可以把代码上传到多个仓库
 ```sh
 cd existing_repo
 git remote rename origin old-origin
@@ -267,6 +267,14 @@ git branch -r | grep -v '\->' | while read remote; do git branch --track "${remo
 git remote add neworigin git@git.xuepeiyou.com:xx/xxx/xxx/xx.git
 git push -u neworigin --all
 git push -u neworigin --tags
+```
+
+13.git仓库迁移(all branches and tags)
+
+```sh
+git clone --bare old.git
+cd old.git
+git push --mirror new.git
 ```
 
 
