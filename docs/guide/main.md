@@ -10,9 +10,6 @@
 这是默认主题内置的 `<Badge />` 组件 <Badge text="演示" />
 [[toc]] -->
 
-
-
-
 ## TODO
 
 - [ ] 学习 sass
@@ -37,16 +34,18 @@
 - [] [头像生成1](https://kfs479.smartapps.cn/pages/blogdetail/blogdetail?id=3311880&_swebfr=1&_swebFromHost=baiduboxapp)
      [头像生成2](https://www.cnblogs.com/blueVictory/p/15457894.html)
       [github头像生成3](https://github.com/YMAndroid/photoDemo)
-- [x] [chrome调试](https://blog.openreplay.com/
+- [x] [chrome调试](https://blog.openreplay.com/)
 - [] [](https://blog.openreplay.com/15-devtool-secrets-for-javascript-developers)
-how-to-use-chrome-as-a-code-editor-and-debugger)      
+how-to-use-chrome-as-a-code-editor-and-debugger)  
+
+- [] [gasp](https://blog.csdn.net/changbb/article/details/131675810)
 
 - [] [emmet](https://docs.emmet.io/actions/expand-abbreviation/)
 - [] [ssh 登陆android](https://www.jianshu.com/p/c65773acce48)
 - [] [android作为服务器](https://lbrito1.github.io/blog/2020/02/repurposing-android.html)
 - [] [temir VUE开发命令行工具](https://github.com/webfansplz/temir/blob/main/README.zh-CN.md)
 - [] [神经网络](https://tensorflow.google.cn/js/tutorials?hl=zh-cn)
-- [][nestjs](https://docs.nestjs.cn/9/introduction)
+- [] [nestjs](https://docs.nestjs.cn/9/introduction)
 - [] [knexjs](https://knexjs.org/)
 - [] [Koa RESTfual API 实战](https://www.bookstack.cn/read/koa-todo-api/%E6%90%AD%E5%BB%BA%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83.md)
 - [] [jest](https://jestjs.io/zh-Hans/)
@@ -282,15 +281,11 @@ var htmlSTring =
 
 http://[fe80::461c:a8ff:fe2a:accf%2]:3911/1ed680d5-6138-4608-a269-8840850a96f9
 
-
-
 ## 项目模版
 
 - [vue3 + setup + ts， vw + rem等来搭建的移动端项目](https://github.com/cll123456/template-varlet-v3-ts)
 
 - [vue3 企业端项目](https://vvbin.cn/doc-next/)
-
-
 
 ## 免费的软件
 
@@ -299,13 +294,14 @@ http://[fe80::461c:a8ff:fe2a:accf%2]:3911/1ed680d5-6138-4608-a269-8840850a96f9
 ### 加速工具
 
 - [Steam](https://steampp.net/)
-    
+
 #### 办公
+
 - [WPS](https://www.wps.cn/) office的替代品
 - [snipaste](https://www.snipaste.com/)截图工具
-- 
 
 #### 开发
+
 - [git](https://git-scm.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
   - 插件
@@ -321,28 +317,20 @@ http://[fe80::461c:a8ff:fe2a:accf%2]:3911/1ed680d5-6138-4608-a269-8840850a96f9
     - Prettier - code Formatter
     - auto Import
     - indent-rainbow
-    - open in browser 
+    - open in browser
     - code Runner
     - 生成的代码 codeium.com
 
 - [PostMan](https://www.postman.com/)
 
 - [oh my zsh](https://ohmyz.sh/)
-- [asdf](https://asdf-vm.com/) 
+- [asdf](https://asdf-vm.com/)
 - [iTerm2](https://iterm2.com/)
 
 - [https://dber.tech/] 开源免费的设计数据库的web应用，可以导出sql
 
-
-
-
-
 ### 数据库
+
 #### 图形化界面
+
 - [DBeaver](https://dbeaver.io/)
-
-
-
-
-
-

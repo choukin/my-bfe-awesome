@@ -1,0 +1,25 @@
+{
+  "name": "Demo1",
+  "description": "A simple demo cion",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "icons/32.png"
+    }
+  },
+  "options_page": "options.html",
+  "icons": {
+    "32": "icons/32.png",
+    "512": "icons/512.png"
+  }
+}
