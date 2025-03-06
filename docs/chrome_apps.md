@@ -1,35 +1,34 @@
 # chrome app 列表
 - [ublock origin是一款专门为浏览器开发的网页广告拦截过滤插件](http://www.xue51.com/soft/2278.html)
 - [一键管理所有扩展](https://chrome.google.com/webstore/detail/%E4%B8%80%E9%94%AE%E7%AE%A1%E7%90%86%E6%89%80%E6%9C%89%E6%89%A9%E5%B1%95/niemebbfnfbjfojajlmnbiikmcpjkkja)
-    * 用于：快捷停用启用浏览器插件
-- [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa)   
-    * 用于：格式化网络请求来的JSON字符串
--  Anything to QRcode
-    * 用于：将地址栏网址快捷生成二维码
+  - 用于：快捷停用启用浏览器插件
+- [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa)
+  - 用于：格式化网络请求来的JSON字符串
+- Anything to QRcode
+- 用于：将地址栏网址快捷生成二维码
 - [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
-    * 用于：为Github 库添加快捷访问的侧边栏文件树
+  - 用于：为Github 库添加快捷访问的侧边栏文件树
 - Validity
-    * 用于：检查网页中的错误，如：标签的闭合、属性的遗漏、优化建议
+  - 用于：检查网页中的错误，如：标签的闭合、属性的遗漏、优化建议
 - Speed Dial 2 中文版
-    * 用于：将浏览器新标签页变成快捷拨号页
+  - 用于：将浏览器新标签页变成快捷拨号页
 - [AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom)
-    * 用于：屏蔽广告
+  - 用于：屏蔽广告
 - Backbone Debugger
-    * 用于：Backbone 开发，查看各种Backbone实例的详情
+  - 用于：Backbone 开发，查看各种Backbone实例的详情
 - [React Developer Tools](https://github.com/facebook/react-devtools)
-    * 用于：React开发工具
--  [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-    * 用于：Vue开发工具
-    * [github 仓库](https://github.com/vuejs/vue-devtools)
--  Proxy SwitchyOmega
-    * 用于：快捷管理切换浏览器代理。搭配科学上网
-   1.   Axure RP Extension for Chrome
+  - 用于：React开发工具
+- [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+- 用于：Vue开发工具
+- [github 仓库](https://github.com/vuejs/vue-devtools)
+- Proxy SwitchyOmega
+- 用于：快捷管理切换浏览器代理。搭配科学上网
+   1. Axure RP Extension for Chrome
                  用于：让谷歌支持打开Axure（产品原型）插件
-
 
 # 如何用Chrome编辑以及调试代码
 
-翻译[原文](https://blog.openreplay.com/how-to-use-chrome-as-a-code-editor-and-debugger) 
+翻译[原文](https://blog.openreplay.com/how-to-use-chrome-as-a-code-editor-and-debugger)
 
 很少有开发者慎入研究浏览器的"开发者工具"，现在浏览器的开发者工具有一系列令人望而生畏的复杂功能，可以让Chrome作为完整的开发环境。我们不太可能放弃VS Code 或者Sublime Text 等编辑器。但是如果在别人的电脑上或需要编辑简单的代码时，浏览器是一个不错的选择。
 
@@ -200,7 +199,7 @@ node --inspect=0.0.0.0:9229 index.js
 
 几秒后应用会出现砸 `Remote Target` 列表中，如果没出现， 确保选择了`Discover network targets`，并且点击`Configure` 来添加应用所在设备的IP和端口
 
-点击 应用的`inspect` 链接来启动另一个开发者工具窗口，和浏览器开发者工具相比，他的选项较少，你主要可以使用`Sources`面板来添加断点，和之前一样虚啊者`FileSystem` 面板点击`+ Add folder to workspace` 来编辑服务器代码。 
+点击 应用的`inspect` 链接来启动另一个开发者工具窗口，和浏览器开发者工具相比，他的选项较少，你主要可以使用`Sources`面板来添加断点，和之前一样虚啊者`FileSystem` 面板点击`+ Add folder to workspace` 来编辑服务器代码。
 
 
 ## 其他受欢迎的工具

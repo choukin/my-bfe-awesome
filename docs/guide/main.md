@@ -61,12 +61,6 @@ how-to-use-chrome-as-a-code-editor-and-debugger)
 ## react
 - [] [react 源码](https://xiaochen1024.com/courseware/60b1b2f6cf10a4003b634718)
 
-
-
-
-
-
-
 ## Vue
 
 ### Vue 2
@@ -192,6 +186,7 @@ new HtmlWebpackPlugin({
 6. [Kaboom.js](https://kaboomjs.com/doc/intro) Kaboom 是一个 JavaScript 库，可帮助您快速有趣地制作游戏.
 7. [p5.js](https://p5js.org/zh-Hans/)
 8. [拼图游戏](https://www.jb51.net/article/91918.htm?t=1493428123756) 
+9. [phaser](https://phaser.io/) Phaser 是一个快速、免费、有趣的开源 HTML5 游戏框架，在桌面和移动网络浏览器上提供 WebGL 和 Canvas 渲染功能 
 
 ## 前端工具
 
@@ -200,6 +195,8 @@ new HtmlWebpackPlugin({
 - [正则表达式测试网址](https://jex.im/regulex/)
 - [用户指引库](https://github.com/usablica/intro.js/)
 - [腾讯蓝鲸](http://o.qcloud.com/static/api/v3/#templates)
+- [verdaccio npm 轻量级Node.js私有库](https://www.npmjs.com/package/verdaccio)
+- [获取一个免费的tinypng APIkey](https://tinypng.com/developers)
 
 
 
@@ -328,6 +325,8 @@ http://[fe80::461c:a8ff:fe2a:accf%2]:3911/1ed680d5-6138-4608-a269-8840850a96f9
 - [iTerm2](https://iterm2.com/)
 
 - [https://dber.tech/] 开源免费的设计数据库的web应用，可以导出sql
+
+- [Code Inspector](https://inspector.fe-dev.cn/)点击页面上的 DOM 元素，它能自动打开 IDE 并将光标定位至 DOM 的源代码位置
 
 ### 数据库
 

@@ -147,6 +147,7 @@ module.exports = exports = Currency
     "main":"xxx.js"
 }
 ```
+
 ![查找模块](./imgs/node_module.jpeg)
 
 ![module2](./imgs/module.jpeg)

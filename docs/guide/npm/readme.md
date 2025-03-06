@@ -4,6 +4,7 @@
 - [verdaccio npm 私有源服务]https://verdaccio.org/
 
 - npm 规范
+
 ```shell
 ├── index.js //入口文件
 ├── introduce.md //说明文件
@@ -23,18 +24,22 @@
 2、
 
 二、使用说明
-1. 单次使用
+1.单次使用
+
 ```sh
 npm --registry http://npm.taobao.com/ install package-name
 ```
-2. 全局配置
+
+2.全局配置
+
 ```sh
 npm config set registry http://npm.qingsongchou.net/
  
 npn install package-name
 ```
 
-3. 使用源管理工具 nrm 全局切换（推荐）
+3.使用源管理工具 nrm 全局切换（推荐）
+
 ```sh
 // 下载nrm
 npm install -g nrm
@@ -54,27 +59,24 @@ npm install package-name
 
 4.版本号前缀
 
- 默认情况下 安装包 `npm i -S XX-name` 后在 `package.json` 中出现 `"XXX-name": "^2.4.4",` 
+ 默认情况下 安装包 `npm i -S XX-name` 后在 `package.json` 中出现 `"XXX-name": "^2.4.4",`
  版本号的意思 `[前缀]主版本号.次版本号.补丁版本号`
-  - 主版本号：当API发生变化，并与之前的版本不兼容时更新
-  - 次版本号：当增加了功能，但是向后兼容的时候更新
-  - 补丁版本号:当做了缺陷修复，但向后兼容的时候更新
-  - 前缀
-
+  -主版本号：当API发生变化，并与之前的版本不兼容时更新
+  -次版本号：当增加了功能，但是向后兼容的时候更新
+  -补丁版本号:当做了缺陷修复，但向后兼容的时候更新
+  -前缀
     首先了解下版本号前缀的作用？
     - *: 会匹配当前最新的版本
     - ^: 会匹配最新的次版本号，比如 1.2.1 匹配所有 1.x.x的包，不包括 2.x.x
     - ～: 会匹配最新的补丁版本号； 比如 ~1.1.1 会匹配所有 1.1.X版本，不包括 1.2.X
     - 无符号: 会匹配指定的版本号
 
-    如何修改默认安装的版本号前缀
+如何修改默认安装的版本号前缀
     - 默认使用前缀~：npm config set save-prefix '~'
     - 不使用前缀，保存指定版本 ：npm config set save-exact true
 
- 
-
 三、发布新模块
-1. 模块规范：
+1.模块规范：
 
 模块的 name（即 package.json 中的 name 字段）需要遵循模块命名规范；
 模块必须有 README.md 文件，内容为详细的说明文档，也可以提供文档连接；
@@ -91,29 +93,36 @@ XX：@XXX-jc/package-name
 3. 写好一个模块，经过测试完成后，可以考虑发布到 npm 上了，可以通过以下步骤完成一个模块的新发布：
 
 // 1.初始化包的描述文件（其实是生成  package.json，如果已有这个文件，可跳过该步骤）
+
 ```sh
 npm init --save
  ```
+
 // 2.设置npm私有库中，你的用户名，密码，邮箱。请使用统一账号密码，公司邮箱；
+
 ```sh
 npm login
  ```
+
 // 3.发布
+
 ```sh
 npm publish
 ```
 
 // 4. 本地调试 把当前开发的包软链到本机
+
 ```sh
 # 当前项目根目录执行 卸载使用 npm uninstall xxx -g
 sudo npm link
 ```
+
 以上，即可完成一个新包的发布了。
 
-
-
 四、管理模块权限
+
 1. 很多时候，一个模块往往不只是你一个人在管理的，这时需要给其他一起维护的同学开通发布的权限，如下：
+
 ```sh
 # 查看模块 owner
 npm owner ls package-name
@@ -137,11 +146,11 @@ npm version prerelease
  
 npm publish --tag beta
 ```
+
 比如原来的版本号是 1.0.1，那么以上发布后的版本是 1.0.1-0，用户可以通过 npm install package-name@beta 或者 npm install package-name@1.0.1-0 来安装。
 
+2.当prerelease版本稳定后，可以把他设置成稳定版本
 
-
-2. 当prerelease版本稳定后，可以把他设置成稳定版本
 ```sh
 # 首先可以查看当前所有的最新版本，包括 prerelease 与稳定版本
 npm dist-tag ls
@@ -151,14 +160,14 @@ npm dist-tag add package-name@1.0.1-1 latest
  
 # 或者通过 tag 来设置
 npm dist-tag add package-name@beta latest
+
 ```
+
 当发现 BUG，也可以通过 npm dist-tag 命令回退。
 
 这时候，latest 稳定版本已经是 1.0.1-1 了，用户可以直接通过 npm install package-name 即可安装该版本。
 
-
-
-3. 发布一个新的稳定版本
+3.发布一个新的稳定版本
 
 // 版本号格式规范为{major}.{minor}.{patch}
 // 更新版本号（major | minor | patch | premajor | preminor | prepatch | prerelease）
@@ -166,6 +175,7 @@ npm dist-tag add package-name@beta latest
 // 有新功能且向下兼容时，使用 major
 // 修复一些问题、优化等，使用 patch
 // 下面比如更新一个 patch 小版本号
+
 ```sh
 npm version patch
 npm publish
@@ -174,27 +184,31 @@ npm publish
 六、查看版本信息
 最后，可以通过 npm info 来查看模块的详细信息。
 
-
 ### npm 查看全局安装包
+
 ```sh
 npm list -g --depth 0
 ```
 
 ### 除非也指定，否则这是包含 package.json 文件或 node_modules 目录的最接近的父目录 -g。
+
 ```
 npm prefix [-g]
 ```
 
 ###  清除 npm 缓存
+
 npm cache clear --force
 
 ### `.npmrc` 文件
+
 1. .npmrc，可以理解成npm running cnfiguration, 即npm运行时配置文件。简单点说， .npmrc 可以设置 package.json 中依赖包的安装来源，既从哪里下载依赖包。
 2.项目下 .npmrc 文件的优先级最高，可以给每个项目配置不同的镜像，项目之间的配置互不影响。
-   在项目的根目录下新建 .npmrc 文件，在里面以 key=value 的格式进行配置。
+在项目的根目录下新建 .npmrc 文件，在里面以 key=value 的格式进行配置。
+
 ```sh
 # 指定package.json 中的下载源
-registry=https://registry.npm.taobao.org
+registry=https://registry.npmmirror.com/
 # 指定@test 开头的包下载地址
 @test:registry=https://npm.test.com
 # 配置此项目的局部镜像源之 electron
@@ -213,10 +227,9 @@ sentrycli_cdnurl=https://registry.npmmirror.com/-/binary/sentry-cli
 - 删除 .npmrc 文件，即可恢复默认配置
 - 项目根目录命令行 npm config get registry 查看是否设置成功
 
+## [nvm 常用命令](https://github.com/nvm-sh/nvm)
 
-
-# [nvm 常用命令](https://github.com/nvm-sh/nvm)
--  nvm install stable  安装最新稳定版 node
+- nvm install stable  安装最新稳定版 node
 
 - nvm install <version>  安装指定版本，如：安装v4.4.0，nvm install v4.4.0
 
@@ -228,6 +241,8 @@ sentrycli_cdnurl=https://registry.npmmirror.com/-/binary/sentry-cli
 
 - nvm alias default <version>  如： nvm alias default v11.1.0
 
+## 强制清理缓存
 
-
-
+```js
+npm cache clear --force
+```

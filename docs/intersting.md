@@ -1,1 +1,4 @@
 - https://carbon.now.sh/ 生成漂亮的代码图片
+- [《Hello 算法》](https://github.com/krahets/hello-algo/releases)
+- [AI 生成的免费图像素材网站，无限的无版权图片免费下载](https://stockcake.com/)
+- [壁纸样机生成器](https://mjcn.club/)
