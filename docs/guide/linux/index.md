@@ -405,9 +405,27 @@ cat /etc/redhat-release
 
 
 
-# shell
+## shell
  
- - && 表示前面的命令退出码为0时执行下一条命令
- - || 表示退出码非0时执行
+- && 表示前面的命令退出码为0时执行下一条命令
+- || 表示退出码非0时执行
 
+## 查看IP
 
+- 查看公网IP
+
+ ```sh
+ # 方式一
+ curl cip.cc
+ # 方式二
+ curl ifconf.me
+ ```
+
+- 查看内网IP
+
+ ```sh
+ # 方式一
+ ip a
+ # 方式二
+ ifconfig
+ ```
