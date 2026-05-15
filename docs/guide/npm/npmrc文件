@@ -1,1 +1,7 @@
 sass_binary_site=https://npmmirror.com/mirrors/node-sass
+npm_config_sentrycli_cdnurl=https://npmmirror.com/mirrors/sentry-cli
+disturl=https://npmmirror.com/mirrors/dist
+@peiyou:registry=https://npm.100tal.com/
+sass_binary_site=https://npmmirror.com/mirrors/node-sass
+electron_mirror=https://npmmirror.com/mirrors/electron/
+PUPPETEER_DOWNLOAD_HOST=https://npmmirror.com/mirrors
