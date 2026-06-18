@@ -10,7 +10,37 @@ export const data = {
       "level": 2,
       "title": "TODO",
       "slug": "todo",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "翻译",
+      "slug": "翻译",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Typescript",
+      "slug": "typescript",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "react",
+      "slug": "react",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Vue",
+      "slug": "vue",
       "children": [
+        {
+          "level": 3,
+          "title": "Vue 2",
+          "slug": "vue-2",
+          "children": []
+        },
         {
           "level": 3,
           "title": "VUE3",
@@ -92,10 +122,35 @@ export const data = {
       "title": "项目模版",
       "slug": "项目模版",
       "children": []
+    },
+    {
+      "level": 2,
+      "title": "免费的软件",
+      "slug": "免费的软件",
+      "children": [
+        {
+          "level": 3,
+          "title": "桌面软件",
+          "slug": "桌面软件",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "加速工具",
+          "slug": "加速工具",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "数据库",
+          "slug": "数据库",
+          "children": []
+        }
+      ]
     }
   ],
   "git": {
-    "updatedTime": 1651202888000
+    "updatedTime": 1741241067000
   },
   "filePathRelative": "guide/main.md"
 }

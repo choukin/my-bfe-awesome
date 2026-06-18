@@ -189,9 +189,10 @@ ln -s f f3 # 创建软连接</p>
 <p>touch 创建文件命令</p>
 </li>
 <li>
-<p>echo 出入字符串</p>
+<p>echo 出入字符串到文件</p>
 <blockquote>
-<p>echo &quot;admin test&quot; &gt; f</p>
+<p>echo &quot;admin test&quot; &gt; f.txt
+echo &quot;追加内容到文件末尾&quot;&gt; f.txt</p>
 </blockquote>
 </li>
 </ul>
@@ -496,6 +497,7 @@ vim -o/O ./a.txt ./b.txt
 </li>
 </ul>
 <h2 id="安装软件" tabindex="-1"><a class="header-anchor" href="#安装软件" aria-hidden="true">#</a> 安装软件</h2>
+<h3 id="rpm-安装" tabindex="-1"><a class="header-anchor" href="#rpm-安装" aria-hidden="true">#</a> rpm 安装</h3>
 <ul>
 <li>rpm -ivh [包名]</li>
 </ul>
@@ -511,31 +513,65 @@ vim -o/O ./a.txt ./b.txt
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><ul>
 <li><code>source /etc/profile</code> 让配置生效</li>
 </ul>
-<h2 id="解压安装" tabindex="-1"><a class="header-anchor" href="#解压安装" aria-hidden="true">#</a> 解压安装</h2>
+<h3 id="解压安装" tabindex="-1"><a class="header-anchor" href="#解压安装" aria-hidden="true">#</a> 解压安装</h3>
 <ul>
 <li>tar -zxf ***.tar.gz</li>
 </ul>
-<h2 id="yum-在线安装" tabindex="-1"><a class="header-anchor" href="#yum-在线安装" aria-hidden="true">#</a> yum 在线安装</h2>
-<h2 id="查看系统版本" tabindex="-1"><a class="header-anchor" href="#查看系统版本" aria-hidden="true">#</a> 查看系统版本</h2>
+<h3 id="yum-在线安装" tabindex="-1"><a class="header-anchor" href="#yum-在线安装" aria-hidden="true">#</a> yum 在线安装</h3>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>yum update
+yum <span class="token function">install</span> mysql-server
+
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h2 id="查看系统版本" tabindex="-1"><a class="header-anchor" href="#查看系统版本" aria-hidden="true">#</a> 查看系统版本</h2>
 <p>cat /etc/redhat-release</p>
-<h2 id="配置云服务器免密码登陆" tabindex="-1"><a class="header-anchor" href="#配置云服务器免密码登陆" aria-hidden="true">#</a> 配置云服务器免密码登陆</h2>
-<ul>
-<li>1、 本地生产ssk publickey</li>
-</ul>
-<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>ssh-keygen -f <span class="token punctuation">[</span>.ssh/保存的文件<span class="token punctuation">]</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><ul>
-<li>2.两种方式把生成的公钥保存到云服务器上
-<ul>
-<li>手动复制到 <code>~/.ssh/authorized_keys</code></li>
-<li>使用 <a href="http://lnmp.ailinux.net/ssh-copy-id" target="_blank" rel="noopener noreferrer"><code>ssh-copy-id</code><ExternalLinkIcon/></a></li>
-</ul>
-<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>ssh-copy-id <span class="token punctuation">[</span>-i <span class="token punctuation">[</span>identity_file<span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token punctuation">[</span>user@<span class="token punctuation">]</span>machine
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div></li>
-</ul>
 <h2 id="其他" tabindex="-1"><a class="header-anchor" href="#其他" aria-hidden="true">#</a> 其他</h2>
 <ul>
-<li>history 查看历史使用过的命令</li>
-<li>reset 初始化终端</li>
-<li>clear 终端清屏</li>
+<li>
+<p>history 查看历史使用过的命令</p>
+<ul>
+<li>和grep命令结合搜索</li>
 </ul>
-</template>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">history</span> <span class="token operator">|</span> <span class="token function">grep</span> <span class="token function">node</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div></li>
+<li>
+<p>reset 初始化终端</p>
+</li>
+<li>
+<p>clear 终端清屏</p>
+</li>
+</ul>
+<h2 id="获取帮助信息" tabindex="-1"><a class="header-anchor" href="#获取帮助信息" aria-hidden="true">#</a> 获取帮助信息</h2>
+<p>如果使用shell时卡住了，可以试试man <cmd> 就会看到这条命了的使用手册
+如果忘记某个命令如何拼写，可以用 apropos <cmd> 在系统命令库中搜</p>
+<h2 id="键盘快捷键" tabindex="-1"><a class="header-anchor" href="#键盘快捷键" aria-hidden="true">#</a> 键盘快捷键</h2>
+<ul>
+<li><code>Ctrl + R</code> 从命令历史中搜索</li>
+<li><code>Ctrl + S</code> 向前搜索</li>
+<li><code>Ctrl + G</code> 放弃搜索</li>
+<li><code>Ctrl + W</code> 删除字词</li>
+<li><code>ALT + F/B</code> 向前或向后移动一个单词</li>
+<li><code>CtrL +  A/E</code> 跳到某行开头或结尾</li>
+<li><code>Ctrl + U</code> 删除当前命令行</li>
+<li><code>Ctrl + Y</code> 撤销上面的删除</li>
+<li><code>Ctrl + L</code> 清屏</li>
+</ul>
+<h2 id="shell" tabindex="-1"><a class="header-anchor" href="#shell" aria-hidden="true">#</a> shell</h2>
+<ul>
+<li>&amp;&amp; 表示前面的命令退出码为0时执行下一条命令</li>
+<li>|| 表示退出码非0时执行</li>
+</ul>
+<h2 id="查看ip" tabindex="-1"><a class="header-anchor" href="#查看ip" aria-hidden="true">#</a> 查看IP</h2>
+<ul>
+<li>查看公网IP</li>
+</ul>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token comment"># 方式一</span>
+<span class="token function">curl</span> cip.cc
+<span class="token comment"># 方式二</span>
+<span class="token function">curl</span> ifconf.me
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><ul>
+<li>查看内网IP</li>
+</ul>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token comment"># 方式一</span>
+<span class="token function">ip</span> a
+<span class="token comment"># 方式二</span>
+<span class="token function">ifconfig</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div></template>

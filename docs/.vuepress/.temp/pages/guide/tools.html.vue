@@ -14,15 +14,14 @@
 <li><a href="https://nhnent.github.io/tui.image-editor/latest/" target="_blank" rel="noopener noreferrer">网页编辑图片工具<ExternalLinkIcon/></a></li>
 <li><a href="https://illlustrations.co/" target="_blank" rel="noopener noreferrer">免费商用的插画<ExternalLinkIcon/></a></li>
 <li><a href="https://iconoir.com/" target="_blank" rel="noopener noreferrer">1000多个 svg icons<ExternalLinkIcon/></a></li>
+<li><a href="https://bgsub.cn/webapp/" target="_blank" rel="noopener noreferrer">自动扣图<ExternalLinkIcon/></a></li>
+<li><a href="https://drawing-prompt.com/en#generate-image" target="_blank" rel="noopener noreferrer">文字描述生成图片<ExternalLinkIcon/></a></li>
 </ul>
 <h2 id="js-css" tabindex="-1"><a class="header-anchor" href="#js-css" aria-hidden="true">#</a> js/css</h2>
 <ul>
 <li><a href="https://www.deviceinfo.me/" target="_blank" rel="noopener noreferrer">显示浏览器可以收集的所有用户设备信息<ExternalLinkIcon/></a></li>
-<li><a href="https://github.com/Bowen7/regex-vis" target="_blank" rel="noopener noreferrer">正则表达式可视化编辑器<ExternalLinkIcon/></a>
-<ul>
+<li><a href="https://github.com/Bowen7/regex-vis" target="_blank" rel="noopener noreferrer">正则表达式可视化编辑器<ExternalLinkIcon/></a></li>
 <li><a href="https://regex-vis.com/" target="_blank" rel="noopener noreferrer">网站<ExternalLinkIcon/></a></li>
-</ul>
-</li>
 <li><a href="https://bpmn.io/" target="_blank" rel="noopener noreferrer">BPMN, DMN and Forms.<ExternalLinkIcon/></a></li>
 </ul>
 <h2 id="博客" tabindex="-1"><a class="header-anchor" href="#博客" aria-hidden="true">#</a> 博客</h2>
@@ -34,6 +33,7 @@
 <li><a href="https://github.com/DDFE/DDFE-blog" target="_blank" rel="noopener noreferrer">滴滴前端博客<ExternalLinkIcon/></a></li>
 <li><a href="https://pengfeixc.com/" target="_blank" rel="noopener noreferrer">CSS教程<ExternalLinkIcon/></a></li>
 <li><a href="https://q.shanyue.tech/engineering/" target="_blank" rel="noopener noreferrer">前端工程化三十八讲<ExternalLinkIcon/></a></li>
+<li><a href="https://liujiacai.net/podcast/" target="_blank" rel="noopener noreferrer">博客推荐<ExternalLinkIcon/></a></li>
 </ul>
 <h2 id="软件" tabindex="-1"><a class="header-anchor" href="#软件" aria-hidden="true">#</a> 软件</h2>
 <ul>
@@ -46,6 +46,9 @@
 </li>
 <li>
 <p><a href="https://github.com/sansui-orz/bilibili2local" target="_blank" rel="noopener noreferrer">bilibili视频下载工具<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p><a href="https://dazi.kedaoi.cn/" target="_blank" rel="noopener noreferrer">打字的方式记单次<ExternalLinkIcon/></a></p>
 </li>
 </ul>
 </template>

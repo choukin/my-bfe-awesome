@@ -85,25 +85,33 @@ export const data = {
       "level": 2,
       "title": "安装软件",
       "slug": "安装软件",
-      "children": []
+      "children": [
+        {
+          "level": 3,
+          "title": "rpm 安装",
+          "slug": "rpm-安装",
+          "children": []
+        }
+      ]
     },
     {
       "level": 2,
       "title": "配置环境变量",
       "slug": "配置环境变量",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "解压安装",
-      "slug": "解压安装",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "yum 在线安装",
-      "slug": "yum-在线安装",
-      "children": []
+      "children": [
+        {
+          "level": 3,
+          "title": "解压安装",
+          "slug": "解压安装",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "yum 在线安装",
+          "slug": "yum-在线安装",
+          "children": []
+        }
+      ]
     },
     {
       "level": 2,
@@ -113,19 +121,37 @@ export const data = {
     },
     {
       "level": 2,
-      "title": "配置云服务器免密码登陆",
-      "slug": "配置云服务器免密码登陆",
+      "title": "其他",
+      "slug": "其他",
       "children": []
     },
     {
       "level": 2,
-      "title": "其他",
-      "slug": "其他",
+      "title": "获取帮助信息",
+      "slug": "获取帮助信息",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "键盘快捷键",
+      "slug": "键盘快捷键",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "shell",
+      "slug": "shell",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "查看IP",
+      "slug": "查看ip",
       "children": []
     }
   ],
   "git": {
-    "updatedTime": 1654967843000
+    "updatedTime": 1743040687000
   },
   "filePathRelative": "guide/linux/index.md"
 }

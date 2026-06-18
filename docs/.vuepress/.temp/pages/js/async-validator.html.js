@@ -14,7 +14,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1650535242000
+    "updatedTime": 1681098840000
   },
   "filePathRelative": "js/async-validator.md"
 }

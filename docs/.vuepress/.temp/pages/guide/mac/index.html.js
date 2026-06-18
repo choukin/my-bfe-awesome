@@ -63,13 +63,31 @@ export const data = {
     },
     {
       "level": 2,
+      "title": "pap.er",
+      "slug": "pap-er",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "SwitchHosts",
+      "slug": "switchhosts",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "dev-sidecar",
+      "slug": "dev-sidecar",
+      "children": []
+    },
+    {
+      "level": 2,
       "title": "常见问题",
       "slug": "常见问题",
       "children": []
     }
   ],
   "git": {
-    "updatedTime": 1654670902000
+    "updatedTime": 1668043637000
   },
   "filePathRelative": "guide/mac/readme.md"
 }

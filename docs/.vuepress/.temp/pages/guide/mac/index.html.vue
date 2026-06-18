@@ -6,9 +6,29 @@
 <li>
 <p><a href="">dataGrip 链接数据库</a></p>
 </li>
+<li>
+<p><a href="https://dbeaver.io/download/" target="_blank" rel="noopener noreferrer">dbeaver开源的数据库图形界面<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p><a href="https://arctype.com/" target="_blank" rel="noopener noreferrer">arctype一个桌面的数据库查询工具<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p><a href="https://studio3t.com/" target="_blank" rel="noopener noreferrer">Studio 3T GUI for MONGO<ExternalLinkIcon/></a></p>
+</li>
 </ul>
 <h2 id="使用-homebrew-安装-tree-命令行" tabindex="-1"><a class="header-anchor" href="#使用-homebrew-安装-tree-命令行" aria-hidden="true">#</a> 使用 homebrew 安装 tree 命令行：</h2>
-<h2 id="安装" tabindex="-1"><a class="header-anchor" href="#安装" aria-hidden="true">#</a> 安装</h2>
+<p>安装命令：</p>
+<p>brew install telnet
+如没有提前安装brew，可执行如下命令：</p>
+<p>/bin/zsh -c &quot;$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)&quot;
+选择对应镜像源后，输入Y，回车即可安装brew</p>
+<p>继续执行安装telnet命令，过程中如出现could not lock config file .git/config: Permission denied错误，请先修改文件权限，执行如下命令：</p>
+<p>sudo chgrp -R admin /usr/local/*
+sudo chmod -R g+w /usr/local/*
+修改权限后，再执行安装telnet命令，即可顺利安装。</p>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token comment"># 通过gitee安装homebrew</span>
+/bin/zsh -c <span class="token string">"<span class="token variable"><span class="token variable">$(</span><span class="token function">curl</span> -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh<span class="token variable">)</span></span>"</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h2 id="安装" tabindex="-1"><a class="header-anchor" href="#安装" aria-hidden="true">#</a> 安装</h2>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>$ brew <span class="token function">install</span> tree
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><h2 id="忽略-node-modules-文件夹" tabindex="-1"><a class="header-anchor" href="#忽略-node-modules-文件夹" aria-hidden="true">#</a> 忽略 node_modules 文件夹</h2>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>$ tree -I node_modules
@@ -31,6 +51,19 @@
 <blockquote>
 <p>Alfred 是一款屡获殊荣的 macOS 应用程序，它通过热键、关键字、文本扩展等提高您的效率。搜索您的 Mac 和网络，并通过自定义操作来控制您的 Mac，从而提高工作效率。</p>
 </blockquote>
+<h2 id="pap-er" tabindex="-1"><a class="header-anchor" href="#pap-er" aria-hidden="true">#</a> <a href="https://paper.meiyuan.in/index.html" target="_blank" rel="noopener noreferrer">pap.er<ExternalLinkIcon/></a></h2>
+<blockquote>
+<p>专为 Mac 设计的壁纸应用</p>
+</blockquote>
+<h2 id="switchhosts" tabindex="-1"><a class="header-anchor" href="#switchhosts" aria-hidden="true">#</a> <a href="https://github.com/oldj/SwitchHosts/releases" target="_blank" rel="noopener noreferrer">SwitchHosts<ExternalLinkIcon/></a></h2>
+<blockquote>
+<p>SwitchHosts 是一个管理、切换多个 hosts 方案的工具。
+它是一个免费开源软件</p>
+</blockquote>
+<h2 id="dev-sidecar" tabindex="-1"><a class="header-anchor" href="#dev-sidecar" aria-hidden="true">#</a> <a href="https://github.com/docmirror/dev-sidecar" target="_blank" rel="noopener noreferrer">dev-sidecar<ExternalLinkIcon/></a></h2>
+<blockquote>
+<p>github加速</p>
+</blockquote>
 <h2 id="常见问题" tabindex="-1"><a class="header-anchor" href="#常见问题" aria-hidden="true">#</a> 常见问题</h2>
 <p>1、 开启允许任何来源安装软件</p>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">sudo</span> spctl --master-disable
@@ -39,4 +72,8 @@
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>xxxx.app 换成对应软件的名称</p>
 </div>
+<p>3、Mac系统默认使用bash作为终端，可以使用命令修改默认使用zsh：
+chsh -s /bin/zsh
+如果想修改回默认 bash，同样使用chsh命令即可：</p>
+<p>chsh -s /bin/bash</p>
 </template>

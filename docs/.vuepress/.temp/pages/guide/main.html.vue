@@ -6,37 +6,130 @@
 [[toc]] -->
 <h2 id="todo" tabindex="-1"><a class="header-anchor" href="#todo" aria-hidden="true">#</a> TODO</h2>
 <ul>
-<li>[ ] 学习 sass</li>
-<li>[x] 学习 TypeScript</li>
-<li>[ ] 学习 redis</li>
-<li>[ ] webpack4.0 + vue</li>
-<li>[ ] <a href="http://hcysun.me/vue-design/" target="_blank" rel="noopener noreferrer">Vue 源码分析<ExternalLinkIcon/></a></li>
-<li>[ ] <a href="https://ustbhuangyi.github.io/vue-analysis/" target="_blank" rel="noopener noreferrer">Vue 技术揭秘<ExternalLinkIcon/></a></li>
-<li>[ ] <a href="http://www.createjs.cc/" target="_blank" rel="noopener noreferrer">CreateJS 是基于 HTML5 开发的一套模块化的库和工具<ExternalLinkIcon/></a></li>
+<li>
+<p>[ ] 学习 sass</p>
+</li>
+<li>
+<p>[x] 学习 TypeScript</p>
+</li>
+<li>
+<p>[ ] 学习 redis</p>
+</li>
+<li>
+<p>[ ] webpack4.0 + vue</p>
+</li>
+<li>
+<p>[ ] <a href="http://www.createjs.cc/" target="_blank" rel="noopener noreferrer">CreateJS 是基于 HTML5 开发的一套模块化的库和工具<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[ ] <a href="https://github.com/dwqs/blog/issues/56" target="_blank" rel="noopener noreferrer">从 vue-cli 源码学习如何写模板<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[ ] <a href="https://juejin.im/post/5ba34e54e51d450e5162789b" target="_blank" rel="noopener noreferrer">面试经验<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[ ] <a href="https://github.com/stephentian/33-js-concepts#1-%E8%B0%83%E7%94%A8%E5%A0%86%E6%A0%88" target="_blank" rel="noopener noreferrer">JavaScript 开发者应懂的 33 个概念<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[ ] <a href="https://mp.weixin.qq.com/s/biVa8Wvg82uvTd5C0yerug" target="_blank" rel="noopener noreferrer">面试问题<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[ ] <a href="https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books-zh.md" target="_blank" rel="noopener noreferrer">开源 books<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[] <a href="https://makejsgames.com/#articles" target="_blank" rel="noopener noreferrer">make games<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[] <a href="https://storybook.js.org/" target="_blank" rel="noopener noreferrer">storybook<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[] <a href="https://github.com/Mayandev/fe-interview-handwrite" target="_blank" rel="noopener noreferrer">手写面试<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[] <a href="https://www.bemcss.com/" target="_blank" rel="noopener noreferrer">BEM 命名法<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[] <a href="https://hejialianghe.gitee.io/" target="_blank" rel="noopener noreferrer">web 全栈体系博客<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[] <a href="https://commonmark.org/help/" target="_blank" rel="noopener noreferrer">Markdown教程<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[] <a href="https://github.com/ikatyang/emoji-cheat-sheet" target="_blank" rel="noopener noreferrer">emoji-cheat-sheet<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[] <a href="https://kfs479.smartapps.cn/pages/blogdetail/blogdetail?id=3311880&amp;_swebfr=1&amp;_swebFromHost=baiduboxapp" target="_blank" rel="noopener noreferrer">头像生成1<ExternalLinkIcon/></a>
+<a href="https://www.cnblogs.com/blueVictory/p/15457894.html" target="_blank" rel="noopener noreferrer">头像生成2<ExternalLinkIcon/></a>
+<a href="https://github.com/YMAndroid/photoDemo" target="_blank" rel="noopener noreferrer">github头像生成3<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[x] <a href="https://blog.openreplay.com/" target="_blank" rel="noopener noreferrer">chrome调试<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[] <a href="https://blog.openreplay.com/15-devtool-secrets-for-javascript-developers" target="_blank" rel="noopener noreferrer"><ExternalLinkIcon/></a>
+how-to-use-chrome-as-a-code-editor-and-debugger)</p>
+</li>
+<li>
+<p>[] <a href="https://blog.csdn.net/changbb/article/details/131675810" target="_blank" rel="noopener noreferrer">gasp<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[] <a href="https://docs.emmet.io/actions/expand-abbreviation/" target="_blank" rel="noopener noreferrer">emmet<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[] <a href="https://www.jianshu.com/p/c65773acce48" target="_blank" rel="noopener noreferrer">ssh 登陆android<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[] <a href="https://lbrito1.github.io/blog/2020/02/repurposing-android.html" target="_blank" rel="noopener noreferrer">android作为服务器<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[] <a href="https://github.com/webfansplz/temir/blob/main/README.zh-CN.md" target="_blank" rel="noopener noreferrer">temir VUE开发命令行工具<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[] <a href="https://tensorflow.google.cn/js/tutorials?hl=zh-cn" target="_blank" rel="noopener noreferrer">神经网络<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[] <a href="https://docs.nestjs.cn/9/introduction" target="_blank" rel="noopener noreferrer">nestjs<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[] <a href="https://knexjs.org/" target="_blank" rel="noopener noreferrer">knexjs<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[] <a href="https://www.bookstack.cn/read/koa-todo-api/%E6%90%AD%E5%BB%BA%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83.md" target="_blank" rel="noopener noreferrer">Koa RESTfual API 实战<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[] <a href="https://jestjs.io/zh-Hans/" target="_blank" rel="noopener noreferrer">jest<ExternalLinkIcon/></a></p>
+</li>
+</ul>
+<h2 id="翻译" tabindex="-1"><a class="header-anchor" href="#翻译" aria-hidden="true">#</a> 翻译</h2>
+<ul>
+<li>[] <a href="https://refruity.xyz/macbook-touch-bar-in-iterm2/" target="_blank" rel="noopener noreferrer">Macbook 的触摸栏设置成 git 操作<ExternalLinkIcon/></a></li>
+</ul>
+<h2 id="typescript" tabindex="-1"><a class="header-anchor" href="#typescript" aria-hidden="true">#</a> Typescript</h2>
+<ul>
+<li>[] <a href="http://ts.xcatliu.com/" target="_blank" rel="noopener noreferrer">ts<ExternalLinkIcon/></a></li>
+</ul>
+<h2 id="react" tabindex="-1"><a class="header-anchor" href="#react" aria-hidden="true">#</a> react</h2>
+<ul>
+<li>[] <a href="https://xiaochen1024.com/courseware/60b1b2f6cf10a4003b634718" target="_blank" rel="noopener noreferrer">react 源码<ExternalLinkIcon/></a></li>
+</ul>
+<h2 id="vue" tabindex="-1"><a class="header-anchor" href="#vue" aria-hidden="true">#</a> Vue</h2>
+<h3 id="vue-2" tabindex="-1"><a class="header-anchor" href="#vue-2" aria-hidden="true">#</a> Vue 2</h3>
+<ul>
 <li>[ ] <a href="https://vue-test-utils.vuejs.org/zh/" target="_blank" rel="noopener noreferrer">vue-test-utils<ExternalLinkIcon/></a></li>
 <li>[ ] <a href="https://cn.vuejs.org/v2/cookbook/debugging-in-vscode.html" target="_blank" rel="noopener noreferrer">Vue 组件的单元测试<ExternalLinkIcon/></a></li>
 <li>[ ] <a href="https://ssr.vuejs.org/zh/" target="_blank" rel="noopener noreferrer">Vue SSR 指南<ExternalLinkIcon/></a></li>
+<li>[ ] <a href="http://hcysun.me/vue-design/" target="_blank" rel="noopener noreferrer">Vue 源码分析<ExternalLinkIcon/></a></li>
+<li>[ ] <a href="https://ustbhuangyi.github.io/vue-analysis/" target="_blank" rel="noopener noreferrer">Vue 技术揭秘<ExternalLinkIcon/></a></li>
 <li>[ ] <a href="https://nuxtjs.org/" target="_blank" rel="noopener noreferrer">Nuxt.js<ExternalLinkIcon/></a></li>
-<li>[ ] <a href="https://github.com/dwqs/blog/issues/56" target="_blank" rel="noopener noreferrer">从 vue-cli 源码学习如何写模板<ExternalLinkIcon/></a></li>
-<li>[ ] <a href="https://juejin.im/post/5ba34e54e51d450e5162789b" target="_blank" rel="noopener noreferrer">面试经验<ExternalLinkIcon/></a></li>
-<li>[ ] <a href="https://github.com/stephentian/33-js-concepts#1-%E8%B0%83%E7%94%A8%E5%A0%86%E6%A0%88" target="_blank" rel="noopener noreferrer">JavaScript 开发者应懂的 33 个概念<ExternalLinkIcon/></a></li>
-<li>[ ] <a href="https://mp.weixin.qq.com/s/biVa8Wvg82uvTd5C0yerug" target="_blank" rel="noopener noreferrer">面试问题<ExternalLinkIcon/></a></li>
-<li>[ ] <a href="https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books-zh.md" target="_blank" rel="noopener noreferrer">开源 books<ExternalLinkIcon/></a></li>
-<li>[] <a href="https://xiaochen1024.com/courseware/60b1b2f6cf10a4003b634718" target="_blank" rel="noopener noreferrer">react 源码<ExternalLinkIcon/></a></li>
-<li>[] <a href="http://ts.xcatliu.com/" target="_blank" rel="noopener noreferrer">ts<ExternalLinkIcon/></a></li>
-<li>[] <a href="https://makejsgames.com/#articles" target="_blank" rel="noopener noreferrer">make games<ExternalLinkIcon/></a></li>
-<li>[] <a href="https://storybook.js.org/" target="_blank" rel="noopener noreferrer">storybook<ExternalLinkIcon/></a></li>
-<li>[] <a href="https://github.com/vue3/vue3-News#%E8%BF%8E%E6%8E%A5Vue3.0%E7%B3%BB%E5%88%97" target="_blank" rel="noopener noreferrer">vue3.0<ExternalLinkIcon/></a></li>
-<li>[] <a href="https://github.com/Mayandev/fe-interview-handwrite" target="_blank" rel="noopener noreferrer">手写面试<ExternalLinkIcon/></a></li>
-<li>[] <a href="https://www.bemcss.com/" target="_blank" rel="noopener noreferrer">BEM 命名法<ExternalLinkIcon/></a></li>
-<li>[x] <a href="https://vue3.chengpeiquan.com/" target="_blank" rel="noopener noreferrer">Vue3 入门指南，与实战案例<ExternalLinkIcon/></a></li>
-<li>[] <a href="https://hejialianghe.gitee.io/" target="_blank" rel="noopener noreferrer">web 全栈体系博客<ExternalLinkIcon/></a></li>
-<li>[] <a href="https://commonmark.org/help/" target="_blank" rel="noopener noreferrer">Markdown教程<ExternalLinkIcon/></a></li>
-<li>[] <a href="https://github.com/ikatyang/emoji-cheat-sheet" target="_blank" rel="noopener noreferrer">emoji-cheat-sheet<ExternalLinkIcon/></a></li>
 </ul>
 <h3 id="vue3" tabindex="-1"><a class="header-anchor" href="#vue3" aria-hidden="true">#</a> VUE3</h3>
 <ul>
 <li>[] <a href="https://space.bilibili.com/480140591" target="_blank" rel="noopener noreferrer">vue3视频教程<ExternalLinkIcon/></a></li>
+<li>[x] <a href="https://vue3.chengpeiquan.com/" target="_blank" rel="noopener noreferrer">Vue3 入门指南，与实战案例<ExternalLinkIcon/></a></li>
+<li>[] <a href="https://github.com/vue3/vue3-News#%E8%BF%8E%E6%8E%A5Vue3.0%E7%B3%BB%E5%88%97" target="_blank" rel="noopener noreferrer">vue3.0<ExternalLinkIcon/></a></li>
+<li>[x] <a href="https://cn-vuejs-challenges.netlify.app/" target="_blank" rel="noopener noreferrer">vue3挑战合集<ExternalLinkIcon/></a></li>
+<li>[] <a href="https://v3.nuxtjs.org/" target="_blank" rel="noopener noreferrer">Nuxt 3<ExternalLinkIcon/></a></li>
+<li>[] <a href="content.nuxtjs.org">Nuxt content</a></li>
 </ul>
 <h2 id="目录" tabindex="-1"><a class="header-anchor" href="#目录" aria-hidden="true">#</a> 目录</h2>
 <ul>
@@ -89,27 +182,13 @@
 <li>
 <p>vue 常用组件</p>
 <ul>
-<li>
-<p><a href="http://hcysun.me/vue-design/" target="_blank" rel="noopener noreferrer">Vue 源码分析<ExternalLinkIcon/></a></p>
-</li>
-<li>
-<p><a href="https://ustbhuangyi.github.io/vue-analysis/" target="_blank" rel="noopener noreferrer">Vue 技术揭秘<ExternalLinkIcon/></a></p>
-</li>
-<li>
-<p>引导提示框 <a href="https://www.npmjs.com/package/vue-introjs" target="_blank" rel="noopener noreferrer">vue-introjs<ExternalLinkIcon/></a></p>
-</li>
-<li>
-<p>数字动画跳动 <a href="https://github.com/xlsdg/vue-countup-v2?ref=madewithvuejs.com" target="_blank" rel="noopener noreferrer">vue-countup-v2<ExternalLinkIcon/></a></p>
-</li>
-<li>
-<p>Vue 的 video.js 播放器组件<a href="https://npmjs.com/package/vue-video-player" target="_blank" rel="noopener noreferrer">vue-video-player<ExternalLinkIcon/></a></p>
-</li>
-<li>
-<p>[better-scroll] (http://ustbhuangyi.github.io/better-scroll/)</p>
-</li>
-<li>
-<p><a href="https://modules.nuxtjs.org/?version=3.x" target="_blank" rel="noopener noreferrer">nuxt modules nuxt模块<ExternalLinkIcon/></a></p>
-</li>
+<li><a href="http://hcysun.me/vue-design/" target="_blank" rel="noopener noreferrer">Vue 源码分析<ExternalLinkIcon/></a></li>
+<li><a href="https://ustbhuangyi.github.io/vue-analysis/" target="_blank" rel="noopener noreferrer">Vue 技术揭秘<ExternalLinkIcon/></a></li>
+<li>引导提示框 <a href="https://www.npmjs.com/package/vue-introjs" target="_blank" rel="noopener noreferrer">vue-introjs<ExternalLinkIcon/></a></li>
+<li>数字动画跳动 <a href="https://github.com/xlsdg/vue-countup-v2?ref=madewithvuejs.com" target="_blank" rel="noopener noreferrer">vue-countup-v2<ExternalLinkIcon/></a></li>
+<li>Vue 的 video.js 播放器组件<a href="https://npmjs.com/package/vue-video-player" target="_blank" rel="noopener noreferrer">vue-video-player<ExternalLinkIcon/></a></li>
+<li>[better-scroll] (http://ustbhuangyi.github.io/better-scroll/)</li>
+<li><a href="https://modules.nuxtjs.org/?version=3.x" target="_blank" rel="noopener noreferrer">nuxt modules nuxt模块<ExternalLinkIcon/></a></li>
 </ul>
 </li>
 <li>
@@ -186,6 +265,9 @@ console<span class="token punctuation">.</span><span class="token function">log<
 <li><a href="http://hiloteam.github.io/" target="_blank" rel="noopener noreferrer">hilo<ExternalLinkIcon/></a> 阿里的 HTML5 互动游戏引擎</li>
 <li><a href="https://www.pixijs.com/" target="_blank" rel="noopener noreferrer">pixijs<ExternalLinkIcon/></a> PixiJS 是一个超快的 2D 渲染游戏引擎。它自动侦测使用 WebGL 或者 Canvas。</li>
 <li><a href="https://kaboomjs.com/doc/intro" target="_blank" rel="noopener noreferrer">Kaboom.js<ExternalLinkIcon/></a> Kaboom 是一个 JavaScript 库，可帮助您快速有趣地制作游戏.</li>
+<li><a href="https://p5js.org/zh-Hans/" target="_blank" rel="noopener noreferrer">p5.js<ExternalLinkIcon/></a></li>
+<li><a href="https://www.jb51.net/article/91918.htm?t=1493428123756" target="_blank" rel="noopener noreferrer">拼图游戏<ExternalLinkIcon/></a></li>
+<li><a href="https://phaser.io/" target="_blank" rel="noopener noreferrer">phaser<ExternalLinkIcon/></a> Phaser 是一个快速、免费、有趣的开源 HTML5 游戏框架，在桌面和移动网络浏览器上提供 WebGL 和 Canvas 渲染功能</li>
 </ol>
 <h2 id="前端工具" tabindex="-1"><a class="header-anchor" href="#前端工具" aria-hidden="true">#</a> 前端工具</h2>
 <ul>
@@ -194,6 +276,8 @@ console<span class="token punctuation">.</span><span class="token function">log<
 <li><a href="https://jex.im/regulex/" target="_blank" rel="noopener noreferrer">正则表达式测试网址<ExternalLinkIcon/></a></li>
 <li><a href="https://github.com/usablica/intro.js/" target="_blank" rel="noopener noreferrer">用户指引库<ExternalLinkIcon/></a></li>
 <li><a href="http://o.qcloud.com/static/api/v3/#templates" target="_blank" rel="noopener noreferrer">腾讯蓝鲸<ExternalLinkIcon/></a></li>
+<li><a href="https://www.npmjs.com/package/verdaccio" target="_blank" rel="noopener noreferrer">verdaccio npm 轻量级Node.js私有库<ExternalLinkIcon/></a></li>
+<li><a href="https://tinypng.com/developers" target="_blank" rel="noopener noreferrer">获取一个免费的tinypng APIkey<ExternalLinkIcon/></a></li>
 </ul>
 <h2 id="工具" tabindex="-1"><a class="header-anchor" href="#工具" aria-hidden="true">#</a> 工具</h2>
 <h3 id="pm2" tabindex="-1"><a class="header-anchor" href="#pm2" aria-hidden="true">#</a> pm2</h3>
@@ -261,5 +345,96 @@ module<span class="token punctuation">.</span>exports <span class="token operato
 <li>
 <p><a href="https://vvbin.cn/doc-next/" target="_blank" rel="noopener noreferrer">vue3 企业端项目<ExternalLinkIcon/></a></p>
 </li>
+</ul>
+<h2 id="免费的软件" tabindex="-1"><a class="header-anchor" href="#免费的软件" aria-hidden="true">#</a> 免费的软件</h2>
+<h3 id="桌面软件" tabindex="-1"><a class="header-anchor" href="#桌面软件" aria-hidden="true">#</a> 桌面软件</h3>
+<h3 id="加速工具" tabindex="-1"><a class="header-anchor" href="#加速工具" aria-hidden="true">#</a> 加速工具</h3>
+<ul>
+<li><a href="https://steampp.net/" target="_blank" rel="noopener noreferrer">Steam<ExternalLinkIcon/></a></li>
+</ul>
+<h4 id="办公" tabindex="-1"><a class="header-anchor" href="#办公" aria-hidden="true">#</a> 办公</h4>
+<ul>
+<li><a href="https://www.wps.cn/" target="_blank" rel="noopener noreferrer">WPS<ExternalLinkIcon/></a> office的替代品</li>
+<li><a href="https://www.snipaste.com/" target="_blank" rel="noopener noreferrer">snipaste<ExternalLinkIcon/></a>截图工具</li>
+</ul>
+<h4 id="开发" tabindex="-1"><a class="header-anchor" href="#开发" aria-hidden="true">#</a> 开发</h4>
+<ul>
+<li>
+<p><a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">git<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p><a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">Visual Studio Code<ExternalLinkIcon/></a></p>
+<ul>
+<li>插件
+<ul>
+<li>
+<p>Better Align</p>
+</li>
+<li>
+<p>Volar</p>
+</li>
+<li>
+<p>vetur</p>
+</li>
+<li>
+<p>Git Graph</p>
+</li>
+<li>
+<p>Git History</p>
+</li>
+<li>
+<p>Git History Diff</p>
+</li>
+<li>
+<p>i18n Ally</p>
+</li>
+<li>
+<p>Eslint</p>
+</li>
+<li>
+<p>Prettier - code Formatter</p>
+</li>
+<li>
+<p>auto Import</p>
+</li>
+<li>
+<p>indent-rainbow</p>
+</li>
+<li>
+<p>open in browser</p>
+</li>
+<li>
+<p>code Runner</p>
+</li>
+<li>
+<p>生成的代码 codeium.com</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><a href="https://www.postman.com/" target="_blank" rel="noopener noreferrer">PostMan<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p><a href="https://ohmyz.sh/" target="_blank" rel="noopener noreferrer">oh my zsh<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p><a href="https://asdf-vm.com/" target="_blank" rel="noopener noreferrer">asdf<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p><a href="https://iterm2.com/" target="_blank" rel="noopener noreferrer">iTerm2<ExternalLinkIcon/></a></p>
+</li>
+<li>
+<p>[https://dber.tech/] 开源免费的设计数据库的web应用，可以导出sql</p>
+</li>
+<li>
+<p><a href="https://inspector.fe-dev.cn/" target="_blank" rel="noopener noreferrer">Code Inspector<ExternalLinkIcon/></a>点击页面上的 DOM 元素，它能自动打开 IDE 并将光标定位至 DOM 的源代码位置</p>
+</li>
+</ul>
+<h3 id="数据库" tabindex="-1"><a class="header-anchor" href="#数据库" aria-hidden="true">#</a> 数据库</h3>
+<h4 id="图形化界面" tabindex="-1"><a class="header-anchor" href="#图形化界面" aria-hidden="true">#</a> 图形化界面</h4>
+<ul>
+<li><a href="https://dbeaver.io/" target="_blank" rel="noopener noreferrer">DBeaver<ExternalLinkIcon/></a></li>
 </ul>
 </template>

@@ -14,7 +14,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1646648167000
+    "updatedTime": 1747995393000
   },
   "filePathRelative": "guide/npm/util.md"
 }

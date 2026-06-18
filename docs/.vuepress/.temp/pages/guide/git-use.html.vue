@@ -1,16 +1,16 @@
 <template><h1 id="git-常用命令" tabindex="-1"><a class="header-anchor" href="#git-常用命令" aria-hidden="true">#</a> git 常用命令</h1>
 <h2 id="一、创建本地-ssh-publickey-配置到远端仓库" tabindex="-1"><a class="header-anchor" href="#一、创建本地-ssh-publickey-配置到远端仓库" aria-hidden="true">#</a> 一、创建本地 ssh publickey 配置到远端仓库</h2>
 <blockquote>
-<p>Host 设置在使用 git@时后面的名字。 例： $ git clone git@other.com:repname/item.git</p>
+<p>Host 设置在使用 git@时后面的名字。 例： $ git clone <a href="mailto:git@other.com">git@other.com</a>:repname/item.git</p>
 <p>HostName 设置域名地址或ip地址。</p>
 <p>IdentityFile 输入id_rsa的目录地址。</p>
 <p>PreferrenAuthentications 配置登录时使用什么仅限。可设为 publickey password publickey keyboard-interactive</p>
 <p>User 设置用户名。需要与远程的用户名一致</p>
 <p>也可以是ip地址。</p>
-<p>ssh-keygen -t rsa -C &quot;choukin@dingtalk.com&quot; -f ~/.ssh/quxian_rsa</p>
+<p>ssh-keygen -t rsa -C &quot;<a href="mailto:choukin@dingtalk.com">choukin@dingtalk.com</a>&quot; -f ~/.ssh/quxian_rsa</p>
 <p>ssh-add -K ~/.ssh/github_id_rsa</p>
 <p>在仓库里添加 publickey</p>
-<p>ssh -T git@github.com</p>
+<p>ssh -T <a href="mailto:git@github.com">git@github.com</a> [-p 22/其他在用端口]</p>
 </blockquote>
 <h1 id="" tabindex="-1"><a class="header-anchor" href="#" aria-hidden="true">#</a> </h1>
 <ol>
@@ -20,10 +20,10 @@
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><ol start="2">
 <li>需要时使用 手动添加 rea</li>
 </ol>
-<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>ssh-add -K ~/.ssh/github_id_rsa
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>ssh-add  ~/.ssh/github_id_rsa
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><ol start="3">
 <li>在仓库里添加 publickey</li>
-<li>测试是否配置陈工</li>
+<li>测试是否配置成功</li>
 </ol>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">ssh</span> -T git@github.com
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><h2 id="二、一台电脑配置多个个远端仓库的ssh" tabindex="-1"><a class="header-anchor" href="#二、一台电脑配置多个个远端仓库的ssh" aria-hidden="true">#</a> 二、一台电脑配置多个个远端仓库的ssh</h2>
@@ -143,25 +143,29 @@ Host gitee.com
 <li>删除分支</li>
 </ol>
 <ul>
-<li>删除本地分</li>
-</ul>
+<li>
+<p>删除本地分</p>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>   <span class="token function">git</span> branch -D branchName
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><ul>
-<li>删除远程分支</li>
-</ul>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div></li>
+<li>
+<p>删除远程分支</p>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>   <span class="token function">git</span> push origin --delete branchname
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><ol start="6">
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div></li>
+</ul>
+<ol start="6">
 <li>命令git update-index --assume-unchanged，忽略不想提交的文件（忽略跟踪）</li>
 </ol>
 <ul>
-<li>忽略</li>
-</ul>
+<li>
+<p>忽略</p>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">git</span> update-index --assume-unchanged src/demo.js
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><ul>
-<li>取消忽略</li>
-</ul>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div></li>
+<li>
+<p>取消忽略</p>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">git</span> update-index --no-assume-unchanged  src/demo.js
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><ol start="7">
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div></li>
+</ul>
+<ol start="7">
 <li>取消commit</li>
 </ol>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">git</span> reset --soft HEAD^
@@ -193,5 +197,46 @@ Host gitee.com
 </ol>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token comment"># clone小的话，用--depth=1只获取最新的commit即可</span>
 <span class="token function">git</span> clone github@choukin.com --depth<span class="token operator">=</span><span class="token number">1</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>https://cloud.tencent.com/developer/article/1665810</p>
-</template>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p><a href="https://cloud.tencent.com/developer/article/1665810" target="_blank" rel="noopener noreferrer">https://cloud.tencent.com/developer/article/1665810<ExternalLinkIcon/></a></p>
+<ol start="10">
+<li>从commit中拉取分支</li>
+</ol>
+<ul>
+<li>
+<ol>
+<li>git log ：找出当初打出版本1.0的最后一次提交对应的commitid</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>git checkout commitid(此处替换为步骤一查到的commitid) -b branchName(本地新拉出分支的名称)</li>
+</ol>
+</li>
+</ul>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">git</span> log
+<span class="token function">git</span> checkout <span class="token operator">&lt;</span>commitid<span class="token operator">></span> -b branchName
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ol start="11">
+<li>修改分支名称</li>
+</ol>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token comment">#1、查看分支</span>
+<span class="token function">git</span> branch -a 
+<span class="token comment">#2、修改本地分支</span>
+<span class="token function">git</span> branch -m old-branch-name new-branch-name
+<span class="token comment">#3、修改后的分支推送到远端</span>
+<span class="token function">git</span> push -u origin new-branch-name
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><ol start="12">
+<li>迁移代码到另一个仓库、还可以把代码上传到多个仓库</li>
+</ol>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token builtin class-name">cd</span> existing_repo
+<span class="token function">git</span> remote <span class="token function">rename</span> origin old-origin
+
+<span class="token function">git</span> branch -r <span class="token operator">|</span> <span class="token function">grep</span> -v <span class="token string">'\->'</span> <span class="token operator">|</span> <span class="token keyword">while</span> <span class="token builtin class-name">read</span> remote<span class="token punctuation">;</span> <span class="token keyword">do</span> <span class="token function">git</span> branch --track <span class="token string">"<span class="token variable">${remote<span class="token operator">#</span>origin<span class="token operator">/</span>}</span>"</span> <span class="token string">"<span class="token variable">$remote</span>"</span><span class="token punctuation">;</span> <span class="token keyword">done</span> 
+
+<span class="token function">git</span> remote <span class="token function">add</span> neworigin git@git.xuepeiyou.com:xx/xxx/xxx/xx.git
+<span class="token function">git</span> push -u neworigin --all
+<span class="token function">git</span> push -u neworigin --tags
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>13.git仓库迁移(all branches and tags)</p>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">git</span> clone --bare old.git
+<span class="token builtin class-name">cd</span> old.git
+<span class="token function">git</span> push --mirror new.git
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div></template>
